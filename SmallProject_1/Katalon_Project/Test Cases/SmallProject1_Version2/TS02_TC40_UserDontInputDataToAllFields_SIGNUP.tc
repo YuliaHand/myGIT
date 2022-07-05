@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TS02_TC40_UserDontInputDataToAllFields_SIGNUP</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d7b2dc66-d27f-42c3-9c96-9ddbd996a8ac</testCaseGuid>
+</TestCaseEntity>

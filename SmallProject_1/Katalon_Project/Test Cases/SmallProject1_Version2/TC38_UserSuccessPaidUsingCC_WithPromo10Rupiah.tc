@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC38_UserSuccessPaidUsingCC_WithPromo10Rupiah</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dbe47aa8-45ff-4592-ab2a-788a1078b08d</testCaseGuid>
+</TestCaseEntity>

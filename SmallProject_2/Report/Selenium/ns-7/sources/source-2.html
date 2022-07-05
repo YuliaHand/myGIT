@@ -1,0 +1,156 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <title>Coverage Report > TC13_userSearchHotelWithoutInputData</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/highlight-idea.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.pack.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">TS22_verifSearchHotel</a>
+</div>
+
+<h1>Coverage Summary for Class: TC13_userSearchHotelWithoutInputData (TS22_verifSearchHotel)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">TC13_userSearchHotelWithoutInputData</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (1/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (2/2)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (16/16)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<div class="sourceCode" id="sourceCode"><i class="no-highlight">1</i>&nbsp;package TS22_verifSearchHotel;
+<i class="no-highlight">2</i>&nbsp;
+<i class="no-highlight">3</i>&nbsp;import org.junit.Test;
+<i class="no-highlight">4</i>&nbsp;import org.openqa.selenium.By;
+<i class="no-highlight">5</i>&nbsp;import org.openqa.selenium.JavascriptExecutor;
+<i class="no-highlight">6</i>&nbsp;import org.openqa.selenium.WebElement;
+<i class="no-highlight">7</i>&nbsp;
+<i class="no-highlight">8</i>&nbsp;import static org.junit.Assert.assertEquals;
+<i class="no-highlight">9</i>&nbsp;
+<b class="fc"><i class="no-highlight">10</i>&nbsp;public class TC13_userSearchHotelWithoutInputData extends listener{</b>
+<i class="no-highlight">11</i>&nbsp;
+<i class="no-highlight">12</i>&nbsp;    @Test
+<i class="no-highlight">13</i>&nbsp;    public void searchWithoutInputData() throws InterruptedException {
+<i class="no-highlight">14</i>&nbsp;
+<i class="no-highlight">15</i>&nbsp;        // TC13 - USER SEARCH HOTEL WITHOUT INPUT DATA
+<i class="no-highlight">16</i>&nbsp;
+<i class="no-highlight">17</i>&nbsp;        //0. Navigate Webapp
+<b class="fc"><i class="no-highlight">18</i>&nbsp;        driver.get(&quot;http://qa.cilsy.id:8080/en/&quot;);</b>
+<i class="no-highlight">19</i>&nbsp;
+<i class="no-highlight">20</i>&nbsp;        //1. Verify URL
+<b class="fc"><i class="no-highlight">21</i>&nbsp;        String titlePage = driver.getTitle();</b>
+<b class="fc"><i class="no-highlight">22</i>&nbsp;        assertEquals(&quot;Title is not as Expected&quot;, &quot;Small Project QA13&quot;, titlePage);</b>
+<i class="no-highlight">23</i>&nbsp;
+<i class="no-highlight">24</i>&nbsp;        //2. User onfocus to the searchbox
+<b class="fc"><i class="no-highlight">25</i>&nbsp;        WebElement searchBox = driver.findElement(By.xpath(&quot;//*[@id=\&quot;xs_room_search_form\&quot;]/div/div[2]/div&quot;));</b>
+<b class="fc"><i class="no-highlight">26</i>&nbsp;        ((JavascriptExecutor) driver).executeScript(&quot;arguments[0].scrollIntoView(true);&quot;, searchBox);</b>
+<i class="no-highlight">27</i>&nbsp;
+<i class="no-highlight">28</i>&nbsp;        //3 Input not input city name on &#39;Hotel Location&#39;
+<b class="fc"><i class="no-highlight">29</i>&nbsp;        driver.findElement(By.id(&quot;hotel_location&quot;)).sendKeys(&quot;&quot;);</b>
+<i class="no-highlight">30</i>&nbsp;
+<b class="fc"><i class="no-highlight">31</i>&nbsp;        Thread.sleep(6000);</b>
+<i class="no-highlight">32</i>&nbsp;
+<i class="no-highlight">33</i>&nbsp;        //4. User not input hotel name on Select Hotel field
+<b class="fc"><i class="no-highlight">34</i>&nbsp;        driver.findElement(By.id(&quot;id_hotel_button&quot;)).click();</b>
+<i class="no-highlight">35</i>&nbsp;
+<i class="no-highlight">36</i>&nbsp;        //5. User not Select check in and check out date
+<b class="fc"><i class="no-highlight">37</i>&nbsp;        WebElement dateBox = driver.findElement(By.id(&quot;check_in_time&quot;));</b>
+<b class="fc"><i class="no-highlight">38</i>&nbsp;        dateBox.sendKeys(&quot; &quot;);</b>
+<i class="no-highlight">39</i>&nbsp;
+<b class="fc"><i class="no-highlight">40</i>&nbsp;        WebElement dateBox2 = driver.findElement(By.id(&quot;check_out_time&quot;));</b>
+<b class="fc"><i class="no-highlight">41</i>&nbsp;        dateBox2.sendKeys(&quot; &quot;);</b>
+<i class="no-highlight">42</i>&nbsp;
+<i class="no-highlight">43</i>&nbsp;        //6. User Click Search Now button
+<b class="fc"><i class="no-highlight">44</i>&nbsp;        driver.findElement(By.id(&quot;search_room_submit&quot;)).click();</b>
+<i class="no-highlight">45</i>&nbsp;
+<i class="no-highlight">46</i>&nbsp;        //7. Show error, all fields color change to red
+<b class="fc"><i class="no-highlight">47</i>&nbsp;        driver.getPageSource().contains(&quot;form-control header-rmsearch-input error_border&quot;);</b>
+<b class="fc"><i class="no-highlight">48</i>&nbsp;        driver.getPageSource().contains(&quot;form-control header-rmsearch-input input-date hasDatepicker error_border&quot;);</b>
+<i class="no-highlight">49</i>&nbsp;    }
+<i class="no-highlight">50</i>&nbsp;
+<i class="no-highlight">51</i>&nbsp;}
+</div>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+        var codeBlock = document.getElementById('sourceCode');
+
+        if (codeBlock) {
+            hljs.highlightBlock(codeBlock);
+        }
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2022-07-04 15:51</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC50_UserSuccessPaidWith_GOPAY</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e06eb11b-9596-4bb3-94b1-140a7b6ca768</testCaseGuid>
+</TestCaseEntity>

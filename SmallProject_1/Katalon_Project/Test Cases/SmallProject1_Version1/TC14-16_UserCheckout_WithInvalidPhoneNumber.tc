@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC14-16_UserCheckout_WithInvalidPhoneNumber</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a6816de8-54dd-4e2b-a5b7-f86893ea6a86</testCaseGuid>
+</TestCaseEntity>

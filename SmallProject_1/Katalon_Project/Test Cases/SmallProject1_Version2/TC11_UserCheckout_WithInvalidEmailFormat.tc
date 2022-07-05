@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC11_UserCheckout_WithInvalidEmailFormat</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c0da3a00-9195-460a-b14e-fd3ddeb84388</testCaseGuid>
+</TestCaseEntity>

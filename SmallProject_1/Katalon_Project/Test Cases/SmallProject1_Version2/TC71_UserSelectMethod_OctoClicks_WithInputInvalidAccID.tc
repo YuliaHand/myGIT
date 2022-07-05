@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC71_UserSelectMethod_OctoClicks_WithInputInvalidAccID</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>39e357a8-39d6-47f7-a5ee-a26864e91a2d</testCaseGuid>
+</TestCaseEntity>

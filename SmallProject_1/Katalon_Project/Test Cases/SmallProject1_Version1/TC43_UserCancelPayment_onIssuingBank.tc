@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC43_UserCancelPayment_onIssuingBank</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e1ae3f22-f8b2-48f6-b565-711b0ca81f4c</testCaseGuid>
+</TestCaseEntity>

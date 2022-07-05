@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC53_UserSelectKlikBCA_WithoutInputUserID</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2bd97d19-5a2b-4187-b26e-4dae882ffc05</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC60_UserSelectMethod_BankTransferBCA</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f06891ab-b4ff-4dbf-be31-3bae11407676</testCaseGuid>
+</TestCaseEntity>

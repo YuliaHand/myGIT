@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC65_UserSelectMethod_BankTransferOtherBank</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d3b1c7cd-0aec-4bc5-aa39-b93371b67755</testCaseGuid>
+</TestCaseEntity>

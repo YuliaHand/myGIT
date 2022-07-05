@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC35_UserSuccessPaidUsingCC_WithPromoInstallment</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d2b77c80-d05a-4649-baa1-19a0c3ac949a</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC27-29_UserCheckout_WithInvalidPostalCode</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3040ee97-4515-4fee-b4dc-8abf0593147c</testCaseGuid>
+</TestCaseEntity>

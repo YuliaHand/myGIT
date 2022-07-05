@@ -1,0 +1,150 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <title>Coverage Report > TC04_userCreateAccWithoutInputData</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/highlight-idea.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.pack.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">TS01_verifCreateAnAccount</a>
+</div>
+
+<h1>Coverage Summary for Class: TC04_userCreateAccWithoutInputData (TS01_verifCreateAnAccount)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">TC04_userCreateAccWithoutInputData</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (1/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (2/2)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (14/14)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<div class="sourceCode" id="sourceCode"><i class="no-highlight">1</i>&nbsp;package TS01_verifCreateAnAccount;
+<i class="no-highlight">2</i>&nbsp;
+<i class="no-highlight">3</i>&nbsp;import org.junit.Assert;
+<i class="no-highlight">4</i>&nbsp;import org.junit.Test;
+<i class="no-highlight">5</i>&nbsp;import org.openqa.selenium.By;
+<i class="no-highlight">6</i>&nbsp;
+<i class="no-highlight">7</i>&nbsp;import static org.junit.Assert.assertEquals;
+<i class="no-highlight">8</i>&nbsp;
+<b class="fc"><i class="no-highlight">9</i>&nbsp;public class TC04_userCreateAccWithoutInputData extends listener {</b>
+<i class="no-highlight">10</i>&nbsp;
+<i class="no-highlight">11</i>&nbsp;    @Test
+<i class="no-highlight">12</i>&nbsp;    public void createWithoutInputEmail() throws InterruptedException{
+<i class="no-highlight">13</i>&nbsp;
+<i class="no-highlight">14</i>&nbsp;        // TC04 - USER CREATE AN ACCOUNT WITHOUT INPUT EMAIL
+<i class="no-highlight">15</i>&nbsp;
+<i class="no-highlight">16</i>&nbsp;        //0. Navigate Webapp
+<b class="fc"><i class="no-highlight">17</i>&nbsp;        driver.get(&quot;http://qa.cilsy.id:8080/en/&quot;);</b>
+<i class="no-highlight">18</i>&nbsp;
+<i class="no-highlight">19</i>&nbsp;        //1. Verify URL
+<b class="fc"><i class="no-highlight">20</i>&nbsp;        String titlePage = driver.getTitle();</b>
+<b class="fc"><i class="no-highlight">21</i>&nbsp;        assertEquals(&quot;Title is not as Expected&quot;,&quot;Small Project QA13&quot;,titlePage);</b>
+<i class="no-highlight">22</i>&nbsp;
+<i class="no-highlight">23</i>&nbsp;        //2. userClickSignInButton
+<b class="fc"><i class="no-highlight">24</i>&nbsp;        driver.findElement(By.xpath(&quot;//*[@id=\&quot;header\&quot;]/div[3]/div/div/div[7]&quot;)).click();</b>
+<i class="no-highlight">25</i>&nbsp;
+<i class="no-highlight">26</i>&nbsp;        //3. userIsDirectedToAccountAuthenticationPage
+<b class="fc"><i class="no-highlight">27</i>&nbsp;        String expectedURL = &quot;http://qa.cilsy.id:8080/en/login?back=my-account&quot;;</b>
+<b class="fc"><i class="no-highlight">28</i>&nbsp;        String actualURL = driver.getCurrentUrl();</b>
+<b class="fc"><i class="no-highlight">29</i>&nbsp;        assertEquals(&quot;Actual URL is not as Expected&quot;,expectedURL,actualURL);</b>
+<i class="no-highlight">30</i>&nbsp;
+<i class="no-highlight">31</i>&nbsp;        // 4. userInputExistingEmailAddressOnCreateAnAccountAuthentication
+<b class="fc"><i class="no-highlight">32</i>&nbsp;        driver.findElement(By.id(&quot;email_create&quot;)).sendKeys(&quot; &quot;);</b>
+<i class="no-highlight">33</i>&nbsp;
+<i class="no-highlight">34</i>&nbsp;        //5. User click Create an Account button
+<b class="fc"><i class="no-highlight">35</i>&nbsp;        driver.findElement(By.id(&quot;SubmitCreate&quot;)).click();</b>
+<i class="no-highlight">36</i>&nbsp;
+<i class="no-highlight">37</i>&nbsp;        //6. Show error message
+<b class="fc"><i class="no-highlight">38</i>&nbsp;        Thread.sleep(3000);</b>
+<b class="fc"><i class="no-highlight">39</i>&nbsp;        String expAlert = &quot;Invalid email address.&quot;;</b>
+<b class="fc"><i class="no-highlight">40</i>&nbsp;        String actAlert = driver.findElement(By.id(&quot;create_account_error&quot;)).getText();</b>
+<i class="no-highlight">41</i>&nbsp;
+<b class="fc"><i class="no-highlight">42</i>&nbsp;        Assert.assertEquals(&quot;Error Message not as Expected&quot;,expAlert,actAlert);</b>
+<i class="no-highlight">43</i>&nbsp;    }
+<i class="no-highlight">44</i>&nbsp;
+<i class="no-highlight">45</i>&nbsp;}
+</div>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+        var codeBlock = document.getElementById('sourceCode');
+
+        if (codeBlock) {
+            hljs.highlightBlock(codeBlock);
+        }
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2022-07-04 15:51</div>
+</div>
+</body>
+</html>

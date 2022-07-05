@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC44_UserSelectPayment_ATMBankTransferBCA</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4d479878-42be-4af6-8b0c-75fdf98f8eb0</testCaseGuid>
+</TestCaseEntity>

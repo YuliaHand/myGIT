@@ -1,0 +1,186 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <title>Coverage Report > TC29_userRegisterWithTitleMr</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/highlight-idea.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.pack.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">TS02_verifRegisterForm</a>
+</div>
+
+<h1>Coverage Summary for Class: TC29_userRegisterWithTitleMr (TS02_verifRegisterForm)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">TC29_userRegisterWithTitleMr</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (1/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (2/2)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (28/28)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<div class="sourceCode" id="sourceCode"><i class="no-highlight">1</i>&nbsp;package TS02_verifRegisterForm;
+<i class="no-highlight">2</i>&nbsp;
+<i class="no-highlight">3</i>&nbsp;import org.junit.Assert;
+<i class="no-highlight">4</i>&nbsp;import org.junit.Test;
+<i class="no-highlight">5</i>&nbsp;import org.openqa.selenium.By;
+<i class="no-highlight">6</i>&nbsp;import org.openqa.selenium.WebElement;
+<i class="no-highlight">7</i>&nbsp;import org.openqa.selenium.support.ui.ExpectedConditions;
+<i class="no-highlight">8</i>&nbsp;
+<i class="no-highlight">9</i>&nbsp;import java.util.List;
+<i class="no-highlight">10</i>&nbsp;
+<i class="no-highlight">11</i>&nbsp;import static org.junit.Assert.assertEquals;
+<i class="no-highlight">12</i>&nbsp;
+<b class="fc"><i class="no-highlight">13</i>&nbsp;public class TC29_userRegisterWithTitleMr extends listener{</b>
+<i class="no-highlight">14</i>&nbsp;    @Test
+<i class="no-highlight">15</i>&nbsp;    public void regisWithoutInputData() throws InterruptedException {
+<i class="no-highlight">16</i>&nbsp;
+<i class="no-highlight">17</i>&nbsp;        // TC29 - USER REGISTER AND SELECT TITLE MR. WITH VALID DATA
+<i class="no-highlight">18</i>&nbsp;
+<i class="no-highlight">19</i>&nbsp;        //0. Navigate Webapp
+<b class="fc"><i class="no-highlight">20</i>&nbsp;        driver.get(&quot;http://qa.cilsy.id:8080/en/&quot;);</b>
+<i class="no-highlight">21</i>&nbsp;
+<i class="no-highlight">22</i>&nbsp;        //1. Verify URL
+<b class="fc"><i class="no-highlight">23</i>&nbsp;        String titlePage = driver.getTitle();</b>
+<b class="fc"><i class="no-highlight">24</i>&nbsp;        assertEquals(&quot;Title is not as Expected&quot;, &quot;Small Project QA13&quot;, titlePage);</b>
+<i class="no-highlight">25</i>&nbsp;
+<i class="no-highlight">26</i>&nbsp;        //2. userClickSignInButton
+<b class="fc"><i class="no-highlight">27</i>&nbsp;        driver.findElement(By.xpath(&quot;//*[@id=\&quot;header\&quot;]/div[3]/div/div/div[7]&quot;)).click();</b>
+<i class="no-highlight">28</i>&nbsp;
+<i class="no-highlight">29</i>&nbsp;        //3. userIsDirectedToAccountAuthenticationPage
+<b class="fc"><i class="no-highlight">30</i>&nbsp;        String expectedURL = &quot;http://qa.cilsy.id:8080/en/login?back=my-account&quot;;</b>
+<b class="fc"><i class="no-highlight">31</i>&nbsp;        String actualURL = driver.getCurrentUrl();</b>
+<b class="fc"><i class="no-highlight">32</i>&nbsp;        assertEquals(&quot;Actual URL is not as Expected&quot;, expectedURL, actualURL);</b>
+<i class="no-highlight">33</i>&nbsp;
+<i class="no-highlight">34</i>&nbsp;        // 4. userInputValidEmailAddressOnCreateAnAccountAuthentication
+<b class="fc"><i class="no-highlight">35</i>&nbsp;        driver.findElement(By.id(&quot;email_create&quot;)).sendKeys(&quot;Jaya53@nytimes.com&quot;);</b>
+<i class="no-highlight">36</i>&nbsp;
+<i class="no-highlight">37</i>&nbsp;        //5. User click Create an Account button
+<b class="fc"><i class="no-highlight">38</i>&nbsp;        driver.findElement(By.id(&quot;SubmitCreate&quot;)).click();</b>
+<i class="no-highlight">39</i>&nbsp;
+<i class="no-highlight">40</i>&nbsp;        //6. User directed to Create an Account form
+<b class="fc"><i class="no-highlight">41</i>&nbsp;        Thread.sleep(3000);</b>
+<b class="fc"><i class="no-highlight">42</i>&nbsp;        String actURL = driver.getCurrentUrl();</b>
+<b class="fc"><i class="no-highlight">43</i>&nbsp;        String expURL = &quot;http://qa.cilsy.id:8080/en/login?back=my-account#account-creation&quot;;</b>
+<i class="no-highlight">44</i>&nbsp;
+<b class="fc"><i class="no-highlight">45</i>&nbsp;        Assert.assertEquals(&quot;URL not same with expected&quot;, expURL, actURL);</b>
+<i class="no-highlight">46</i>&nbsp;
+<i class="no-highlight">47</i>&nbsp;        //7. User Select Title
+<b class="fc"><i class="no-highlight">48</i>&nbsp;        List&lt;WebElement&gt; oRadioButton = driver.findElements(By.name(&quot;id_gender&quot;));</b>
+<b class="fc"><i class="no-highlight">49</i>&nbsp;        oRadioButton.get(0).click();</b>
+<i class="no-highlight">50</i>&nbsp;
+<i class="no-highlight">51</i>&nbsp;
+<i class="no-highlight">52</i>&nbsp;        //7. User Input First Name and Last Name field blank
+<b class="fc"><i class="no-highlight">53</i>&nbsp;        Thread.sleep(3000);</b>
+<b class="fc"><i class="no-highlight">54</i>&nbsp;        driver.findElement(By.name(&quot;customer_firstname&quot;)).sendKeys(&quot;Jaya&quot;);</b>
+<b class="fc"><i class="no-highlight">55</i>&nbsp;        Thread.sleep(3000);</b>
+<b class="fc"><i class="no-highlight">56</i>&nbsp;        driver.findElement(By.name(&quot;customer_lastname&quot;)).sendKeys(&quot;Vijaya&quot;);</b>
+<i class="no-highlight">57</i>&nbsp;
+<i class="no-highlight">58</i>&nbsp;
+<i class="no-highlight">59</i>&nbsp;        //8. Verify Email
+<b class="fc"><i class="no-highlight">60</i>&nbsp;        WebElement emailAct = driver.findElement(By.id(&quot;email&quot;));</b>
+<b class="fc"><i class="no-highlight">61</i>&nbsp;        Assert.assertNotNull(emailAct);</b>
+<i class="no-highlight">62</i>&nbsp;
+<i class="no-highlight">63</i>&nbsp;
+<i class="no-highlight">64</i>&nbsp;        //9. User leave Password field blank
+<b class="fc"><i class="no-highlight">65</i>&nbsp;        driver.findElement(By.id(&quot;passwd&quot;)).sendKeys(&quot;asd123&quot;);</b>
+<i class="no-highlight">66</i>&nbsp;
+<i class="no-highlight">67</i>&nbsp;
+<i class="no-highlight">68</i>&nbsp;        //10. User click Register button
+<b class="fc"><i class="no-highlight">69</i>&nbsp;        driver.findElement(By.id(&quot;submitAccount&quot;)).click();</b>
+<i class="no-highlight">70</i>&nbsp;
+<i class="no-highlight">71</i>&nbsp;
+<i class="no-highlight">72</i>&nbsp;        //11. Successfully registered with title Mr. and directed to &#39;My Account&#39; dashboard
+<b class="fc"><i class="no-highlight">73</i>&nbsp;        String mrMessage = &quot;Your account has been created.&quot;;</b>
+<b class="fc"><i class="no-highlight">74</i>&nbsp;        String actMessage = driver.findElement(By.xpath(&quot;//*[@id=\&quot;center_column\&quot;]/p[1]&quot;)).getText();</b>
+<i class="no-highlight">75</i>&nbsp;
+<b class="fc"><i class="no-highlight">76</i>&nbsp;        Assert.assertEquals(&quot;Message is not as expected&quot;,mrMessage,actMessage);</b>
+<i class="no-highlight">77</i>&nbsp;
+<b class="fc"><i class="no-highlight">78</i>&nbsp;        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(&quot;//*[@id=\&quot;user_info_acc\&quot;]/span[1]&quot;)));</b>
+<i class="no-highlight">79</i>&nbsp;
+<i class="no-highlight">80</i>&nbsp;    }
+<i class="no-highlight">81</i>&nbsp;}
+</div>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+        var codeBlock = document.getElementById('sourceCode');
+
+        if (codeBlock) {
+            hljs.highlightBlock(codeBlock);
+        }
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2022-07-04 15:51</div>
+</div>
+</body>
+</html>

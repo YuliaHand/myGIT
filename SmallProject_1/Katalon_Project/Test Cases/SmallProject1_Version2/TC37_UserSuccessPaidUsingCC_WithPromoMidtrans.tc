@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC37_UserSuccessPaidUsingCC_WithPromoMidtrans</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b4a7af8a-a959-4588-9fe2-8d5ae7a155c0</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC42_UserResetTransactionTime_onIssuingBank</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b0712b4a-0899-42d1-82f7-e54693270169</testCaseGuid>
+</TestCaseEntity>

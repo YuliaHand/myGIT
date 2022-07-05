@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TS02_TC30_UserInputValidDataToAllFields_SIGNUP</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>71279dbb-faf9-4371-bea2-705ef6c9e025</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC34_UserSuccessPaidUsingCC_WithoutPromo</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>497c295a-0b54-4360-91d3-0a6a69e96fb5</testCaseGuid>
+</TestCaseEntity>

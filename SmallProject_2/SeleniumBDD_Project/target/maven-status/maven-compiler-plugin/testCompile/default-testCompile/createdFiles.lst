@@ -1,0 +1,5 @@
+myListener\runner.class
+myStepDefs\TS26_verifBookRoomBySearchRooms_StepDefs.class
+myStepDefs\TS22_verifSearchHotel_StepDefs.class
+myListener\runnerTest.class
+myStepDefs\TS23_verifGuestRate_StepDef.class

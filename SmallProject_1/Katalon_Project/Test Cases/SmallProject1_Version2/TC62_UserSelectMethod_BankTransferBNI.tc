@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC62_UserSelectMethod_BankTransferBNI</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>34dc6e45-ea61-4bbe-9a72-4ca561a5d407</testCaseGuid>
+</TestCaseEntity>

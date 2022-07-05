@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC58_UserCancelPayment_onIssuingBank</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f2a1b184-c574-4116-b590-47fc3af559b5</testCaseGuid>
+</TestCaseEntity>

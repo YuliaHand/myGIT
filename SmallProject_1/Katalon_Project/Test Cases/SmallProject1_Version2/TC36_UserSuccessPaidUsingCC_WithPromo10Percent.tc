@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC36_UserSuccessPaidUsingCC_WithPromo10Percent</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>366c6f09-d92b-4929-b452-af6575c98a34</testCaseGuid>
+</TestCaseEntity>

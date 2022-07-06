@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS02 - Register" time="43.895" tests="2" failures="0" errors="0">
+   <testsuite name="TS02 - Register" tests="2" failures="0" errors="0" time="43.895" skipped="0" timestamp="2022-05-10 18:32:48" hostname="220005 - LAP-IT-ROBI.mshome.net" id="Test Suites/TS02 - Register">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\220005\\Katalon Studio\\SmallProject1_Yulia\\Reports\\20220510_183236\\TS02 - Register\\20220510_183237"/>
+         <property name="logFiles" value="C:\\Users\\220005\\Katalon Studio\\SmallProject1_Yulia\\Reports\\20220510_183236\\TS02 - Register\\20220510_183237\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="220005 - LAP-IT-ROBI.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 101.0.4951.54"/>
+         <property name="hostAddress" value="172.22.208.1"/>
+         <property name="sessionId" value="fed2b585fadc94196e96f4a2f6df4a36"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/SmallProject1_Version2/TS02_TC39_UserInputValidDataToAllFields_SIGNUP" time="22.4" classname="Test Cases/SmallProject1_Version2/TS02_TC39_UserInputValidDataToAllFields_SIGNUP" status="PASSED">
+         <system-out><![CDATA[2022-05-10 18:32:48 - [TEST_CASE][PASSED] - Test Cases/SmallProject1_Version2/TS02_TC39_UserInputValidDataToAllFields_SIGNUP: Test Cases/SmallProject1_Version2/TS02_TC39_UserInputValidDataToAllFields_SIGNUP
+
+2022-05-10 18:32:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("SmallProject1_Version2/TS01_TC04_CheckButtonFunction_SignUp"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/SmallProject1_Version2/TS01_TC04_CheckButtonFunction_SignUp' successfully
+
+2022-05-10 18:32:49 - [TEST_CASE][PASSED] - Test Cases/SmallProject1_Version2/TS01_TC04_CheckButtonFunction_SignUp: Test Cases/SmallProject1_Version2/TS01_TC04_CheckButtonFunction_SignUp
+
+2022-05-10 18:32:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-05-10 18:32:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-10 18:32:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-10 18:32:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-05-10 18:32:52 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-05-10 18:32:52 - [MESSAGE][PASSED] - Current window maximized
+
+2022-05-10 18:32:52 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.midtrans.com/"): Navigate to 'https://demo.midtrans.com/' successfully
+
+2022-05-10 18:32:52 - [MESSAGE][PASSED] - Navigate to 'https://demo.midtrans.com/' successfully
+
+2022-05-10 18:32:52 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-05-10 18:32:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-05-10 18:32:55 - [TEST_STEP][PASSED] - click(findTestObject("2. Register/Button_Register")): Object: 'Object Repository/2. Register/Button_Register' is clicked on
+
+2022-05-10 18:32:58 - [MESSAGE][PASSED] - Object: 'Object Repository/2. Register/Button_Register' is clicked on
+
+2022-05-10 18:32:58 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2022-05-10 18:32:58 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2022-05-10 18:32:58 - [TEST_STEP][PASSED] - url = getUrl(): Current window's url is: 'https://dashboard.midtrans.com/register'
+
+2022-05-10 18:33:00 - [MESSAGE][PASSED] - Current window's url is: 'https://dashboard.midtrans.com/register'
+
+2022-05-10 18:33:00 - [TEST_STEP][PASSED] - verifyEqual(url, "https://dashboard.midtrans.com/register"): Actual object 'https://dashboard.midtrans.com/register' and expected object 'https://dashboard.midtrans.com/register' are equal
+
+2022-05-10 18:33:00 - [MESSAGE][PASSED] - Actual object 'https://dashboard.midtrans.com/register' and expected object 'https://dashboard.midtrans.com/register' are equal
+
+2022-05-10 18:33:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/SmallProject1_Version2/TS01_TC04_CheckButtonFunction_SignUp' successfully
+
+2022-05-10 18:33:00 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("2. Register/Logo_Header")): Object 'Object Repository/2. Register/Logo_Header' is visible
+
+2022-05-10 18:33:00 - [MESSAGE][PASSED] - Object 'Object Repository/2. Register/Logo_Header' is visible
+
+2022-05-10 18:33:00 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("2. Register/Title_Registration"), "Registration"): Actual text and expected text of test object 'Object Repository/2. Register/Title_Registration' are matched.
+
+2022-05-10 18:33:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/2. Register/Title_Registration' are matched.
+
+2022-05-10 18:33:01 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("2. Register/Desc_Registration")): Object 'Object Repository/2. Register/Desc_Registration' is visible
+
+2022-05-10 18:33:01 - [MESSAGE][PASSED] - Object 'Object Repository/2. Register/Desc_Registration' is visible
+
+2022-05-10 18:33:01 - [TEST_STEP][PASSED] - setText(findTestObject("2. Register/Field_BusinessName"), "Yulia123"): Text 'Yulia123' is set on object 'Object Repository/2. Register/Field_BusinessName'
+
+2022-05-10 18:33:03 - [MESSAGE][PASSED] - Text 'Yulia123' is set on object 'Object Repository/2. Register/Field_BusinessName'
+
+2022-05-10 18:33:03 - [TEST_STEP][PASSED] - setText(findTestObject("2. Register/Field_FullName"), "Yulia Handayani"): Text 'Yulia Handayani' is set on object 'Object Repository/2. Register/Field_FullName'
+
+2022-05-10 18:33:03 - [MESSAGE][PASSED] - Text 'Yulia Handayani' is set on object 'Object Repository/2. Register/Field_FullName'
+
+2022-05-10 18:33:03 - [TEST_STEP][PASSED] - setText(findTestObject("2. Register/Field_BusinessEmail"), "langit@gmail.com"): Text 'langit@gmail.com' is set on object 'Object Repository/2. Register/Field_BusinessEmail'
+
+2022-05-10 18:33:04 - [MESSAGE][PASSED] - Text 'langit@gmail.com' is set on object 'Object Repository/2. Register/Field_BusinessEmail'
+
+2022-05-10 18:33:04 - [TEST_STEP][PASSED] - setText(findTestObject("2. Register/Field_PhoneNum"), "081355353533"): Text '081355353533' is set on object 'Object Repository/2. Register/Field_PhoneNum'
+
+2022-05-10 18:33:05 - [MESSAGE][PASSED] - Text '081355353533' is set on object 'Object Repository/2. Register/Field_PhoneNum'
+
+2022-05-10 18:33:05 - [TEST_STEP][PASSED] - setText(findTestObject("2. Register/Field_Password"), "Yulia12345"): Text 'Yulia12345' is set on object 'Object Repository/2. Register/Field_Password'
+
+2022-05-10 18:33:05 - [MESSAGE][PASSED] - Text 'Yulia12345' is set on object 'Object Repository/2. Register/Field_Password'
+
+2022-05-10 18:33:05 - [TEST_STEP][PASSED] - setText(findTestObject("2. Register/Field_ConfirmPwd"), "Yulia12345"): Text 'Yulia12345' is set on object 'Object Repository/2. Register/Field_ConfirmPwd'
+
+2022-05-10 18:33:06 - [MESSAGE][PASSED] - Text 'Yulia12345' is set on object 'Object Repository/2. Register/Field_ConfirmPwd'
+
+2022-05-10 18:33:06 - [TEST_STEP][PASSED] - click(findTestObject("2. Register/Button_RegisterMidtrans")): Object: 'Object Repository/2. Register/Button_RegisterMidtrans' is clicked on
+
+2022-05-10 18:33:06 - [MESSAGE][PASSED] - Object: 'Object Repository/2. Register/Button_RegisterMidtrans' is clicked on
+
+2022-05-10 18:33:06 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("2. Register/Verify_SuccessLogin"), "Log In"): Actual text and expected text of test object 'Object Repository/2. Register/Verify_SuccessLogin' are matched.
+
+2022-05-10 18:33:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/2. Register/Verify_SuccessLogin' are matched.
+
+2022-05-10 18:33:09 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("2. Register/Desc_Login")): Object 'Object Repository/2. Register/Desc_Login' is visible
+
+2022-05-10 18:33:10 - [MESSAGE][PASSED] - Object 'Object Repository/2. Register/Desc_Login' is visible
+
+2022-05-10 18:33:10 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-05-10 18:33:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SmallProject1_Version2/TS02_TC40_UserDontInputDataToAllFields_SIGNUP" time="21.193" classname="Test Cases/SmallProject1_Version2/TS02_TC40_UserDontInputDataToAllFields_SIGNUP" status="PASSED">
+         <system-out><![CDATA[2022-05-10 18:33:10 - [TEST_CASE][PASSED] - Test Cases/SmallProject1_Version2/TS02_TC40_UserDontInputDataToAllFields_SIGNUP: Test Cases/SmallProject1_Version2/TS02_TC40_UserDontInputDataToAllFields_SIGNUP
+
+2022-05-10 18:33:11 - [TEST_STEP][PASSED] - callTestCase(findTestCase("SmallProject1_Version2/TS01_TC04_CheckButtonFunction_SignUp"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/SmallProject1_Version2/TS01_TC04_CheckButtonFunction_SignUp' successfully
+
+2022-05-10 18:33:11 - [TEST_CASE][PASSED] - Test Cases/SmallProject1_Version2/TS01_TC04_CheckButtonFunction_SignUp: Test Cases/SmallProject1_Version2/TS01_TC04_CheckButtonFunction_SignUp
+
+2022-05-10 18:33:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-05-10 18:33:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-10 18:33:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-10 18:33:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-05-10 18:33:12 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-05-10 18:33:12 - [MESSAGE][PASSED] - Current window maximized
+
+2022-05-10 18:33:12 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.midtrans.com/"): Navigate to 'https://demo.midtrans.com/' successfully
+
+2022-05-10 18:33:13 - [MESSAGE][PASSED] - Navigate to 'https://demo.midtrans.com/' successfully
+
+2022-05-10 18:33:13 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-05-10 18:33:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-05-10 18:33:16 - [TEST_STEP][PASSED] - click(findTestObject("2. Register/Button_Register")): Object: 'Object Repository/2. Register/Button_Register' is clicked on
+
+2022-05-10 18:33:18 - [MESSAGE][PASSED] - Object: 'Object Repository/2. Register/Button_Register' is clicked on
+
+2022-05-10 18:33:18 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2022-05-10 18:33:18 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2022-05-10 18:33:18 - [TEST_STEP][PASSED] - url = getUrl(): Current window's url is: 'https://dashboard.midtrans.com/register'
+
+2022-05-10 18:33:20 - [MESSAGE][PASSED] - Current window's url is: 'https://dashboard.midtrans.com/register'
+
+2022-05-10 18:33:20 - [TEST_STEP][PASSED] - verifyEqual(url, "https://dashboard.midtrans.com/register"): Actual object 'https://dashboard.midtrans.com/register' and expected object 'https://dashboard.midtrans.com/register' are equal
+
+2022-05-10 18:33:20 - [MESSAGE][PASSED] - Actual object 'https://dashboard.midtrans.com/register' and expected object 'https://dashboard.midtrans.com/register' are equal
+
+2022-05-10 18:33:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/SmallProject1_Version2/TS01_TC04_CheckButtonFunction_SignUp' successfully
+
+2022-05-10 18:33:20 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("2. Register/Logo_Header")): Object 'Object Repository/2. Register/Logo_Header' is visible
+
+2022-05-10 18:33:20 - [MESSAGE][PASSED] - Object 'Object Repository/2. Register/Logo_Header' is visible
+
+2022-05-10 18:33:20 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("2. Register/Title_Registration"), "Registration"): Actual text and expected text of test object 'Object Repository/2. Register/Title_Registration' are matched.
+
+2022-05-10 18:33:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/2. Register/Title_Registration' are matched.
+
+2022-05-10 18:33:21 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("2. Register/Desc_Registration")): Object 'Object Repository/2. Register/Desc_Registration' is visible
+
+2022-05-10 18:33:21 - [MESSAGE][PASSED] - Object 'Object Repository/2. Register/Desc_Registration' is visible
+
+2022-05-10 18:33:21 - [TEST_STEP][PASSED] - setText(findTestObject("2. Register/Field_BusinessName"), ""): Text '' is set on object 'Object Repository/2. Register/Field_BusinessName'
+
+2022-05-10 18:33:22 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/2. Register/Field_BusinessName'
+
+2022-05-10 18:33:22 - [TEST_STEP][PASSED] - setText(findTestObject("2. Register/Field_FullName"), ""): Text '' is set on object 'Object Repository/2. Register/Field_FullName'
+
+2022-05-10 18:33:23 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/2. Register/Field_FullName'
+
+2022-05-10 18:33:23 - [TEST_STEP][PASSED] - setText(findTestObject("2. Register/Field_BusinessEmail"), ""): Text '' is set on object 'Object Repository/2. Register/Field_BusinessEmail'
+
+2022-05-10 18:33:24 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/2. Register/Field_BusinessEmail'
+
+2022-05-10 18:33:24 - [TEST_STEP][PASSED] - setText(findTestObject("2. Register/Field_PhoneNum"), ""): Text '' is set on object 'Object Repository/2. Register/Field_PhoneNum'
+
+2022-05-10 18:33:24 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/2. Register/Field_PhoneNum'
+
+2022-05-10 18:33:24 - [TEST_STEP][PASSED] - setText(findTestObject("2. Register/Field_Password"), ""): Text '' is set on object 'Object Repository/2. Register/Field_Password'
+
+2022-05-10 18:33:25 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/2. Register/Field_Password'
+
+2022-05-10 18:33:25 - [TEST_STEP][PASSED] - setText(findTestObject("2. Register/Field_ConfirmPwd"), ""): Text '' is set on object 'Object Repository/2. Register/Field_ConfirmPwd'
+
+2022-05-10 18:33:26 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/2. Register/Field_ConfirmPwd'
+
+2022-05-10 18:33:26 - [TEST_STEP][PASSED] - click(findTestObject("2. Register/Button_RegisterMidtrans")): Object: 'Object Repository/2. Register/Button_RegisterMidtrans' is clicked on
+
+2022-05-10 18:33:26 - [MESSAGE][PASSED] - Object: 'Object Repository/2. Register/Button_RegisterMidtrans' is clicked on
+
+2022-05-10 18:33:26 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-05-10 18:33:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-05-10 18:33:29 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("2. Register/Failed_BusinessName"), "Merchant name can't be blank"): Actual text and expected text of test object 'Object Repository/2. Register/Failed_BusinessName' are matched.
+
+2022-05-10 18:33:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/2. Register/Failed_BusinessName' are matched.
+
+2022-05-10 18:33:29 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("2. Register/Failed_FullName"), "Full name can't be blank"): Actual text and expected text of test object 'Object Repository/2. Register/Failed_FullName' are matched.
+
+2022-05-10 18:33:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/2. Register/Failed_FullName' are matched.
+
+2022-05-10 18:33:30 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("2. Register/Failed_Email"), "Email can't be blank"): Actual text and expected text of test object 'Object Repository/2. Register/Failed_Email' are matched.
+
+2022-05-10 18:33:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/2. Register/Failed_Email' are matched.
+
+2022-05-10 18:33:30 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("2. Register/Failed_Phone"), "Phone can't be blank"): Actual text and expected text of test object 'Object Repository/2. Register/Failed_Phone' are matched.
+
+2022-05-10 18:33:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/2. Register/Failed_Phone' are matched.
+
+2022-05-10 18:33:30 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("2. Register/Failed_Password"), "Password can't be blank"): Actual text and expected text of test object 'Object Repository/2. Register/Failed_Password' are matched.
+
+2022-05-10 18:33:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/2. Register/Failed_Password' are matched.
+
+2022-05-10 18:33:31 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("2. Register/Failed_PasswordConfirm"), "Password confirmation can't be blank"): Actual text and expected text of test object 'Object Repository/2. Register/Failed_PasswordConfirm' are matched.
+
+2022-05-10 18:33:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/2. Register/Failed_PasswordConfirm' are matched.
+
+2022-05-10 18:33:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-05-10 18:33:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-05-10 18:32:48 - [TEST_SUITE][PASSED] - TS02 - Register: Test Cases/SmallProject1_Version2/TS02_TC40_UserDontInputDataToAllFields_SIGNUP]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

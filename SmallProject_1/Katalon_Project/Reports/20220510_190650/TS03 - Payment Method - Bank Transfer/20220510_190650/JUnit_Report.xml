@@ -1,0 +1,1599 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS03 - Payment Method - Bank Transfer" time="181.664" tests="6" failures="0" errors="0">
+   <testsuite name="TS03 - Payment Method - Bank Transfer" tests="6" failures="0" errors="0" time="181.664" skipped="0" timestamp="2022-05-10 19:07:00" hostname="220005 - LAP-IT-ROBI.mshome.net" id="Test Suites/TS03 - Payment Method - Bank Transfer">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\220005\\Katalon Studio\\SmallProject1_Yulia\\Reports\\20220510_190650\\TS03 - Payment Method - Bank Transfer\\20220510_190650"/>
+         <property name="logFiles" value="C:\\Users\\220005\\Katalon Studio\\SmallProject1_Yulia\\Reports\\20220510_190650\\TS03 - Payment Method - Bank Transfer\\20220510_190650\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\220005\\Katalon Studio\\SmallProject1_Yulia\\Reports\\20220510_190650\\TS03 - Payment Method - Bank Transfer\\20220510_190650\\1652184432718.png, C:\\Users\\220005\\Katalon Studio\\SmallProject1_Yulia\\Reports\\20220510_190650\\TS03 - Payment Method - Bank Transfer\\20220510_190650\\1652184438386.png, C:\\Users\\220005\\Katalon Studio\\SmallProject1_Yulia\\Reports\\20220510_190650\\TS03 - Payment Method - Bank Transfer\\20220510_190650\\1652184467604.png, C:\\Users\\220005\\Katalon Studio\\SmallProject1_Yulia\\Reports\\20220510_190650\\TS03 - Payment Method - Bank Transfer\\20220510_190650\\1652184472890.png, C:\\Users\\220005\\Katalon Studio\\SmallProject1_Yulia\\Reports\\20220510_190650\\TS03 - Payment Method - Bank Transfer\\20220510_190650\\1652184499061.png, C:\\Users\\220005\\Katalon Studio\\SmallProject1_Yulia\\Reports\\20220510_190650\\TS03 - Payment Method - Bank Transfer\\20220510_190650\\1652184504341.png, C:\\Users\\220005\\Katalon Studio\\SmallProject1_Yulia\\Reports\\20220510_190650\\TS03 - Payment Method - Bank Transfer\\20220510_190650\\1652184526842.png, C:\\Users\\220005\\Katalon Studio\\SmallProject1_Yulia\\Reports\\20220510_190650\\TS03 - Payment Method - Bank Transfer\\20220510_190650\\1652184532164.png, C:\\Users\\220005\\Katalon Studio\\SmallProject1_Yulia\\Reports\\20220510_190650\\TS03 - Payment Method - Bank Transfer\\20220510_190650\\1652184555315.png, C:\\Users\\220005\\Katalon Studio\\SmallProject1_Yulia\\Reports\\20220510_190650\\TS03 - Payment Method - Bank Transfer\\20220510_190650\\1652184560559.png, C:\\Users\\220005\\Katalon Studio\\SmallProject1_Yulia\\Reports\\20220510_190650\\TS03 - Payment Method - Bank Transfer\\20220510_190650\\1652184582879.png, C:\\Users\\220005\\Katalon Studio\\SmallProject1_Yulia\\Reports\\20220510_190650\\TS03 - Payment Method - Bank Transfer\\20220510_190650\\1652184588313.png"/>
+         <property name="hostName" value="220005 - LAP-IT-ROBI.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 101.0.4951.54"/>
+         <property name="hostAddress" value="172.22.208.1"/>
+         <property name="sessionId" value="6554239c6a2e46fe3f5f3c2463d5876c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/SmallProject1_Version2/TC60_UserSelectMethod_BankTransferBCA" time="37.677" classname="Test Cases/SmallProject1_Version2/TC60_UserSelectMethod_BankTransferBCA" status="PASSED">
+         <system-out><![CDATA[2022-05-10 19:07:00 - [TEST_CASE][PASSED] - Test Cases/SmallProject1_Version2/TC60_UserSelectMethod_BankTransferBCA: Test Cases/SmallProject1_Version2/TC60_UserSelectMethod_BankTransferBCA
+
+2022-05-10 19:07:00 - [TEST_STEP][PASSED] - callTestCase(findTestCase("SmallProject1_Version2/TC32_UserSuccessCheckout"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/SmallProject1_Version2/TC32_UserSuccessCheckout' successfully
+
+2022-05-10 19:07:00 - [TEST_CASE][PASSED] - Test Cases/SmallProject1_Version2/TC32_UserSuccessCheckout: Test Cases/SmallProject1_Version2/TC32_UserSuccessCheckout
+
+2022-05-10 19:07:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-05-10 19:07:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-10 19:07:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-10 19:07:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-05-10 19:07:03 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-05-10 19:07:03 - [MESSAGE][PASSED] - Current window maximized
+
+2022-05-10 19:07:03 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.midtrans.com/"): Navigate to 'https://demo.midtrans.com/' successfully
+
+2022-05-10 19:07:04 - [MESSAGE][PASSED] - Navigate to 'https://demo.midtrans.com/' successfully
+
+2022-05-10 19:07:04 - [TEST_STEP][PASSED] - click(findTestObject("3. Checkout/a_BUY NOW")): Object: 'Object Repository/3. Checkout/a_BUY NOW' is clicked on
+
+2022-05-10 19:07:05 - [MESSAGE][PASSED] - Object: 'Object Repository/3. Checkout/a_BUY NOW' is clicked on
+
+2022-05-10 19:07:05 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("3. Checkout/Verify_ShoppingCart"), 0): Object 'Object Repository/3. Checkout/Verify_ShoppingCart' is present and visible in viewport
+
+2022-05-10 19:07:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-10 19:07:05 - [MESSAGE][PASSED] - Object 'Object Repository/3. Checkout/Verify_ShoppingCart' is present and visible in viewport
+
+2022-05-10 19:07:05 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("3. Checkout/Verify_TotalAmount"), "20,000"): Actual text and expected text of test object 'Object Repository/3. Checkout/Verify_TotalAmount' are matched.
+
+2022-05-10 19:07:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/3. Checkout/Verify_TotalAmount' are matched.
+
+2022-05-10 19:07:06 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("3. Checkout/Verify_CustomerDetail"), "Customer Details"): Actual text and expected text of test object 'Object Repository/3. Checkout/Verify_CustomerDetail' are matched.
+
+2022-05-10 19:07:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/3. Checkout/Verify_CustomerDetail' are matched.
+
+2022-05-10 19:07:06 - [TEST_STEP][PASSED] - setText(findTestObject("3. Checkout/Field_Name"), Name): Text 'Yulia' is set on object 'Object Repository/3. Checkout/Field_Name'
+
+2022-05-10 19:07:07 - [MESSAGE][PASSED] - Text 'Yulia' is set on object 'Object Repository/3. Checkout/Field_Name'
+
+2022-05-10 19:07:07 - [TEST_STEP][PASSED] - setText(findTestObject("3. Checkout/Field_Email"), Email): Text 'yulia@email.com' is set on object 'Object Repository/3. Checkout/Field_Email'
+
+2022-05-10 19:07:08 - [MESSAGE][PASSED] - Text 'yulia@email.com' is set on object 'Object Repository/3. Checkout/Field_Email'
+
+2022-05-10 19:07:08 - [TEST_STEP][PASSED] - setText(findTestObject("3. Checkout/Field_Phone"), Phone): Text '081234567890' is set on object 'Object Repository/3. Checkout/Field_Phone'
+
+2022-05-10 19:07:09 - [MESSAGE][PASSED] - Text '081234567890' is set on object 'Object Repository/3. Checkout/Field_Phone'
+
+2022-05-10 19:07:09 - [TEST_STEP][PASSED] - setText(findTestObject("3. Checkout/Field_City"), City): Text 'Jakarta' is set on object 'Object Repository/3. Checkout/Field_City'
+
+2022-05-10 19:07:09 - [MESSAGE][PASSED] - Text 'Jakarta' is set on object 'Object Repository/3. Checkout/Field_City'
+
+2022-05-10 19:07:09 - [TEST_STEP][PASSED] - setText(findTestObject("3. Checkout/Field_Address"), Address): Text 'Jalan Jend. Sudirman Kav 10' is set on object 'Object Repository/3. Checkout/Field_Address'
+
+2022-05-10 19:07:10 - [MESSAGE][PASSED] - Text 'Jalan Jend. Sudirman Kav 10' is set on object 'Object Repository/3. Checkout/Field_Address'
+
+2022-05-10 19:07:10 - [TEST_STEP][PASSED] - setText(findTestObject("3. Checkout/Field_PostalCode"), PostalCode): Text '12345' is set on object 'Object Repository/3. Checkout/Field_PostalCode'
+
+2022-05-10 19:07:11 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/3. Checkout/Field_PostalCode'
+
+2022-05-10 19:07:11 - [TEST_STEP][PASSED] - click(findTestObject("3. Checkout/Button_Checkout")): Object: 'Object Repository/3. Checkout/Button_Checkout' is clicked on
+
+2022-05-10 19:07:11 - [MESSAGE][PASSED] - Object: 'Object Repository/3. Checkout/Button_Checkout' is clicked on
+
+2022-05-10 19:07:11 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-05-10 19:07:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-05-10 19:07:12 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-05-10 19:07:13 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-05-10 19:07:13 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\220005\\Katalon Studio\\SmallProject1_Yulia\\Reports\\20220510_190650\\TS03 - Payment Method - Bank Transfer\\20220510_190650\\1652184432718.png]]
+
+2022-05-10 19:07:13 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("5. PopUp Detail/Time_PayWithin"), STOP_ON_FAILURE): Object 'Object Repository/5. PopUp Detail/Time_PayWithin' is visible
+
+2022-05-10 19:07:13 - [MESSAGE][PASSED] - Object 'Object Repository/5. PopUp Detail/Time_PayWithin' is visible
+
+2022-05-10 19:07:13 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("5. PopUp Detail/Verify_OrderID_PopUp")): Object 'Object Repository/5. PopUp Detail/Verify_OrderID_PopUp' is visible
+
+2022-05-10 19:07:14 - [MESSAGE][PASSED] - Object 'Object Repository/5. PopUp Detail/Verify_OrderID_PopUp' is visible
+
+2022-05-10 19:07:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("3. Checkout/Verify_MethodList")): Object 'Object Repository/3. Checkout/Verify_MethodList' is visible
+
+2022-05-10 19:07:14 - [MESSAGE][PASSED] - Object 'Object Repository/3. Checkout/Verify_MethodList' is visible
+
+2022-05-10 19:07:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/SmallProject1_Version2/TC32_UserSuccessCheckout' successfully
+
+2022-05-10 19:07:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("4. Payment/Payment_ATMBankTransfer/Title_BankTransfer")): Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Title_BankTransfer' is visible
+
+2022-05-10 19:07:15 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Title_BankTransfer' is visible
+
+2022-05-10 19:07:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("4. Payment/Payment_ATMBankTransfer/Logo_BankTransfer")): Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Logo_BankTransfer' is visible
+
+2022-05-10 19:07:15 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Logo_BankTransfer' is visible
+
+2022-05-10 19:07:15 - [TEST_STEP][PASSED] - click(findTestObject("4. Payment/Payment_ATMBankTransfer/Button_BankTransfer")): Object: 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_BankTransfer' is clicked on
+
+2022-05-10 19:07:16 - [MESSAGE][PASSED] - Object: 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_BankTransfer' is clicked on
+
+2022-05-10 19:07:16 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_ATMBankTransfer/Header_BankTransfer"), "Bank transfer"): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Header_BankTransfer' are matched.
+
+2022-05-10 19:07:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Header_BankTransfer' are matched.
+
+2022-05-10 19:07:16 - [TEST_STEP][PASSED] - click(findTestObject("4. Payment/Payment_ATMBankTransfer/Button_BCA")): Object: 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_BCA' is clicked on
+
+2022-05-10 19:07:17 - [MESSAGE][PASSED] - Object: 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_BCA' is clicked on
+
+2022-05-10 19:07:17 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-05-10 19:07:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-05-10 19:07:18 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-05-10 19:07:18 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-05-10 19:07:18 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\220005\\Katalon Studio\\SmallProject1_Yulia\\Reports\\20220510_190650\\TS03 - Payment Method - Bank Transfer\\20220510_190650\\1652184438386.png]]
+
+2022-05-10 19:07:18 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/a_Header_Details"), "Bank BCA"): Actual text and expected text of test object 'Object Repository/4. Payment/a_Header_Details' are matched.
+
+2022-05-10 19:07:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/a_Header_Details' are matched.
+
+2022-05-10 19:07:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("4. Payment/Payment_ATMBankTransfer/Desc_AllBank")): Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Desc_AllBank' is visible
+
+2022-05-10 19:07:19 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Desc_AllBank' is visible
+
+2022-05-10 19:07:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("4. Payment/Payment_ATMBankTransfer/VAnumber_BCA")): Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/VAnumber_BCA' is visible
+
+2022-05-10 19:07:20 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/VAnumber_BCA' is visible
+
+2022-05-10 19:07:20 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("4. Payment/Payment_ATMBankTransfer/Button_Copy")): Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_Copy' is clickable
+
+2022-05-10 19:07:20 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_Copy' is clickable
+
+2022-05-10 19:07:20 - [TEST_STEP][PASSED] - click(findTestObject("5. PopUp Detail/Button_Float_Down")): Object: 'Object Repository/5. PopUp Detail/Button_Float_Down' is clicked on
+
+2022-05-10 19:07:21 - [MESSAGE][PASSED] - Object: 'Object Repository/5. PopUp Detail/Button_Float_Down' is clicked on
+
+2022-05-10 19:07:21 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("5. PopUp Detail/Verify_AmountMidtransPillow"), "Rp20.000"): Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_AmountMidtransPillow' are matched.
+
+2022-05-10 19:07:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_AmountMidtransPillow' are matched.
+
+2022-05-10 19:07:21 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("5. PopUp Detail/Verify_Name_Summary"), Name): Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_Name_Summary' are matched.
+
+2022-05-10 19:07:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_Name_Summary' are matched.
+
+2022-05-10 19:07:21 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("5. PopUp Detail/Verify_Addess_Summary"), Address_2): Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_Addess_Summary' are matched.
+
+2022-05-10 19:07:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_Addess_Summary' are matched.
+
+2022-05-10 19:07:22 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("5. PopUp Detail/Verify_Phone_Summary"), Phone_2): Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_Phone_Summary' are matched.
+
+2022-05-10 19:07:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_Phone_Summary' are matched.
+
+2022-05-10 19:07:22 - [TEST_STEP][PASSED] - total1 = verifyElementText(findTestObject("5. PopUp Detail/Verify_TotalAmount_PopUp"), "Rp20.000"): Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_TotalAmount_PopUp' are matched.
+
+2022-05-10 19:07:23 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_TotalAmount_PopUp' are matched.
+
+2022-05-10 19:07:23 - [TEST_STEP][PASSED] - total2 = verifyElementText(findTestObject("5. PopUp Detail/Verify_TotalAmount_Summary"), "Rp20.000"): Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_TotalAmount_Summary' are matched.
+
+2022-05-10 19:07:23 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_TotalAmount_Summary' are matched.
+
+2022-05-10 19:07:23 - [TEST_STEP][PASSED] - verifyEqual(total1, total2, STOP_ON_FAILURE): Actual object 'true' and expected object 'true' are equal
+
+2022-05-10 19:07:23 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2022-05-10 19:07:23 - [TEST_STEP][PASSED] - click(findTestObject("5. PopUp Detail/Button_Float_Up")): Object: 'Object Repository/5. PopUp Detail/Button_Float_Up' is clicked on
+
+2022-05-10 19:07:24 - [MESSAGE][PASSED] - Object: 'Object Repository/5. PopUp Detail/Button_Float_Up' is clicked on
+
+2022-05-10 19:07:24 - [TEST_STEP][PASSED] - click(findTestObject("4. Payment/a_Button_HowToPay")): Object: 'Object Repository/4. Payment/a_Button_HowToPay' is clicked on
+
+2022-05-10 19:07:24 - [MESSAGE][PASSED] - Object: 'Object Repository/4. Payment/a_Button_HowToPay' is clicked on
+
+2022-05-10 19:07:24 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("4. Payment/Payment_ATMBankTransfer/Button_HTP_ATMBCA")): Object: 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_HTP_ATMBCA' is clicked on
+
+2022-05-10 19:07:25 - [MESSAGE][PASSED] - Object: 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_HTP_ATMBCA' is clicked on
+
+2022-05-10 19:07:25 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_Step1_ATMBCA"), "Select Other Transactions on the main menu."): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Step1_ATMBCA' are matched.
+
+2022-05-10 19:07:25 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Step1_ATMBCA' are matched.
+
+2022-05-10 19:07:25 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_Step2_ATMBCA"), "Select Transfer."): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Step2_ATMBCA' are matched.
+
+2022-05-10 19:07:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Step2_ATMBCA' are matched.
+
+2022-05-10 19:07:26 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_Step3_ATMBCA"), "Select To BCA Virtual Account."): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Step3_ATMBCA' are matched.
+
+2022-05-10 19:07:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Step3_ATMBCA' are matched.
+
+2022-05-10 19:07:26 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_Step4_ATMBCA"), "Insert BCA Virtual Account Number."): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Step4_ATMBCA' are matched.
+
+2022-05-10 19:07:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Step4_ATMBCA' are matched.
+
+2022-05-10 19:07:27 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_Step5_ATMBCA"), "Insert the payable amount. And confirm the payment"): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Step5_ATMBCA' are matched.
+
+2022-05-10 19:07:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Step5_ATMBCA' are matched.
+
+2022-05-10 19:07:27 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_Step6_ATMBCA"), "Payment complete"): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Step6_ATMBCA' are matched.
+
+2022-05-10 19:07:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Step6_ATMBCA' are matched.
+
+2022-05-10 19:07:27 - [TEST_STEP][PASSED] - click(findTestObject("4. Payment/Payment_ATMBankTransfer/Button_HTP_KlikBCA")): Object: 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_HTP_KlikBCA' is clicked on
+
+2022-05-10 19:07:28 - [MESSAGE][PASSED] - Object: 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_HTP_KlikBCA' is clicked on
+
+2022-05-10 19:07:28 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_Step1_KlikBCA"), "Select Fund Transfer."): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Step1_KlikBCA' are matched.
+
+2022-05-10 19:07:28 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Step1_KlikBCA' are matched.
+
+2022-05-10 19:07:28 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_Step2_KlikBCA"), "Select Transfer to BCA Virtual Account."): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Step2_KlikBCA' are matched.
+
+2022-05-10 19:07:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Step2_KlikBCA' are matched.
+
+2022-05-10 19:07:29 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_Step3_KlikBCA"), "Insert BCA Virtual Account Number."): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Step3_KlikBCA' are matched.
+
+2022-05-10 19:07:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Step3_KlikBCA' are matched.
+
+2022-05-10 19:07:29 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_Step4_KlikBCA"), "Insert the payable amount."): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Step4_KlikBCA' are matched.
+
+2022-05-10 19:07:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Step4_KlikBCA' are matched.
+
+2022-05-10 19:07:30 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_Step5_KlikBCA"), "Confirm the payment."): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Step5_KlikBCA' are matched.
+
+2022-05-10 19:07:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Step5_KlikBCA' are matched.
+
+2022-05-10 19:07:30 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_Step6_KlikBCA"), "Payment complete."): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Step6_KlikBCA' are matched.
+
+2022-05-10 19:07:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Step6_KlikBCA' are matched.
+
+2022-05-10 19:07:30 - [TEST_STEP][PASSED] - click(findTestObject("4. Payment/Payment_ATMBankTransfer/Button_HTP_mBCA")): Object: 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_HTP_mBCA' is clicked on
+
+2022-05-10 19:07:31 - [MESSAGE][PASSED] - Object: 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_HTP_mBCA' is clicked on
+
+2022-05-10 19:07:31 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_Step1_MBCA"), "Select m-Transfer."): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Step1_MBCA' are matched.
+
+2022-05-10 19:07:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Step1_MBCA' are matched.
+
+2022-05-10 19:07:31 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_Step2_MBCA"), "Select BCA Virtual Account."): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Step2_MBCA' are matched.
+
+2022-05-10 19:07:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Step2_MBCA' are matched.
+
+2022-05-10 19:07:32 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_Step3_MBCA"), "Insert BCA Virtual Account Number."): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Step3_MBCA' are matched.
+
+2022-05-10 19:07:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Step3_MBCA' are matched.
+
+2022-05-10 19:07:32 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_Step4_MBCA"), "Insert the payable amount."): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Step4_MBCA' are matched.
+
+2022-05-10 19:07:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Step4_MBCA' are matched.
+
+2022-05-10 19:07:33 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_Step5_MBCA"), "Confirm the payment."): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Step5_MBCA' are matched.
+
+2022-05-10 19:07:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Step5_MBCA' are matched.
+
+2022-05-10 19:07:33 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_Step6_MBCA"), "Payment complete."): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Step6_MBCA' are matched.
+
+2022-05-10 19:07:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Step6_MBCA' are matched.
+
+2022-05-10 19:07:34 - [TEST_STEP][PASSED] - click(findTestObject("4. Payment/Payment_ATMBankTransfer/Button_IHavePaid_BCA")): Object: 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_IHavePaid_BCA' is clicked on
+
+2022-05-10 19:07:34 - [MESSAGE][PASSED] - Object: 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_IHavePaid_BCA' is clicked on
+
+2022-05-10 19:07:34 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_YourTrxBeingProcess"), "Your transaction is being processed"): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_YourTrxBeingProcess' are matched.
+
+2022-05-10 19:07:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_YourTrxBeingProcess' are matched.
+
+2022-05-10 19:07:35 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_Success_TotalAmount"), "Rp20.000"): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Success_TotalAmount' are matched.
+
+2022-05-10 19:07:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Success_TotalAmount' are matched.
+
+2022-05-10 19:07:35 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_Success_TextInfo1"), "If you make a payment using an e-wallet or a credit/debit card, you have completed your payment."): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Success_TextInfo1' are matched.
+
+2022-05-10 19:07:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Success_TextInfo1' are matched.
+
+2022-05-10 19:07:35 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_Success_TextInfo2"), "If you made a payment via bank transfer, please continue the payment process."): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Success_TextInfo2' are matched.
+
+2022-05-10 19:07:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Success_TextInfo2' are matched.
+
+2022-05-10 19:07:36 - [TEST_STEP][PASSED] - click(findTestObject("4. Payment/Payment_CC/Button_BackToMerchantsWeb")): Object: 'Object Repository/4. Payment/Payment_CC/Button_BackToMerchantsWeb' is clicked on
+
+2022-05-10 19:07:36 - [MESSAGE][PASSED] - Object: 'Object Repository/4. Payment/Payment_CC/Button_BackToMerchantsWeb' is clicked on
+
+2022-05-10 19:07:36 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_BookedPayment"), STOP_ON_FAILURE): Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_BookedPayment' is visible
+
+2022-05-10 19:07:37 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_BookedPayment' is visible
+
+2022-05-10 19:07:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-05-10 19:07:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SmallProject1_Version2/TC61_UserSelectMethod_BankTransferMandiri" time="31.45" classname="Test Cases/SmallProject1_Version2/TC61_UserSelectMethod_BankTransferMandiri" status="PASSED">
+         <system-out><![CDATA[2022-05-10 19:07:38 - [TEST_CASE][PASSED] - Test Cases/SmallProject1_Version2/TC61_UserSelectMethod_BankTransferMandiri: Test Cases/SmallProject1_Version2/TC61_UserSelectMethod_BankTransferMandiri
+
+2022-05-10 19:07:38 - [TEST_STEP][PASSED] - callTestCase(findTestCase("SmallProject1_Version2/TC32_UserSuccessCheckout"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/SmallProject1_Version2/TC32_UserSuccessCheckout' successfully
+
+2022-05-10 19:07:38 - [TEST_CASE][PASSED] - Test Cases/SmallProject1_Version2/TC32_UserSuccessCheckout: Test Cases/SmallProject1_Version2/TC32_UserSuccessCheckout
+
+2022-05-10 19:07:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-05-10 19:07:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-10 19:07:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-10 19:07:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-05-10 19:07:39 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-05-10 19:07:39 - [MESSAGE][PASSED] - Current window maximized
+
+2022-05-10 19:07:39 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.midtrans.com/"): Navigate to 'https://demo.midtrans.com/' successfully
+
+2022-05-10 19:07:40 - [MESSAGE][PASSED] - Navigate to 'https://demo.midtrans.com/' successfully
+
+2022-05-10 19:07:40 - [TEST_STEP][PASSED] - click(findTestObject("3. Checkout/a_BUY NOW")): Object: 'Object Repository/3. Checkout/a_BUY NOW' is clicked on
+
+2022-05-10 19:07:40 - [MESSAGE][PASSED] - Object: 'Object Repository/3. Checkout/a_BUY NOW' is clicked on
+
+2022-05-10 19:07:40 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("3. Checkout/Verify_ShoppingCart"), 0): Object 'Object Repository/3. Checkout/Verify_ShoppingCart' is present and visible in viewport
+
+2022-05-10 19:07:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-10 19:07:41 - [MESSAGE][PASSED] - Object 'Object Repository/3. Checkout/Verify_ShoppingCart' is present and visible in viewport
+
+2022-05-10 19:07:41 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("3. Checkout/Verify_TotalAmount"), "20,000"): Actual text and expected text of test object 'Object Repository/3. Checkout/Verify_TotalAmount' are matched.
+
+2022-05-10 19:07:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/3. Checkout/Verify_TotalAmount' are matched.
+
+2022-05-10 19:07:41 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("3. Checkout/Verify_CustomerDetail"), "Customer Details"): Actual text and expected text of test object 'Object Repository/3. Checkout/Verify_CustomerDetail' are matched.
+
+2022-05-10 19:07:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/3. Checkout/Verify_CustomerDetail' are matched.
+
+2022-05-10 19:07:41 - [TEST_STEP][PASSED] - setText(findTestObject("3. Checkout/Field_Name"), Name): Text 'Yulia' is set on object 'Object Repository/3. Checkout/Field_Name'
+
+2022-05-10 19:07:42 - [MESSAGE][PASSED] - Text 'Yulia' is set on object 'Object Repository/3. Checkout/Field_Name'
+
+2022-05-10 19:07:42 - [TEST_STEP][PASSED] - setText(findTestObject("3. Checkout/Field_Email"), Email): Text 'yulia@email.com' is set on object 'Object Repository/3. Checkout/Field_Email'
+
+2022-05-10 19:07:43 - [MESSAGE][PASSED] - Text 'yulia@email.com' is set on object 'Object Repository/3. Checkout/Field_Email'
+
+2022-05-10 19:07:43 - [TEST_STEP][PASSED] - setText(findTestObject("3. Checkout/Field_Phone"), Phone): Text '081234567890' is set on object 'Object Repository/3. Checkout/Field_Phone'
+
+2022-05-10 19:07:44 - [MESSAGE][PASSED] - Text '081234567890' is set on object 'Object Repository/3. Checkout/Field_Phone'
+
+2022-05-10 19:07:44 - [TEST_STEP][PASSED] - setText(findTestObject("3. Checkout/Field_City"), City): Text 'Jakarta' is set on object 'Object Repository/3. Checkout/Field_City'
+
+2022-05-10 19:07:44 - [MESSAGE][PASSED] - Text 'Jakarta' is set on object 'Object Repository/3. Checkout/Field_City'
+
+2022-05-10 19:07:44 - [TEST_STEP][PASSED] - setText(findTestObject("3. Checkout/Field_Address"), Address): Text 'Jalan Jend. Sudirman Kav 10' is set on object 'Object Repository/3. Checkout/Field_Address'
+
+2022-05-10 19:07:45 - [MESSAGE][PASSED] - Text 'Jalan Jend. Sudirman Kav 10' is set on object 'Object Repository/3. Checkout/Field_Address'
+
+2022-05-10 19:07:45 - [TEST_STEP][PASSED] - setText(findTestObject("3. Checkout/Field_PostalCode"), PostalCode): Text '12345' is set on object 'Object Repository/3. Checkout/Field_PostalCode'
+
+2022-05-10 19:07:46 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/3. Checkout/Field_PostalCode'
+
+2022-05-10 19:07:46 - [TEST_STEP][PASSED] - click(findTestObject("3. Checkout/Button_Checkout")): Object: 'Object Repository/3. Checkout/Button_Checkout' is clicked on
+
+2022-05-10 19:07:46 - [MESSAGE][PASSED] - Object: 'Object Repository/3. Checkout/Button_Checkout' is clicked on
+
+2022-05-10 19:07:46 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-05-10 19:07:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-05-10 19:07:47 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-05-10 19:07:48 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-05-10 19:07:48 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\220005\\Katalon Studio\\SmallProject1_Yulia\\Reports\\20220510_190650\\TS03 - Payment Method - Bank Transfer\\20220510_190650\\1652184467604.png]]
+
+2022-05-10 19:07:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("5. PopUp Detail/Time_PayWithin"), STOP_ON_FAILURE): Object 'Object Repository/5. PopUp Detail/Time_PayWithin' is visible
+
+2022-05-10 19:07:48 - [MESSAGE][PASSED] - Object 'Object Repository/5. PopUp Detail/Time_PayWithin' is visible
+
+2022-05-10 19:07:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("5. PopUp Detail/Verify_OrderID_PopUp")): Object 'Object Repository/5. PopUp Detail/Verify_OrderID_PopUp' is visible
+
+2022-05-10 19:07:49 - [MESSAGE][PASSED] - Object 'Object Repository/5. PopUp Detail/Verify_OrderID_PopUp' is visible
+
+2022-05-10 19:07:49 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("3. Checkout/Verify_MethodList")): Object 'Object Repository/3. Checkout/Verify_MethodList' is visible
+
+2022-05-10 19:07:49 - [MESSAGE][PASSED] - Object 'Object Repository/3. Checkout/Verify_MethodList' is visible
+
+2022-05-10 19:07:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/SmallProject1_Version2/TC32_UserSuccessCheckout' successfully
+
+2022-05-10 19:07:49 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("4. Payment/Payment_ATMBankTransfer/Title_BankTransfer")): Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Title_BankTransfer' is visible
+
+2022-05-10 19:07:50 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Title_BankTransfer' is visible
+
+2022-05-10 19:07:50 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("4. Payment/Payment_ATMBankTransfer/Logo_BankTransfer")): Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Logo_BankTransfer' is visible
+
+2022-05-10 19:07:50 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Logo_BankTransfer' is visible
+
+2022-05-10 19:07:50 - [TEST_STEP][PASSED] - click(findTestObject("4. Payment/Payment_ATMBankTransfer/Button_BankTransfer")): Object: 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_BankTransfer' is clicked on
+
+2022-05-10 19:07:50 - [MESSAGE][PASSED] - Object: 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_BankTransfer' is clicked on
+
+2022-05-10 19:07:50 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_ATMBankTransfer/Header_BankTransfer"), "Bank transfer"): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Header_BankTransfer' are matched.
+
+2022-05-10 19:07:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Header_BankTransfer' are matched.
+
+2022-05-10 19:07:51 - [TEST_STEP][PASSED] - click(findTestObject("4. Payment/Payment_ATMBankTransfer/Button_Mandiri")): Object: 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_Mandiri' is clicked on
+
+2022-05-10 19:07:51 - [MESSAGE][PASSED] - Object: 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_Mandiri' is clicked on
+
+2022-05-10 19:07:51 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-05-10 19:07:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-05-10 19:07:52 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-05-10 19:07:53 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-05-10 19:07:53 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\220005\\Katalon Studio\\SmallProject1_Yulia\\Reports\\20220510_190650\\TS03 - Payment Method - Bank Transfer\\20220510_190650\\1652184472890.png]]
+
+2022-05-10 19:07:53 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/a_Header_Details"), "Bank Mandiri"): Actual text and expected text of test object 'Object Repository/4. Payment/a_Header_Details' are matched.
+
+2022-05-10 19:07:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/a_Header_Details' are matched.
+
+2022-05-10 19:07:53 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("4. Payment/Payment_ATMBankTransfer/Desc_AllBank")): Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Desc_AllBank' is visible
+
+2022-05-10 19:07:54 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Desc_AllBank' is visible
+
+2022-05-10 19:07:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("4. Payment/Payment_ATMBankTransfer/CompanyCode_Mandiri")): Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/CompanyCode_Mandiri' is visible
+
+2022-05-10 19:07:54 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/CompanyCode_Mandiri' is visible
+
+2022-05-10 19:07:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("4. Payment/Payment_ATMBankTransfer/BillingNumber_Mandiri")): Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/BillingNumber_Mandiri' is visible
+
+2022-05-10 19:07:55 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/BillingNumber_Mandiri' is visible
+
+2022-05-10 19:07:55 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("4. Payment/Payment_ATMBankTransfer/Button_Copy")): Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_Copy' is clickable
+
+2022-05-10 19:07:55 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_Copy' is clickable
+
+2022-05-10 19:07:55 - [TEST_STEP][PASSED] - click(findTestObject("5. PopUp Detail/Button_Float_Down")): Object: 'Object Repository/5. PopUp Detail/Button_Float_Down' is clicked on
+
+2022-05-10 19:07:55 - [MESSAGE][PASSED] - Object: 'Object Repository/5. PopUp Detail/Button_Float_Down' is clicked on
+
+2022-05-10 19:07:55 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("5. PopUp Detail/Verify_AmountMidtransPillow"), "Rp20.000"): Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_AmountMidtransPillow' are matched.
+
+2022-05-10 19:07:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_AmountMidtransPillow' are matched.
+
+2022-05-10 19:07:56 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("5. PopUp Detail/Verify_Name_Summary"), Name): Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_Name_Summary' are matched.
+
+2022-05-10 19:07:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_Name_Summary' are matched.
+
+2022-05-10 19:07:56 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("5. PopUp Detail/Verify_Addess_Summary"), Address_2): Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_Addess_Summary' are matched.
+
+2022-05-10 19:07:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_Addess_Summary' are matched.
+
+2022-05-10 19:07:57 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("5. PopUp Detail/Verify_Phone_Summary"), Phone_2): Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_Phone_Summary' are matched.
+
+2022-05-10 19:07:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_Phone_Summary' are matched.
+
+2022-05-10 19:07:57 - [TEST_STEP][PASSED] - total1 = verifyElementText(findTestObject("5. PopUp Detail/Verify_TotalAmount_PopUp"), "Rp20.000"): Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_TotalAmount_PopUp' are matched.
+
+2022-05-10 19:07:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_TotalAmount_PopUp' are matched.
+
+2022-05-10 19:07:58 - [TEST_STEP][PASSED] - total2 = verifyElementText(findTestObject("5. PopUp Detail/Verify_TotalAmount_Summary"), "Rp20.000"): Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_TotalAmount_Summary' are matched.
+
+2022-05-10 19:07:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_TotalAmount_Summary' are matched.
+
+2022-05-10 19:07:58 - [TEST_STEP][PASSED] - verifyEqual(total1, total2, STOP_ON_FAILURE): Actual object 'true' and expected object 'true' are equal
+
+2022-05-10 19:07:58 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2022-05-10 19:07:58 - [TEST_STEP][PASSED] - click(findTestObject("5. PopUp Detail/Button_Float_Up")): Object: 'Object Repository/5. PopUp Detail/Button_Float_Up' is clicked on
+
+2022-05-10 19:07:58 - [MESSAGE][PASSED] - Object: 'Object Repository/5. PopUp Detail/Button_Float_Up' is clicked on
+
+2022-05-10 19:07:58 - [TEST_STEP][PASSED] - click(findTestObject("4. Payment/a_Button_HowToPay")): Object: 'Object Repository/4. Payment/a_Button_HowToPay' is clicked on
+
+2022-05-10 19:07:59 - [MESSAGE][PASSED] - Object: 'Object Repository/4. Payment/a_Button_HowToPay' is clicked on
+
+2022-05-10 19:07:59 - [TEST_STEP][PASSED] - click(findTestObject("4. Payment/Payment_ATMBankTransfer/Button_HTP_ATMMandiri")): Object: 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_HTP_ATMMandiri' is clicked on
+
+2022-05-10 19:07:59 - [MESSAGE][PASSED] - Object: 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_HTP_ATMMandiri' is clicked on
+
+2022-05-10 19:07:59 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_Step1_ATMMandiri"), "Select pay/buy on the main menu."): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Step1_ATMMandiri' are matched.
+
+2022-05-10 19:08:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Step1_ATMMandiri' are matched.
+
+2022-05-10 19:08:00 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_Step2_ATMMandiri"), "Select others."): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Step2_ATMMandiri' are matched.
+
+2022-05-10 19:08:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Step2_ATMMandiri' are matched.
+
+2022-05-10 19:08:00 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_Step3_ATMMandiri"), "Select multi payment."): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Step3_ATMMandiri' are matched.
+
+2022-05-10 19:08:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Step3_ATMMandiri' are matched.
+
+2022-05-10 19:08:01 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_Step4_ATMMandiri"), "Insert Midtrans company code 70012."): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Step4_ATMMandiri' are matched.
+
+2022-05-10 19:08:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Step4_ATMMandiri' are matched.
+
+2022-05-10 19:08:01 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_Step5_ATMMandiri"), "Insert payment code, then confirm."): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Step5_ATMMandiri' are matched.
+
+2022-05-10 19:08:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Step5_ATMMandiri' are matched.
+
+2022-05-10 19:08:02 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_Step6_ATMMandiri"), "Payment complete."): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Step6_ATMMandiri' are matched.
+
+2022-05-10 19:08:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Step6_ATMMandiri' are matched.
+
+2022-05-10 19:08:02 - [TEST_STEP][PASSED] - click(findTestObject("4. Payment/Payment_ATMBankTransfer/Button_HTP_IBMandiri")): Object: 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_HTP_IBMandiri' is clicked on
+
+2022-05-10 19:08:03 - [MESSAGE][PASSED] - Object: 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_HTP_IBMandiri' is clicked on
+
+2022-05-10 19:08:03 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_Step1_IBMandiri"), "Select payment on the main menu."): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Step1_IBMandiri' are matched.
+
+2022-05-10 19:08:03 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Step1_IBMandiri' are matched.
+
+2022-05-10 19:08:03 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_Step2_IBMandiri"), "Select multi payment."): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Step2_IBMandiri' are matched.
+
+2022-05-10 19:08:03 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Step2_IBMandiri' are matched.
+
+2022-05-10 19:08:03 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_Step3_IBMandiri"), "Select from account."): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Step3_IBMandiri' are matched.
+
+2022-05-10 19:08:04 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Step3_IBMandiri' are matched.
+
+2022-05-10 19:08:04 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_Step4_IBMandiri"), "Select Midtrans in the service provider form."): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Step4_IBMandiri' are matched.
+
+2022-05-10 19:08:04 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Step4_IBMandiri' are matched.
+
+2022-05-10 19:08:04 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_Step5_IBMandiri"), "Insert payment code, then confirm."): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Step5_IBMandiri' are matched.
+
+2022-05-10 19:08:05 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Step5_IBMandiri' are matched.
+
+2022-05-10 19:08:05 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_Step6_IBMandiri"), "Payment complete."): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Step6_IBMandiri' are matched.
+
+2022-05-10 19:08:05 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Step6_IBMandiri' are matched.
+
+2022-05-10 19:08:05 - [TEST_STEP][PASSED] - click(findTestObject("4. Payment/Payment_ATMBankTransfer/Button_IHavePaid_Mandiri")): Object: 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_IHavePaid_Mandiri' is clicked on
+
+2022-05-10 19:08:06 - [MESSAGE][PASSED] - Object: 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_IHavePaid_Mandiri' is clicked on
+
+2022-05-10 19:08:06 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_YourTrxBeingProcess"), "Your transaction is being processed"): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_YourTrxBeingProcess' are matched.
+
+2022-05-10 19:08:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_YourTrxBeingProcess' are matched.
+
+2022-05-10 19:08:06 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_Success_TotalAmount"), "Rp20.000"): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Success_TotalAmount' are matched.
+
+2022-05-10 19:08:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Success_TotalAmount' are matched.
+
+2022-05-10 19:08:07 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_Success_TextInfo1"), "If you make a payment using an e-wallet or a credit/debit card, you have completed your payment."): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Success_TextInfo1' are matched.
+
+2022-05-10 19:08:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Success_TextInfo1' are matched.
+
+2022-05-10 19:08:07 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_Success_TextInfo2"), "If you made a payment via bank transfer, please continue the payment process."): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Success_TextInfo2' are matched.
+
+2022-05-10 19:08:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Success_TextInfo2' are matched.
+
+2022-05-10 19:08:07 - [TEST_STEP][PASSED] - click(findTestObject("4. Payment/Payment_CC/Button_BackToMerchantsWeb")): Object: 'Object Repository/4. Payment/Payment_CC/Button_BackToMerchantsWeb' is clicked on
+
+2022-05-10 19:08:08 - [MESSAGE][PASSED] - Object: 'Object Repository/4. Payment/Payment_CC/Button_BackToMerchantsWeb' is clicked on
+
+2022-05-10 19:08:08 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_BookedPayment"), STOP_ON_FAILURE): Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_BookedPayment' is visible
+
+2022-05-10 19:08:08 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_BookedPayment' is visible
+
+2022-05-10 19:08:08 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-05-10 19:08:09 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SmallProject1_Version2/TC62_UserSelectMethod_BankTransferBNI" time="27.614" classname="Test Cases/SmallProject1_Version2/TC62_UserSelectMethod_BankTransferBNI" status="PASSED">
+         <system-out><![CDATA[2022-05-10 19:08:09 - [TEST_CASE][PASSED] - Test Cases/SmallProject1_Version2/TC62_UserSelectMethod_BankTransferBNI: Test Cases/SmallProject1_Version2/TC62_UserSelectMethod_BankTransferBNI
+
+2022-05-10 19:08:09 - [TEST_STEP][PASSED] - callTestCase(findTestCase("SmallProject1_Version2/TC32_UserSuccessCheckout"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/SmallProject1_Version2/TC32_UserSuccessCheckout' successfully
+
+2022-05-10 19:08:09 - [TEST_CASE][PASSED] - Test Cases/SmallProject1_Version2/TC32_UserSuccessCheckout: Test Cases/SmallProject1_Version2/TC32_UserSuccessCheckout
+
+2022-05-10 19:08:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-05-10 19:08:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-10 19:08:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-10 19:08:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-05-10 19:08:11 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-05-10 19:08:11 - [MESSAGE][PASSED] - Current window maximized
+
+2022-05-10 19:08:11 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.midtrans.com/"): Navigate to 'https://demo.midtrans.com/' successfully
+
+2022-05-10 19:08:11 - [MESSAGE][PASSED] - Navigate to 'https://demo.midtrans.com/' successfully
+
+2022-05-10 19:08:11 - [TEST_STEP][PASSED] - click(findTestObject("3. Checkout/a_BUY NOW")): Object: 'Object Repository/3. Checkout/a_BUY NOW' is clicked on
+
+2022-05-10 19:08:12 - [MESSAGE][PASSED] - Object: 'Object Repository/3. Checkout/a_BUY NOW' is clicked on
+
+2022-05-10 19:08:12 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("3. Checkout/Verify_ShoppingCart"), 0): Object 'Object Repository/3. Checkout/Verify_ShoppingCart' is present and visible in viewport
+
+2022-05-10 19:08:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-10 19:08:12 - [MESSAGE][PASSED] - Object 'Object Repository/3. Checkout/Verify_ShoppingCart' is present and visible in viewport
+
+2022-05-10 19:08:12 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("3. Checkout/Verify_TotalAmount"), "20,000"): Actual text and expected text of test object 'Object Repository/3. Checkout/Verify_TotalAmount' are matched.
+
+2022-05-10 19:08:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/3. Checkout/Verify_TotalAmount' are matched.
+
+2022-05-10 19:08:13 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("3. Checkout/Verify_CustomerDetail"), "Customer Details"): Actual text and expected text of test object 'Object Repository/3. Checkout/Verify_CustomerDetail' are matched.
+
+2022-05-10 19:08:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/3. Checkout/Verify_CustomerDetail' are matched.
+
+2022-05-10 19:08:13 - [TEST_STEP][PASSED] - setText(findTestObject("3. Checkout/Field_Name"), Name): Text 'Yulia' is set on object 'Object Repository/3. Checkout/Field_Name'
+
+2022-05-10 19:08:14 - [MESSAGE][PASSED] - Text 'Yulia' is set on object 'Object Repository/3. Checkout/Field_Name'
+
+2022-05-10 19:08:14 - [TEST_STEP][PASSED] - setText(findTestObject("3. Checkout/Field_Email"), Email): Text 'yulia@email.com' is set on object 'Object Repository/3. Checkout/Field_Email'
+
+2022-05-10 19:08:14 - [MESSAGE][PASSED] - Text 'yulia@email.com' is set on object 'Object Repository/3. Checkout/Field_Email'
+
+2022-05-10 19:08:14 - [TEST_STEP][PASSED] - setText(findTestObject("3. Checkout/Field_Phone"), Phone): Text '081234567890' is set on object 'Object Repository/3. Checkout/Field_Phone'
+
+2022-05-10 19:08:15 - [MESSAGE][PASSED] - Text '081234567890' is set on object 'Object Repository/3. Checkout/Field_Phone'
+
+2022-05-10 19:08:15 - [TEST_STEP][PASSED] - setText(findTestObject("3. Checkout/Field_City"), City): Text 'Jakarta' is set on object 'Object Repository/3. Checkout/Field_City'
+
+2022-05-10 19:08:16 - [MESSAGE][PASSED] - Text 'Jakarta' is set on object 'Object Repository/3. Checkout/Field_City'
+
+2022-05-10 19:08:16 - [TEST_STEP][PASSED] - setText(findTestObject("3. Checkout/Field_Address"), Address): Text 'Jalan Jend. Sudirman Kav 10' is set on object 'Object Repository/3. Checkout/Field_Address'
+
+2022-05-10 19:08:16 - [MESSAGE][PASSED] - Text 'Jalan Jend. Sudirman Kav 10' is set on object 'Object Repository/3. Checkout/Field_Address'
+
+2022-05-10 19:08:16 - [TEST_STEP][PASSED] - setText(findTestObject("3. Checkout/Field_PostalCode"), PostalCode): Text '12345' is set on object 'Object Repository/3. Checkout/Field_PostalCode'
+
+2022-05-10 19:08:17 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/3. Checkout/Field_PostalCode'
+
+2022-05-10 19:08:17 - [TEST_STEP][PASSED] - click(findTestObject("3. Checkout/Button_Checkout")): Object: 'Object Repository/3. Checkout/Button_Checkout' is clicked on
+
+2022-05-10 19:08:18 - [MESSAGE][PASSED] - Object: 'Object Repository/3. Checkout/Button_Checkout' is clicked on
+
+2022-05-10 19:08:18 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-05-10 19:08:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-05-10 19:08:19 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-05-10 19:08:19 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-05-10 19:08:19 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\220005\\Katalon Studio\\SmallProject1_Yulia\\Reports\\20220510_190650\\TS03 - Payment Method - Bank Transfer\\20220510_190650\\1652184499061.png]]
+
+2022-05-10 19:08:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("5. PopUp Detail/Time_PayWithin"), STOP_ON_FAILURE): Object 'Object Repository/5. PopUp Detail/Time_PayWithin' is visible
+
+2022-05-10 19:08:20 - [MESSAGE][PASSED] - Object 'Object Repository/5. PopUp Detail/Time_PayWithin' is visible
+
+2022-05-10 19:08:20 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("5. PopUp Detail/Verify_OrderID_PopUp")): Object 'Object Repository/5. PopUp Detail/Verify_OrderID_PopUp' is visible
+
+2022-05-10 19:08:20 - [MESSAGE][PASSED] - Object 'Object Repository/5. PopUp Detail/Verify_OrderID_PopUp' is visible
+
+2022-05-10 19:08:20 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("3. Checkout/Verify_MethodList")): Object 'Object Repository/3. Checkout/Verify_MethodList' is visible
+
+2022-05-10 19:08:20 - [MESSAGE][PASSED] - Object 'Object Repository/3. Checkout/Verify_MethodList' is visible
+
+2022-05-10 19:08:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/SmallProject1_Version2/TC32_UserSuccessCheckout' successfully
+
+2022-05-10 19:08:21 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("4. Payment/Payment_ATMBankTransfer/Title_BankTransfer")): Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Title_BankTransfer' is visible
+
+2022-05-10 19:08:21 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Title_BankTransfer' is visible
+
+2022-05-10 19:08:21 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("4. Payment/Payment_ATMBankTransfer/Logo_BankTransfer")): Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Logo_BankTransfer' is visible
+
+2022-05-10 19:08:21 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Logo_BankTransfer' is visible
+
+2022-05-10 19:08:21 - [TEST_STEP][PASSED] - click(findTestObject("4. Payment/Payment_ATMBankTransfer/Button_BankTransfer")): Object: 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_BankTransfer' is clicked on
+
+2022-05-10 19:08:22 - [MESSAGE][PASSED] - Object: 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_BankTransfer' is clicked on
+
+2022-05-10 19:08:22 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_ATMBankTransfer/Header_BankTransfer"), "Bank transfer"): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Header_BankTransfer' are matched.
+
+2022-05-10 19:08:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Header_BankTransfer' are matched.
+
+2022-05-10 19:08:22 - [TEST_STEP][PASSED] - click(findTestObject("4. Payment/Payment_ATMBankTransfer/Button_BNI")): Object: 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_BNI' is clicked on
+
+2022-05-10 19:08:23 - [MESSAGE][PASSED] - Object: 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_BNI' is clicked on
+
+2022-05-10 19:08:23 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-05-10 19:08:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-05-10 19:08:24 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-05-10 19:08:24 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-05-10 19:08:24 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\220005\\Katalon Studio\\SmallProject1_Yulia\\Reports\\20220510_190650\\TS03 - Payment Method - Bank Transfer\\20220510_190650\\1652184504341.png]]
+
+2022-05-10 19:08:24 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/a_Header_Details"), "Bank BNI"): Actual text and expected text of test object 'Object Repository/4. Payment/a_Header_Details' are matched.
+
+2022-05-10 19:08:25 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/a_Header_Details' are matched.
+
+2022-05-10 19:08:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("4. Payment/Payment_ATMBankTransfer/Desc_AllBank")): Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Desc_AllBank' is visible
+
+2022-05-10 19:08:25 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Desc_AllBank' is visible
+
+2022-05-10 19:08:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("4. Payment/Payment_ATMBankTransfer/VAnumber_BNI")): Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/VAnumber_BNI' is visible
+
+2022-05-10 19:08:26 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/VAnumber_BNI' is visible
+
+2022-05-10 19:08:26 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("4. Payment/Payment_ATMBankTransfer/Button_Copy")): Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_Copy' is clickable
+
+2022-05-10 19:08:26 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_Copy' is clickable
+
+2022-05-10 19:08:26 - [TEST_STEP][PASSED] - click(findTestObject("5. PopUp Detail/Button_Float_Down")): Object: 'Object Repository/5. PopUp Detail/Button_Float_Down' is clicked on
+
+2022-05-10 19:08:27 - [MESSAGE][PASSED] - Object: 'Object Repository/5. PopUp Detail/Button_Float_Down' is clicked on
+
+2022-05-10 19:08:27 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("5. PopUp Detail/Verify_AmountMidtransPillow"), "Rp20.000"): Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_AmountMidtransPillow' are matched.
+
+2022-05-10 19:08:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_AmountMidtransPillow' are matched.
+
+2022-05-10 19:08:27 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("5. PopUp Detail/Verify_Name_Summary"), Name): Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_Name_Summary' are matched.
+
+2022-05-10 19:08:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_Name_Summary' are matched.
+
+2022-05-10 19:08:27 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("5. PopUp Detail/Verify_Addess_Summary"), Address_2): Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_Addess_Summary' are matched.
+
+2022-05-10 19:08:28 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_Addess_Summary' are matched.
+
+2022-05-10 19:08:28 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("5. PopUp Detail/Verify_Phone_Summary"), Phone_2): Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_Phone_Summary' are matched.
+
+2022-05-10 19:08:28 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_Phone_Summary' are matched.
+
+2022-05-10 19:08:28 - [TEST_STEP][PASSED] - total1 = verifyElementText(findTestObject("5. PopUp Detail/Verify_TotalAmount_PopUp"), "Rp20.000"): Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_TotalAmount_PopUp' are matched.
+
+2022-05-10 19:08:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_TotalAmount_PopUp' are matched.
+
+2022-05-10 19:08:29 - [TEST_STEP][PASSED] - total2 = verifyElementText(findTestObject("5. PopUp Detail/Verify_TotalAmount_Summary"), "Rp20.000"): Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_TotalAmount_Summary' are matched.
+
+2022-05-10 19:08:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_TotalAmount_Summary' are matched.
+
+2022-05-10 19:08:29 - [TEST_STEP][PASSED] - verifyEqual(total1, total2, STOP_ON_FAILURE): Actual object 'true' and expected object 'true' are equal
+
+2022-05-10 19:08:29 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2022-05-10 19:08:29 - [TEST_STEP][PASSED] - click(findTestObject("5. PopUp Detail/Button_Float_Up")): Object: 'Object Repository/5. PopUp Detail/Button_Float_Up' is clicked on
+
+2022-05-10 19:08:30 - [MESSAGE][PASSED] - Object: 'Object Repository/5. PopUp Detail/Button_Float_Up' is clicked on
+
+2022-05-10 19:08:30 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("4. Payment/a_Button_HowToPay")): Object 'Object Repository/4. Payment/a_Button_HowToPay' is clickable
+
+2022-05-10 19:08:30 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/a_Button_HowToPay' is clickable
+
+2022-05-10 19:08:30 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("4. Payment/Payment_ATMBankTransfer/Button_HTP_ATM")): Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_HTP_ATM' is clickable
+
+2022-05-10 19:08:31 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_HTP_ATM' is clickable
+
+2022-05-10 19:08:31 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_Steps_ATM"), 0): Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Steps_ATM' is present
+
+2022-05-10 19:08:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-10 19:08:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-10 19:08:31 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Steps_ATM' is present
+
+2022-05-10 19:08:31 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("4. Payment/Payment_ATMBankTransfer/Button_HTP_IB")): Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_HTP_IB' is clickable
+
+2022-05-10 19:08:31 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_HTP_IB' is clickable
+
+2022-05-10 19:08:31 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_Steps_IB"), 0): Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Steps_IB' is present
+
+2022-05-10 19:08:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-10 19:08:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-10 19:08:32 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Steps_IB' is present
+
+2022-05-10 19:08:32 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("4. Payment/Payment_ATMBankTransfer/Button_HTP_mBanking")): Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_HTP_mBanking' is clickable
+
+2022-05-10 19:08:32 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_HTP_mBanking' is clickable
+
+2022-05-10 19:08:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_Steps_mBanking"), 0): Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Steps_mBanking' is present
+
+2022-05-10 19:08:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-10 19:08:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-10 19:08:33 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Steps_mBanking' is present
+
+2022-05-10 19:08:33 - [TEST_STEP][PASSED] - click(findTestObject("4. Payment/Payment_ATMBankTransfer/Button_IHavePaid")): Object: 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_IHavePaid' is clicked on
+
+2022-05-10 19:08:33 - [MESSAGE][PASSED] - Object: 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_IHavePaid' is clicked on
+
+2022-05-10 19:08:33 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_YourTrxBeingProcess"), "Your transaction is being processed"): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_YourTrxBeingProcess' are matched.
+
+2022-05-10 19:08:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_YourTrxBeingProcess' are matched.
+
+2022-05-10 19:08:34 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_Success_TotalAmount"), "Rp20.000"): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Success_TotalAmount' are matched.
+
+2022-05-10 19:08:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Success_TotalAmount' are matched.
+
+2022-05-10 19:08:34 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_Success_TextInfo1"), "If you make a payment using an e-wallet or a credit/debit card, you have completed your payment."): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Success_TextInfo1' are matched.
+
+2022-05-10 19:08:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Success_TextInfo1' are matched.
+
+2022-05-10 19:08:34 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_Success_TextInfo2"), "If you made a payment via bank transfer, please continue the payment process."): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Success_TextInfo2' are matched.
+
+2022-05-10 19:08:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Success_TextInfo2' are matched.
+
+2022-05-10 19:08:35 - [TEST_STEP][PASSED] - click(findTestObject("4. Payment/Payment_CC/Button_BackToMerchantsWeb")): Object: 'Object Repository/4. Payment/Payment_CC/Button_BackToMerchantsWeb' is clicked on
+
+2022-05-10 19:08:35 - [MESSAGE][PASSED] - Object: 'Object Repository/4. Payment/Payment_CC/Button_BackToMerchantsWeb' is clicked on
+
+2022-05-10 19:08:35 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_BookedPayment"), STOP_ON_FAILURE): Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_BookedPayment' is visible
+
+2022-05-10 19:08:36 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_BookedPayment' is visible
+
+2022-05-10 19:08:36 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-05-10 19:08:37 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SmallProject1_Version2/TC63_UserSelectMethod_BankTransferPermata" time="28.259" classname="Test Cases/SmallProject1_Version2/TC63_UserSelectMethod_BankTransferPermata" status="PASSED">
+         <system-out><![CDATA[2022-05-10 19:08:37 - [TEST_CASE][PASSED] - Test Cases/SmallProject1_Version2/TC63_UserSelectMethod_BankTransferPermata: Test Cases/SmallProject1_Version2/TC63_UserSelectMethod_BankTransferPermata
+
+2022-05-10 19:08:37 - [TEST_STEP][PASSED] - callTestCase(findTestCase("SmallProject1_Version2/TC32_UserSuccessCheckout"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/SmallProject1_Version2/TC32_UserSuccessCheckout' successfully
+
+2022-05-10 19:08:37 - [TEST_CASE][PASSED] - Test Cases/SmallProject1_Version2/TC32_UserSuccessCheckout: Test Cases/SmallProject1_Version2/TC32_UserSuccessCheckout
+
+2022-05-10 19:08:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-05-10 19:08:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-10 19:08:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-10 19:08:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-05-10 19:08:38 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-05-10 19:08:38 - [MESSAGE][PASSED] - Current window maximized
+
+2022-05-10 19:08:38 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.midtrans.com/"): Navigate to 'https://demo.midtrans.com/' successfully
+
+2022-05-10 19:08:39 - [MESSAGE][PASSED] - Navigate to 'https://demo.midtrans.com/' successfully
+
+2022-05-10 19:08:39 - [TEST_STEP][PASSED] - click(findTestObject("3. Checkout/a_BUY NOW")): Object: 'Object Repository/3. Checkout/a_BUY NOW' is clicked on
+
+2022-05-10 19:08:40 - [MESSAGE][PASSED] - Object: 'Object Repository/3. Checkout/a_BUY NOW' is clicked on
+
+2022-05-10 19:08:40 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("3. Checkout/Verify_ShoppingCart"), 0): Object 'Object Repository/3. Checkout/Verify_ShoppingCart' is present and visible in viewport
+
+2022-05-10 19:08:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-10 19:08:40 - [MESSAGE][PASSED] - Object 'Object Repository/3. Checkout/Verify_ShoppingCart' is present and visible in viewport
+
+2022-05-10 19:08:40 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("3. Checkout/Verify_TotalAmount"), "20,000"): Actual text and expected text of test object 'Object Repository/3. Checkout/Verify_TotalAmount' are matched.
+
+2022-05-10 19:08:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/3. Checkout/Verify_TotalAmount' are matched.
+
+2022-05-10 19:08:40 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("3. Checkout/Verify_CustomerDetail"), "Customer Details"): Actual text and expected text of test object 'Object Repository/3. Checkout/Verify_CustomerDetail' are matched.
+
+2022-05-10 19:08:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/3. Checkout/Verify_CustomerDetail' are matched.
+
+2022-05-10 19:08:41 - [TEST_STEP][PASSED] - setText(findTestObject("3. Checkout/Field_Name"), Name): Text 'Yulia' is set on object 'Object Repository/3. Checkout/Field_Name'
+
+2022-05-10 19:08:41 - [MESSAGE][PASSED] - Text 'Yulia' is set on object 'Object Repository/3. Checkout/Field_Name'
+
+2022-05-10 19:08:41 - [TEST_STEP][PASSED] - setText(findTestObject("3. Checkout/Field_Email"), Email): Text 'yulia@email.com' is set on object 'Object Repository/3. Checkout/Field_Email'
+
+2022-05-10 19:08:42 - [MESSAGE][PASSED] - Text 'yulia@email.com' is set on object 'Object Repository/3. Checkout/Field_Email'
+
+2022-05-10 19:08:42 - [TEST_STEP][PASSED] - setText(findTestObject("3. Checkout/Field_Phone"), Phone): Text '081234567890' is set on object 'Object Repository/3. Checkout/Field_Phone'
+
+2022-05-10 19:08:43 - [MESSAGE][PASSED] - Text '081234567890' is set on object 'Object Repository/3. Checkout/Field_Phone'
+
+2022-05-10 19:08:43 - [TEST_STEP][PASSED] - setText(findTestObject("3. Checkout/Field_City"), City): Text 'Jakarta' is set on object 'Object Repository/3. Checkout/Field_City'
+
+2022-05-10 19:08:44 - [MESSAGE][PASSED] - Text 'Jakarta' is set on object 'Object Repository/3. Checkout/Field_City'
+
+2022-05-10 19:08:44 - [TEST_STEP][PASSED] - setText(findTestObject("3. Checkout/Field_Address"), Address): Text 'Jalan Jend. Sudirman Kav 10' is set on object 'Object Repository/3. Checkout/Field_Address'
+
+2022-05-10 19:08:44 - [MESSAGE][PASSED] - Text 'Jalan Jend. Sudirman Kav 10' is set on object 'Object Repository/3. Checkout/Field_Address'
+
+2022-05-10 19:08:44 - [TEST_STEP][PASSED] - setText(findTestObject("3. Checkout/Field_PostalCode"), PostalCode): Text '12345' is set on object 'Object Repository/3. Checkout/Field_PostalCode'
+
+2022-05-10 19:08:45 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/3. Checkout/Field_PostalCode'
+
+2022-05-10 19:08:45 - [TEST_STEP][PASSED] - click(findTestObject("3. Checkout/Button_Checkout")): Object: 'Object Repository/3. Checkout/Button_Checkout' is clicked on
+
+2022-05-10 19:08:45 - [MESSAGE][PASSED] - Object: 'Object Repository/3. Checkout/Button_Checkout' is clicked on
+
+2022-05-10 19:08:45 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-05-10 19:08:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-05-10 19:08:46 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-05-10 19:08:47 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-05-10 19:08:47 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\220005\\Katalon Studio\\SmallProject1_Yulia\\Reports\\20220510_190650\\TS03 - Payment Method - Bank Transfer\\20220510_190650\\1652184526842.png]]
+
+2022-05-10 19:08:47 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("5. PopUp Detail/Time_PayWithin"), STOP_ON_FAILURE): Object 'Object Repository/5. PopUp Detail/Time_PayWithin' is visible
+
+2022-05-10 19:08:47 - [MESSAGE][PASSED] - Object 'Object Repository/5. PopUp Detail/Time_PayWithin' is visible
+
+2022-05-10 19:08:47 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("5. PopUp Detail/Verify_OrderID_PopUp")): Object 'Object Repository/5. PopUp Detail/Verify_OrderID_PopUp' is visible
+
+2022-05-10 19:08:48 - [MESSAGE][PASSED] - Object 'Object Repository/5. PopUp Detail/Verify_OrderID_PopUp' is visible
+
+2022-05-10 19:08:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("3. Checkout/Verify_MethodList")): Object 'Object Repository/3. Checkout/Verify_MethodList' is visible
+
+2022-05-10 19:08:48 - [MESSAGE][PASSED] - Object 'Object Repository/3. Checkout/Verify_MethodList' is visible
+
+2022-05-10 19:08:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/SmallProject1_Version2/TC32_UserSuccessCheckout' successfully
+
+2022-05-10 19:08:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("4. Payment/Payment_ATMBankTransfer/Title_BankTransfer")): Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Title_BankTransfer' is visible
+
+2022-05-10 19:08:49 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Title_BankTransfer' is visible
+
+2022-05-10 19:08:49 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("4. Payment/Payment_ATMBankTransfer/Logo_BankTransfer")): Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Logo_BankTransfer' is visible
+
+2022-05-10 19:08:49 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Logo_BankTransfer' is visible
+
+2022-05-10 19:08:49 - [TEST_STEP][PASSED] - click(findTestObject("4. Payment/Payment_ATMBankTransfer/Button_BankTransfer")): Object: 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_BankTransfer' is clicked on
+
+2022-05-10 19:08:50 - [MESSAGE][PASSED] - Object: 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_BankTransfer' is clicked on
+
+2022-05-10 19:08:50 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_ATMBankTransfer/Header_BankTransfer"), "Bank transfer"): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Header_BankTransfer' are matched.
+
+2022-05-10 19:08:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Header_BankTransfer' are matched.
+
+2022-05-10 19:08:50 - [TEST_STEP][PASSED] - click(findTestObject("4. Payment/Payment_ATMBankTransfer/Button_Permata")): Object: 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_Permata' is clicked on
+
+2022-05-10 19:08:51 - [MESSAGE][PASSED] - Object: 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_Permata' is clicked on
+
+2022-05-10 19:08:51 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-05-10 19:08:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-05-10 19:08:52 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-05-10 19:08:52 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-05-10 19:08:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\220005\\Katalon Studio\\SmallProject1_Yulia\\Reports\\20220510_190650\\TS03 - Payment Method - Bank Transfer\\20220510_190650\\1652184532164.png]]
+
+2022-05-10 19:08:52 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/a_Header_Details"), "Bank Permata"): Actual text and expected text of test object 'Object Repository/4. Payment/a_Header_Details' are matched.
+
+2022-05-10 19:08:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/a_Header_Details' are matched.
+
+2022-05-10 19:08:53 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("4. Payment/Payment_ATMBankTransfer/Desc_AllBank")): Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Desc_AllBank' is visible
+
+2022-05-10 19:08:53 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Desc_AllBank' is visible
+
+2022-05-10 19:08:53 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("4. Payment/Payment_ATMBankTransfer/VAnumber_Permata")): Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/VAnumber_Permata' is visible
+
+2022-05-10 19:08:53 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/VAnumber_Permata' is visible
+
+2022-05-10 19:08:53 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("4. Payment/Payment_ATMBankTransfer/Button_Copy")): Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_Copy' is clickable
+
+2022-05-10 19:08:54 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_Copy' is clickable
+
+2022-05-10 19:08:54 - [TEST_STEP][PASSED] - click(findTestObject("5. PopUp Detail/Button_Float_Down")): Object: 'Object Repository/5. PopUp Detail/Button_Float_Down' is clicked on
+
+2022-05-10 19:08:54 - [MESSAGE][PASSED] - Object: 'Object Repository/5. PopUp Detail/Button_Float_Down' is clicked on
+
+2022-05-10 19:08:54 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("5. PopUp Detail/Verify_AmountMidtransPillow"), "Rp20.000"): Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_AmountMidtransPillow' are matched.
+
+2022-05-10 19:08:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_AmountMidtransPillow' are matched.
+
+2022-05-10 19:08:55 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("5. PopUp Detail/Verify_Name_Summary"), Name): Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_Name_Summary' are matched.
+
+2022-05-10 19:08:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_Name_Summary' are matched.
+
+2022-05-10 19:08:55 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("5. PopUp Detail/Verify_Addess_Summary"), Address_2): Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_Addess_Summary' are matched.
+
+2022-05-10 19:08:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_Addess_Summary' are matched.
+
+2022-05-10 19:08:56 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("5. PopUp Detail/Verify_Phone_Summary"), Phone_2): Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_Phone_Summary' are matched.
+
+2022-05-10 19:08:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_Phone_Summary' are matched.
+
+2022-05-10 19:08:56 - [TEST_STEP][PASSED] - total1 = verifyElementText(findTestObject("5. PopUp Detail/Verify_TotalAmount_PopUp"), "Rp20.000"): Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_TotalAmount_PopUp' are matched.
+
+2022-05-10 19:08:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_TotalAmount_PopUp' are matched.
+
+2022-05-10 19:08:57 - [TEST_STEP][PASSED] - total2 = verifyElementText(findTestObject("5. PopUp Detail/Verify_TotalAmount_Summary"), "Rp20.000"): Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_TotalAmount_Summary' are matched.
+
+2022-05-10 19:08:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_TotalAmount_Summary' are matched.
+
+2022-05-10 19:08:57 - [TEST_STEP][PASSED] - verifyEqual(total1, total2, STOP_ON_FAILURE): Actual object 'true' and expected object 'true' are equal
+
+2022-05-10 19:08:57 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2022-05-10 19:08:57 - [TEST_STEP][PASSED] - click(findTestObject("5. PopUp Detail/Button_Float_Up")): Object: 'Object Repository/5. PopUp Detail/Button_Float_Up' is clicked on
+
+2022-05-10 19:08:57 - [MESSAGE][PASSED] - Object: 'Object Repository/5. PopUp Detail/Button_Float_Up' is clicked on
+
+2022-05-10 19:08:57 - [TEST_STEP][PASSED] - click(findTestObject("4. Payment/a_Button_HowToPay")): Object: 'Object Repository/4. Payment/a_Button_HowToPay' is clicked on
+
+2022-05-10 19:08:58 - [MESSAGE][PASSED] - Object: 'Object Repository/4. Payment/a_Button_HowToPay' is clicked on
+
+2022-05-10 19:08:58 - [TEST_STEP][PASSED] - click(findTestObject("4. Payment/Payment_ATMBankTransfer/Button_HTP_ATMPermata")): Object: 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_HTP_ATMPermata' is clicked on
+
+2022-05-10 19:08:58 - [MESSAGE][PASSED] - Object: 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_HTP_ATMPermata' is clicked on
+
+2022-05-10 19:08:58 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_Step1_ATMPermata"), "Select other transactions on the main menu."): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Step1_ATMPermata' are matched.
+
+2022-05-10 19:08:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Step1_ATMPermata' are matched.
+
+2022-05-10 19:08:59 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_Step2_ATMPermata"), "Select payment."): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Step2_ATMPermata' are matched.
+
+2022-05-10 19:08:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Step2_ATMPermata' are matched.
+
+2022-05-10 19:08:59 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_Step3_ATMPermata"), "Select other payments."): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Step3_ATMPermata' are matched.
+
+2022-05-10 19:09:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Step3_ATMPermata' are matched.
+
+2022-05-10 19:09:00 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_Step4_ATMPermata"), "Select virtual account."): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Step4_ATMPermata' are matched.
+
+2022-05-10 19:09:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Step4_ATMPermata' are matched.
+
+2022-05-10 19:09:00 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_Step5_ATMPermata"), "Insert virtual account number, then confirm."): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Step5_ATMPermata' are matched.
+
+2022-05-10 19:09:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Step5_ATMPermata' are matched.
+
+2022-05-10 19:09:01 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_Step6_ATMPermata"), "Payment complete."): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Step6_ATMPermata' are matched.
+
+2022-05-10 19:09:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Step6_ATMPermata' are matched.
+
+2022-05-10 19:09:01 - [TEST_STEP][PASSED] - click(findTestObject("4. Payment/Payment_ATMBankTransfer/Button_IHavePaid")): Object: 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_IHavePaid' is clicked on
+
+2022-05-10 19:09:02 - [MESSAGE][PASSED] - Object: 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_IHavePaid' is clicked on
+
+2022-05-10 19:09:02 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_YourTrxBeingProcess"), "Your transaction is being processed"): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_YourTrxBeingProcess' are matched.
+
+2022-05-10 19:09:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_YourTrxBeingProcess' are matched.
+
+2022-05-10 19:09:02 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_Success_TotalAmount"), "Rp20.000"): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Success_TotalAmount' are matched.
+
+2022-05-10 19:09:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Success_TotalAmount' are matched.
+
+2022-05-10 19:09:02 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_Success_TextInfo1"), "If you make a payment using an e-wallet or a credit/debit card, you have completed your payment."): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Success_TextInfo1' are matched.
+
+2022-05-10 19:09:03 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Success_TextInfo1' are matched.
+
+2022-05-10 19:09:03 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_Success_TextInfo2"), "If you made a payment via bank transfer, please continue the payment process."): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Success_TextInfo2' are matched.
+
+2022-05-10 19:09:03 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Success_TextInfo2' are matched.
+
+2022-05-10 19:09:03 - [TEST_STEP][PASSED] - click(findTestObject("4. Payment/Payment_CC/Button_BackToMerchantsWeb")): Object: 'Object Repository/4. Payment/Payment_CC/Button_BackToMerchantsWeb' is clicked on
+
+2022-05-10 19:09:04 - [MESSAGE][PASSED] - Object: 'Object Repository/4. Payment/Payment_CC/Button_BackToMerchantsWeb' is clicked on
+
+2022-05-10 19:09:04 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_BookedPayment"), STOP_ON_FAILURE): Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_BookedPayment' is visible
+
+2022-05-10 19:09:04 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_BookedPayment' is visible
+
+2022-05-10 19:09:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-05-10 19:09:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SmallProject1_Version2/TC64_UserSelectMethod_BankTransferBRI" time="27.679" classname="Test Cases/SmallProject1_Version2/TC64_UserSelectMethod_BankTransferBRI" status="PASSED">
+         <system-out><![CDATA[2022-05-10 19:09:05 - [TEST_CASE][PASSED] - Test Cases/SmallProject1_Version2/TC64_UserSelectMethod_BankTransferBRI: Test Cases/SmallProject1_Version2/TC64_UserSelectMethod_BankTransferBRI
+
+2022-05-10 19:09:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("SmallProject1_Version2/TC32_UserSuccessCheckout"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/SmallProject1_Version2/TC32_UserSuccessCheckout' successfully
+
+2022-05-10 19:09:05 - [TEST_CASE][PASSED] - Test Cases/SmallProject1_Version2/TC32_UserSuccessCheckout: Test Cases/SmallProject1_Version2/TC32_UserSuccessCheckout
+
+2022-05-10 19:09:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-05-10 19:09:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-10 19:09:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-10 19:09:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-05-10 19:09:07 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-05-10 19:09:07 - [MESSAGE][PASSED] - Current window maximized
+
+2022-05-10 19:09:07 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.midtrans.com/"): Navigate to 'https://demo.midtrans.com/' successfully
+
+2022-05-10 19:09:07 - [MESSAGE][PASSED] - Navigate to 'https://demo.midtrans.com/' successfully
+
+2022-05-10 19:09:07 - [TEST_STEP][PASSED] - click(findTestObject("3. Checkout/a_BUY NOW")): Object: 'Object Repository/3. Checkout/a_BUY NOW' is clicked on
+
+2022-05-10 19:09:08 - [MESSAGE][PASSED] - Object: 'Object Repository/3. Checkout/a_BUY NOW' is clicked on
+
+2022-05-10 19:09:08 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("3. Checkout/Verify_ShoppingCart"), 0): Object 'Object Repository/3. Checkout/Verify_ShoppingCart' is present and visible in viewport
+
+2022-05-10 19:09:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-10 19:09:09 - [MESSAGE][PASSED] - Object 'Object Repository/3. Checkout/Verify_ShoppingCart' is present and visible in viewport
+
+2022-05-10 19:09:09 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("3. Checkout/Verify_TotalAmount"), "20,000"): Actual text and expected text of test object 'Object Repository/3. Checkout/Verify_TotalAmount' are matched.
+
+2022-05-10 19:09:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/3. Checkout/Verify_TotalAmount' are matched.
+
+2022-05-10 19:09:09 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("3. Checkout/Verify_CustomerDetail"), "Customer Details"): Actual text and expected text of test object 'Object Repository/3. Checkout/Verify_CustomerDetail' are matched.
+
+2022-05-10 19:09:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/3. Checkout/Verify_CustomerDetail' are matched.
+
+2022-05-10 19:09:09 - [TEST_STEP][PASSED] - setText(findTestObject("3. Checkout/Field_Name"), Name): Text 'Yulia' is set on object 'Object Repository/3. Checkout/Field_Name'
+
+2022-05-10 19:09:10 - [MESSAGE][PASSED] - Text 'Yulia' is set on object 'Object Repository/3. Checkout/Field_Name'
+
+2022-05-10 19:09:10 - [TEST_STEP][PASSED] - setText(findTestObject("3. Checkout/Field_Email"), Email): Text 'yulia@email.com' is set on object 'Object Repository/3. Checkout/Field_Email'
+
+2022-05-10 19:09:11 - [MESSAGE][PASSED] - Text 'yulia@email.com' is set on object 'Object Repository/3. Checkout/Field_Email'
+
+2022-05-10 19:09:11 - [TEST_STEP][PASSED] - setText(findTestObject("3. Checkout/Field_Phone"), Phone): Text '081234567890' is set on object 'Object Repository/3. Checkout/Field_Phone'
+
+2022-05-10 19:09:11 - [MESSAGE][PASSED] - Text '081234567890' is set on object 'Object Repository/3. Checkout/Field_Phone'
+
+2022-05-10 19:09:11 - [TEST_STEP][PASSED] - setText(findTestObject("3. Checkout/Field_City"), City): Text 'Jakarta' is set on object 'Object Repository/3. Checkout/Field_City'
+
+2022-05-10 19:09:12 - [MESSAGE][PASSED] - Text 'Jakarta' is set on object 'Object Repository/3. Checkout/Field_City'
+
+2022-05-10 19:09:12 - [TEST_STEP][PASSED] - setText(findTestObject("3. Checkout/Field_Address"), Address): Text 'Jalan Jend. Sudirman Kav 10' is set on object 'Object Repository/3. Checkout/Field_Address'
+
+2022-05-10 19:09:13 - [MESSAGE][PASSED] - Text 'Jalan Jend. Sudirman Kav 10' is set on object 'Object Repository/3. Checkout/Field_Address'
+
+2022-05-10 19:09:13 - [TEST_STEP][PASSED] - setText(findTestObject("3. Checkout/Field_PostalCode"), PostalCode): Text '12345' is set on object 'Object Repository/3. Checkout/Field_PostalCode'
+
+2022-05-10 19:09:13 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/3. Checkout/Field_PostalCode'
+
+2022-05-10 19:09:13 - [TEST_STEP][PASSED] - click(findTestObject("3. Checkout/Button_Checkout")): Object: 'Object Repository/3. Checkout/Button_Checkout' is clicked on
+
+2022-05-10 19:09:14 - [MESSAGE][PASSED] - Object: 'Object Repository/3. Checkout/Button_Checkout' is clicked on
+
+2022-05-10 19:09:14 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-05-10 19:09:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-05-10 19:09:15 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-05-10 19:09:15 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-05-10 19:09:15 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\220005\\Katalon Studio\\SmallProject1_Yulia\\Reports\\20220510_190650\\TS03 - Payment Method - Bank Transfer\\20220510_190650\\1652184555315.png]]
+
+2022-05-10 19:09:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("5. PopUp Detail/Time_PayWithin"), STOP_ON_FAILURE): Object 'Object Repository/5. PopUp Detail/Time_PayWithin' is visible
+
+2022-05-10 19:09:16 - [MESSAGE][PASSED] - Object 'Object Repository/5. PopUp Detail/Time_PayWithin' is visible
+
+2022-05-10 19:09:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("5. PopUp Detail/Verify_OrderID_PopUp")): Object 'Object Repository/5. PopUp Detail/Verify_OrderID_PopUp' is visible
+
+2022-05-10 19:09:16 - [MESSAGE][PASSED] - Object 'Object Repository/5. PopUp Detail/Verify_OrderID_PopUp' is visible
+
+2022-05-10 19:09:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("3. Checkout/Verify_MethodList")): Object 'Object Repository/3. Checkout/Verify_MethodList' is visible
+
+2022-05-10 19:09:17 - [MESSAGE][PASSED] - Object 'Object Repository/3. Checkout/Verify_MethodList' is visible
+
+2022-05-10 19:09:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/SmallProject1_Version2/TC32_UserSuccessCheckout' successfully
+
+2022-05-10 19:09:17 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("4. Payment/Payment_ATMBankTransfer/Title_BankTransfer")): Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Title_BankTransfer' is visible
+
+2022-05-10 19:09:17 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Title_BankTransfer' is visible
+
+2022-05-10 19:09:17 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("4. Payment/Payment_ATMBankTransfer/Logo_BankTransfer")): Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Logo_BankTransfer' is visible
+
+2022-05-10 19:09:18 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Logo_BankTransfer' is visible
+
+2022-05-10 19:09:18 - [TEST_STEP][PASSED] - click(findTestObject("4. Payment/Payment_ATMBankTransfer/Button_BankTransfer")): Object: 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_BankTransfer' is clicked on
+
+2022-05-10 19:09:18 - [MESSAGE][PASSED] - Object: 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_BankTransfer' is clicked on
+
+2022-05-10 19:09:18 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_ATMBankTransfer/Header_BankTransfer"), "Bank transfer"): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Header_BankTransfer' are matched.
+
+2022-05-10 19:09:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Header_BankTransfer' are matched.
+
+2022-05-10 19:09:19 - [TEST_STEP][PASSED] - click(findTestObject("4. Payment/Payment_ATMBankTransfer/Button_BRI")): Object: 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_BRI' is clicked on
+
+2022-05-10 19:09:19 - [MESSAGE][PASSED] - Object: 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_BRI' is clicked on
+
+2022-05-10 19:09:19 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-05-10 19:09:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-05-10 19:09:20 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-05-10 19:09:20 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-05-10 19:09:21 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\220005\\Katalon Studio\\SmallProject1_Yulia\\Reports\\20220510_190650\\TS03 - Payment Method - Bank Transfer\\20220510_190650\\1652184560559.png]]
+
+2022-05-10 19:09:21 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/a_Header_Details"), "Bank BRI"): Actual text and expected text of test object 'Object Repository/4. Payment/a_Header_Details' are matched.
+
+2022-05-10 19:09:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/a_Header_Details' are matched.
+
+2022-05-10 19:09:21 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("4. Payment/Payment_ATMBankTransfer/Desc_AllBank")): Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Desc_AllBank' is visible
+
+2022-05-10 19:09:21 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Desc_AllBank' is visible
+
+2022-05-10 19:09:21 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("4. Payment/Payment_ATMBankTransfer/VAnumber_BRI")): Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/VAnumber_BRI' is visible
+
+2022-05-10 19:09:22 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/VAnumber_BRI' is visible
+
+2022-05-10 19:09:22 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("4. Payment/Payment_ATMBankTransfer/Button_Copy")): Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_Copy' is clickable
+
+2022-05-10 19:09:22 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_Copy' is clickable
+
+2022-05-10 19:09:22 - [TEST_STEP][PASSED] - click(findTestObject("5. PopUp Detail/Button_Float_Down")): Object: 'Object Repository/5. PopUp Detail/Button_Float_Down' is clicked on
+
+2022-05-10 19:09:23 - [MESSAGE][PASSED] - Object: 'Object Repository/5. PopUp Detail/Button_Float_Down' is clicked on
+
+2022-05-10 19:09:23 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("5. PopUp Detail/Verify_AmountMidtransPillow"), "Rp20.000"): Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_AmountMidtransPillow' are matched.
+
+2022-05-10 19:09:23 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_AmountMidtransPillow' are matched.
+
+2022-05-10 19:09:23 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("5. PopUp Detail/Verify_Name_Summary"), Name): Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_Name_Summary' are matched.
+
+2022-05-10 19:09:24 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_Name_Summary' are matched.
+
+2022-05-10 19:09:24 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("5. PopUp Detail/Verify_Addess_Summary"), Address_2): Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_Addess_Summary' are matched.
+
+2022-05-10 19:09:24 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_Addess_Summary' are matched.
+
+2022-05-10 19:09:24 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("5. PopUp Detail/Verify_Phone_Summary"), Phone_2): Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_Phone_Summary' are matched.
+
+2022-05-10 19:09:24 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_Phone_Summary' are matched.
+
+2022-05-10 19:09:24 - [TEST_STEP][PASSED] - total1 = verifyElementText(findTestObject("5. PopUp Detail/Verify_TotalAmount_PopUp"), "Rp20.000"): Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_TotalAmount_PopUp' are matched.
+
+2022-05-10 19:09:25 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_TotalAmount_PopUp' are matched.
+
+2022-05-10 19:09:25 - [TEST_STEP][PASSED] - total2 = verifyElementText(findTestObject("5. PopUp Detail/Verify_TotalAmount_Summary"), "Rp20.000"): Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_TotalAmount_Summary' are matched.
+
+2022-05-10 19:09:25 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_TotalAmount_Summary' are matched.
+
+2022-05-10 19:09:25 - [TEST_STEP][PASSED] - verifyEqual(total1, total2, STOP_ON_FAILURE): Actual object 'true' and expected object 'true' are equal
+
+2022-05-10 19:09:25 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2022-05-10 19:09:25 - [TEST_STEP][PASSED] - click(findTestObject("5. PopUp Detail/Button_Float_Up")): Object: 'Object Repository/5. PopUp Detail/Button_Float_Up' is clicked on
+
+2022-05-10 19:09:26 - [MESSAGE][PASSED] - Object: 'Object Repository/5. PopUp Detail/Button_Float_Up' is clicked on
+
+2022-05-10 19:09:26 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("4. Payment/a_Button_HowToPay")): Object 'Object Repository/4. Payment/a_Button_HowToPay' is clickable
+
+2022-05-10 19:09:26 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/a_Button_HowToPay' is clickable
+
+2022-05-10 19:09:26 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("4. Payment/Payment_ATMBankTransfer/Button_HTP_ATM")): Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_HTP_ATM' is clickable
+
+2022-05-10 19:09:27 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_HTP_ATM' is clickable
+
+2022-05-10 19:09:27 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_Steps_ATM"), 0): Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Steps_ATM' is present
+
+2022-05-10 19:09:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-10 19:09:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-10 19:09:27 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Steps_ATM' is present
+
+2022-05-10 19:09:27 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("4. Payment/Payment_ATMBankTransfer/Button_HTP_IB")): Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_HTP_IB' is clickable
+
+2022-05-10 19:09:28 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_HTP_IB' is clickable
+
+2022-05-10 19:09:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_Steps_IB"), 0): Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Steps_IB' is present
+
+2022-05-10 19:09:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-10 19:09:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-10 19:09:28 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Steps_IB' is present
+
+2022-05-10 19:09:28 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("4. Payment/Payment_ATMBankTransfer/Button_HTP_mBanking")): Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_HTP_mBanking' is clickable
+
+2022-05-10 19:09:28 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_HTP_mBanking' is clickable
+
+2022-05-10 19:09:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_Steps_mBanking"), 0): Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Steps_mBanking' is present
+
+2022-05-10 19:09:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-10 19:09:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-10 19:09:29 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Steps_mBanking' is present
+
+2022-05-10 19:09:29 - [TEST_STEP][PASSED] - click(findTestObject("4. Payment/Payment_ATMBankTransfer/Button_IHavePaid")): Object: 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_IHavePaid' is clicked on
+
+2022-05-10 19:09:29 - [MESSAGE][PASSED] - Object: 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_IHavePaid' is clicked on
+
+2022-05-10 19:09:29 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_YourTrxBeingProcess"), "Your transaction is being processed"): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_YourTrxBeingProcess' are matched.
+
+2022-05-10 19:09:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_YourTrxBeingProcess' are matched.
+
+2022-05-10 19:09:30 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_Success_TotalAmount"), "Rp20.000"): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Success_TotalAmount' are matched.
+
+2022-05-10 19:09:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Success_TotalAmount' are matched.
+
+2022-05-10 19:09:30 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_Success_TextInfo1"), "If you make a payment using an e-wallet or a credit/debit card, you have completed your payment."): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Success_TextInfo1' are matched.
+
+2022-05-10 19:09:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Success_TextInfo1' are matched.
+
+2022-05-10 19:09:31 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_Success_TextInfo2"), "If you made a payment via bank transfer, please continue the payment process."): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Success_TextInfo2' are matched.
+
+2022-05-10 19:09:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Success_TextInfo2' are matched.
+
+2022-05-10 19:09:31 - [TEST_STEP][PASSED] - click(findTestObject("4. Payment/Payment_CC/Button_BackToMerchantsWeb")): Object: 'Object Repository/4. Payment/Payment_CC/Button_BackToMerchantsWeb' is clicked on
+
+2022-05-10 19:09:31 - [MESSAGE][PASSED] - Object: 'Object Repository/4. Payment/Payment_CC/Button_BackToMerchantsWeb' is clicked on
+
+2022-05-10 19:09:32 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_BookedPayment"), STOP_ON_FAILURE): Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_BookedPayment' is visible
+
+2022-05-10 19:09:32 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_BookedPayment' is visible
+
+2022-05-10 19:09:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-05-10 19:09:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SmallProject1_Version2/TC65_UserSelectMethod_BankTransferOtherBank" time="28.661" classname="Test Cases/SmallProject1_Version2/TC65_UserSelectMethod_BankTransferOtherBank" status="PASSED">
+         <system-out><![CDATA[2022-05-10 19:09:33 - [TEST_CASE][PASSED] - Test Cases/SmallProject1_Version2/TC65_UserSelectMethod_BankTransferOtherBank: Test Cases/SmallProject1_Version2/TC65_UserSelectMethod_BankTransferOtherBank
+
+2022-05-10 19:09:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("SmallProject1_Version2/TC32_UserSuccessCheckout"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/SmallProject1_Version2/TC32_UserSuccessCheckout' successfully
+
+2022-05-10 19:09:33 - [TEST_CASE][PASSED] - Test Cases/SmallProject1_Version2/TC32_UserSuccessCheckout: Test Cases/SmallProject1_Version2/TC32_UserSuccessCheckout
+
+2022-05-10 19:09:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-05-10 19:09:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-10 19:09:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-10 19:09:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-05-10 19:09:34 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-05-10 19:09:34 - [MESSAGE][PASSED] - Current window maximized
+
+2022-05-10 19:09:34 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.midtrans.com/"): Navigate to 'https://demo.midtrans.com/' successfully
+
+2022-05-10 19:09:35 - [MESSAGE][PASSED] - Navigate to 'https://demo.midtrans.com/' successfully
+
+2022-05-10 19:09:35 - [TEST_STEP][PASSED] - click(findTestObject("3. Checkout/a_BUY NOW")): Object: 'Object Repository/3. Checkout/a_BUY NOW' is clicked on
+
+2022-05-10 19:09:36 - [MESSAGE][PASSED] - Object: 'Object Repository/3. Checkout/a_BUY NOW' is clicked on
+
+2022-05-10 19:09:36 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("3. Checkout/Verify_ShoppingCart"), 0): Object 'Object Repository/3. Checkout/Verify_ShoppingCart' is present and visible in viewport
+
+2022-05-10 19:09:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-10 19:09:36 - [MESSAGE][PASSED] - Object 'Object Repository/3. Checkout/Verify_ShoppingCart' is present and visible in viewport
+
+2022-05-10 19:09:36 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("3. Checkout/Verify_TotalAmount"), "20,000"): Actual text and expected text of test object 'Object Repository/3. Checkout/Verify_TotalAmount' are matched.
+
+2022-05-10 19:09:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/3. Checkout/Verify_TotalAmount' are matched.
+
+2022-05-10 19:09:36 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("3. Checkout/Verify_CustomerDetail"), "Customer Details"): Actual text and expected text of test object 'Object Repository/3. Checkout/Verify_CustomerDetail' are matched.
+
+2022-05-10 19:09:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/3. Checkout/Verify_CustomerDetail' are matched.
+
+2022-05-10 19:09:37 - [TEST_STEP][PASSED] - setText(findTestObject("3. Checkout/Field_Name"), Name): Text 'Yulia' is set on object 'Object Repository/3. Checkout/Field_Name'
+
+2022-05-10 19:09:37 - [MESSAGE][PASSED] - Text 'Yulia' is set on object 'Object Repository/3. Checkout/Field_Name'
+
+2022-05-10 19:09:37 - [TEST_STEP][PASSED] - setText(findTestObject("3. Checkout/Field_Email"), Email): Text 'yulia@email.com' is set on object 'Object Repository/3. Checkout/Field_Email'
+
+2022-05-10 19:09:38 - [MESSAGE][PASSED] - Text 'yulia@email.com' is set on object 'Object Repository/3. Checkout/Field_Email'
+
+2022-05-10 19:09:38 - [TEST_STEP][PASSED] - setText(findTestObject("3. Checkout/Field_Phone"), Phone): Text '081234567890' is set on object 'Object Repository/3. Checkout/Field_Phone'
+
+2022-05-10 19:09:39 - [MESSAGE][PASSED] - Text '081234567890' is set on object 'Object Repository/3. Checkout/Field_Phone'
+
+2022-05-10 19:09:39 - [TEST_STEP][PASSED] - setText(findTestObject("3. Checkout/Field_City"), City): Text 'Jakarta' is set on object 'Object Repository/3. Checkout/Field_City'
+
+2022-05-10 19:09:40 - [MESSAGE][PASSED] - Text 'Jakarta' is set on object 'Object Repository/3. Checkout/Field_City'
+
+2022-05-10 19:09:40 - [TEST_STEP][PASSED] - setText(findTestObject("3. Checkout/Field_Address"), Address): Text 'Jalan Jend. Sudirman Kav 10' is set on object 'Object Repository/3. Checkout/Field_Address'
+
+2022-05-10 19:09:40 - [MESSAGE][PASSED] - Text 'Jalan Jend. Sudirman Kav 10' is set on object 'Object Repository/3. Checkout/Field_Address'
+
+2022-05-10 19:09:40 - [TEST_STEP][PASSED] - setText(findTestObject("3. Checkout/Field_PostalCode"), PostalCode): Text '12345' is set on object 'Object Repository/3. Checkout/Field_PostalCode'
+
+2022-05-10 19:09:41 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/3. Checkout/Field_PostalCode'
+
+2022-05-10 19:09:41 - [TEST_STEP][PASSED] - click(findTestObject("3. Checkout/Button_Checkout")): Object: 'Object Repository/3. Checkout/Button_Checkout' is clicked on
+
+2022-05-10 19:09:41 - [MESSAGE][PASSED] - Object: 'Object Repository/3. Checkout/Button_Checkout' is clicked on
+
+2022-05-10 19:09:41 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-05-10 19:09:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-05-10 19:09:42 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-05-10 19:09:43 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-05-10 19:09:43 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\220005\\Katalon Studio\\SmallProject1_Yulia\\Reports\\20220510_190650\\TS03 - Payment Method - Bank Transfer\\20220510_190650\\1652184582879.png]]
+
+2022-05-10 19:09:43 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("5. PopUp Detail/Time_PayWithin"), STOP_ON_FAILURE): Object 'Object Repository/5. PopUp Detail/Time_PayWithin' is visible
+
+2022-05-10 19:09:43 - [MESSAGE][PASSED] - Object 'Object Repository/5. PopUp Detail/Time_PayWithin' is visible
+
+2022-05-10 19:09:43 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("5. PopUp Detail/Verify_OrderID_PopUp")): Object 'Object Repository/5. PopUp Detail/Verify_OrderID_PopUp' is visible
+
+2022-05-10 19:09:44 - [MESSAGE][PASSED] - Object 'Object Repository/5. PopUp Detail/Verify_OrderID_PopUp' is visible
+
+2022-05-10 19:09:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("3. Checkout/Verify_MethodList")): Object 'Object Repository/3. Checkout/Verify_MethodList' is visible
+
+2022-05-10 19:09:44 - [MESSAGE][PASSED] - Object 'Object Repository/3. Checkout/Verify_MethodList' is visible
+
+2022-05-10 19:09:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/SmallProject1_Version2/TC32_UserSuccessCheckout' successfully
+
+2022-05-10 19:09:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("4. Payment/Payment_ATMBankTransfer/Title_BankTransfer")): Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Title_BankTransfer' is visible
+
+2022-05-10 19:09:45 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Title_BankTransfer' is visible
+
+2022-05-10 19:09:45 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("4. Payment/Payment_ATMBankTransfer/Logo_BankTransfer")): Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Logo_BankTransfer' is visible
+
+2022-05-10 19:09:45 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Logo_BankTransfer' is visible
+
+2022-05-10 19:09:45 - [TEST_STEP][PASSED] - click(findTestObject("4. Payment/Payment_ATMBankTransfer/Button_BankTransfer")): Object: 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_BankTransfer' is clicked on
+
+2022-05-10 19:09:46 - [MESSAGE][PASSED] - Object: 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_BankTransfer' is clicked on
+
+2022-05-10 19:09:46 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_ATMBankTransfer/Header_BankTransfer"), "Bank transfer"): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Header_BankTransfer' are matched.
+
+2022-05-10 19:09:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Header_BankTransfer' are matched.
+
+2022-05-10 19:09:46 - [TEST_STEP][PASSED] - click(findTestObject("4. Payment/Payment_ATMBankTransfer/Button_OtherBank")): Object: 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_OtherBank' is clicked on
+
+2022-05-10 19:09:47 - [MESSAGE][PASSED] - Object: 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_OtherBank' is clicked on
+
+2022-05-10 19:09:47 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-05-10 19:09:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-05-10 19:09:48 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-05-10 19:09:48 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-05-10 19:09:48 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\220005\\Katalon Studio\\SmallProject1_Yulia\\Reports\\20220510_190650\\TS03 - Payment Method - Bank Transfer\\20220510_190650\\1652184588313.png]]
+
+2022-05-10 19:09:48 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/a_Header_Details"), "Other bank"): Actual text and expected text of test object 'Object Repository/4. Payment/a_Header_Details' are matched.
+
+2022-05-10 19:09:49 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/a_Header_Details' are matched.
+
+2022-05-10 19:09:49 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("4. Payment/Payment_ATMBankTransfer/Desc_AllBank")): Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Desc_AllBank' is visible
+
+2022-05-10 19:09:49 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Desc_AllBank' is visible
+
+2022-05-10 19:09:49 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("4. Payment/Payment_ATMBankTransfer/BankCode")): Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/BankCode' is visible
+
+2022-05-10 19:09:50 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/BankCode' is visible
+
+2022-05-10 19:09:50 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("4. Payment/Payment_ATMBankTransfer/VAnumber_OtherBank")): Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/VAnumber_OtherBank' is visible
+
+2022-05-10 19:09:50 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/VAnumber_OtherBank' is visible
+
+2022-05-10 19:09:50 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("4. Payment/Payment_ATMBankTransfer/Button_Copy_ATMB")): Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_Copy_ATMB' is clickable
+
+2022-05-10 19:09:50 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_Copy_ATMB' is clickable
+
+2022-05-10 19:09:50 - [TEST_STEP][PASSED] - click(findTestObject("5. PopUp Detail/Button_Float_Down")): Object: 'Object Repository/5. PopUp Detail/Button_Float_Down' is clicked on
+
+2022-05-10 19:09:51 - [MESSAGE][PASSED] - Object: 'Object Repository/5. PopUp Detail/Button_Float_Down' is clicked on
+
+2022-05-10 19:09:51 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("5. PopUp Detail/Verify_AmountMidtransPillow"), "Rp20.000"): Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_AmountMidtransPillow' are matched.
+
+2022-05-10 19:09:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_AmountMidtransPillow' are matched.
+
+2022-05-10 19:09:51 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("5. PopUp Detail/Verify_Name_Summary"), Name): Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_Name_Summary' are matched.
+
+2022-05-10 19:09:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_Name_Summary' are matched.
+
+2022-05-10 19:09:52 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("5. PopUp Detail/Verify_Addess_Summary"), Address_2): Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_Addess_Summary' are matched.
+
+2022-05-10 19:09:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_Addess_Summary' are matched.
+
+2022-05-10 19:09:52 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("5. PopUp Detail/Verify_Phone_Summary"), Phone_2): Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_Phone_Summary' are matched.
+
+2022-05-10 19:09:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_Phone_Summary' are matched.
+
+2022-05-10 19:09:53 - [TEST_STEP][PASSED] - total1 = verifyElementText(findTestObject("5. PopUp Detail/Verify_TotalAmount_PopUp"), "Rp20.000"): Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_TotalAmount_PopUp' are matched.
+
+2022-05-10 19:09:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_TotalAmount_PopUp' are matched.
+
+2022-05-10 19:09:53 - [TEST_STEP][PASSED] - total2 = verifyElementText(findTestObject("5. PopUp Detail/Verify_TotalAmount_Summary"), "Rp20.000"): Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_TotalAmount_Summary' are matched.
+
+2022-05-10 19:09:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_TotalAmount_Summary' are matched.
+
+2022-05-10 19:09:54 - [TEST_STEP][PASSED] - verifyEqual(total1, total2, STOP_ON_FAILURE): Actual object 'true' and expected object 'true' are equal
+
+2022-05-10 19:09:54 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2022-05-10 19:09:54 - [TEST_STEP][PASSED] - click(findTestObject("5. PopUp Detail/Button_Float_Up")): Object: 'Object Repository/5. PopUp Detail/Button_Float_Up' is clicked on
+
+2022-05-10 19:09:54 - [MESSAGE][PASSED] - Object: 'Object Repository/5. PopUp Detail/Button_Float_Up' is clicked on
+
+2022-05-10 19:09:54 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("4. Payment/a_Button_HowToPay")): Object 'Object Repository/4. Payment/a_Button_HowToPay' is clickable
+
+2022-05-10 19:09:54 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/a_Button_HowToPay' is clickable
+
+2022-05-10 19:09:54 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("4. Payment/Payment_ATMBankTransfer/Button_HTP_Prima")): Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_HTP_Prima' is clickable
+
+2022-05-10 19:09:55 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_HTP_Prima' is clickable
+
+2022-05-10 19:09:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_Logo_Prima"), 0): Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Logo_Prima' is present
+
+2022-05-10 19:09:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-10 19:09:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-10 19:09:55 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Logo_Prima' is present
+
+2022-05-10 19:09:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_Steps_Prima"), 0): Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Steps_Prima' is present
+
+2022-05-10 19:09:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-10 19:09:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-10 19:09:56 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Steps_Prima' is present
+
+2022-05-10 19:09:56 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("4. Payment/Payment_ATMBankTransfer/Button_HTP_ATMBersama")): Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_HTP_ATMBersama' is clickable
+
+2022-05-10 19:09:56 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_HTP_ATMBersama' is clickable
+
+2022-05-10 19:09:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_Steps_ATMBersama"), 0): Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Steps_ATMBersama' is present
+
+2022-05-10 19:09:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-10 19:09:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-10 19:09:57 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Steps_ATMBersama' is present
+
+2022-05-10 19:09:57 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("4. Payment/Payment_ATMBankTransfer/Button_HTP_Alto")): Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_HTP_Alto' is clickable
+
+2022-05-10 19:09:57 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_HTP_Alto' is clickable
+
+2022-05-10 19:09:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_Steps_Alto"), 0): Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Steps_Alto' is present
+
+2022-05-10 19:09:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-10 19:09:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-10 19:09:57 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Steps_Alto' is present
+
+2022-05-10 19:09:57 - [TEST_STEP][PASSED] - click(findTestObject("4. Payment/Payment_ATMBankTransfer/Button_IHavePaid_ATMB")): Object: 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_IHavePaid_ATMB' is clicked on
+
+2022-05-10 19:09:58 - [MESSAGE][PASSED] - Object: 'Object Repository/4. Payment/Payment_ATMBankTransfer/Button_IHavePaid_ATMB' is clicked on
+
+2022-05-10 19:09:58 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_YourTrxBeingProcess"), "Your transaction is being processed"): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_YourTrxBeingProcess' are matched.
+
+2022-05-10 19:09:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_YourTrxBeingProcess' are matched.
+
+2022-05-10 19:09:58 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_Success_TotalAmount"), "Rp20.000"): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Success_TotalAmount' are matched.
+
+2022-05-10 19:09:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Success_TotalAmount' are matched.
+
+2022-05-10 19:09:59 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_Success_TextInfo1"), "If you make a payment using an e-wallet or a credit/debit card, you have completed your payment."): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Success_TextInfo1' are matched.
+
+2022-05-10 19:09:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Success_TextInfo1' are matched.
+
+2022-05-10 19:09:59 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_Success_TextInfo2"), "If you made a payment via bank transfer, please continue the payment process."): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Success_TextInfo2' are matched.
+
+2022-05-10 19:10:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_Success_TextInfo2' are matched.
+
+2022-05-10 19:10:00 - [TEST_STEP][PASSED] - click(findTestObject("4. Payment/Payment_CC/Button_BackToMerchantsWeb")): Object: 'Object Repository/4. Payment/Payment_CC/Button_BackToMerchantsWeb' is clicked on
+
+2022-05-10 19:10:00 - [MESSAGE][PASSED] - Object: 'Object Repository/4. Payment/Payment_CC/Button_BackToMerchantsWeb' is clicked on
+
+2022-05-10 19:10:00 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("4. Payment/Payment_ATMBankTransfer/Verify_BookedPayment"), STOP_ON_FAILURE): Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_BookedPayment' is visible
+
+2022-05-10 19:10:01 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Verify_BookedPayment' is visible
+
+2022-05-10 19:10:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-05-10 19:10:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-05-10 19:07:00 - [TEST_SUITE][PASSED] - TS03 - Payment Method - Bank Transfer: Test Cases/SmallProject1_Version2/TC65_UserSelectMethod_BankTransferOtherBank]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

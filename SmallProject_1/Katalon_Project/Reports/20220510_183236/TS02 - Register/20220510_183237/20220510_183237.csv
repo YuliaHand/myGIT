@@ -1,0 +1,39 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS02 - Register,Chrome 101.0.4951.54,,,2022-05-10 18:32:48,2022-05-10 18:33:32,43.895s,PASSED
+,,,,,,,
+Test Cases/SmallProject1_Version2/TS02_TC39_UserInputValidDataToAllFields_SIGNUP,Chrome 101.0.4951.54,,,2022-05-10 18:32:48,2022-05-10 18:33:10,22.400s,PASSED
+"callTestCase(findTestCase(""SmallProject1_Version2/TS01_TC04_CheckButtonFunction_SignUp""), [:], STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 18:32:48,2022-05-10 18:33:00,11.186s,PASSED
+"verifyElementVisible(findTestObject(""2. Register/Logo_Header""))",Chrome 101.0.4951.54,,,2022-05-10 18:33:00,2022-05-10 18:33:00,0.734s,PASSED
+"verifyElementText(findTestObject(""2. Register/Title_Registration""), ""Registration"")",Chrome 101.0.4951.54,,,2022-05-10 18:33:00,2022-05-10 18:33:01,0.677s,PASSED
+"verifyElementVisible(findTestObject(""2. Register/Desc_Registration""))",Chrome 101.0.4951.54,,,2022-05-10 18:33:01,2022-05-10 18:33:01,0.356s,PASSED
+"setText(findTestObject(""2. Register/Field_BusinessName""), ""Yulia123"")",Chrome 101.0.4951.54,,,2022-05-10 18:33:01,2022-05-10 18:33:03,1.318s,PASSED
+"setText(findTestObject(""2. Register/Field_FullName""), ""Yulia Handayani"")",Chrome 101.0.4951.54,,,2022-05-10 18:33:03,2022-05-10 18:33:03,0.697s,PASSED
+"setText(findTestObject(""2. Register/Field_BusinessEmail""), ""langit@gmail.com"")",Chrome 101.0.4951.54,,,2022-05-10 18:33:03,2022-05-10 18:33:04,0.697s,PASSED
+"setText(findTestObject(""2. Register/Field_PhoneNum""), ""081355353533"")",Chrome 101.0.4951.54,,,2022-05-10 18:33:04,2022-05-10 18:33:05,0.675s,PASSED
+"setText(findTestObject(""2. Register/Field_Password""), ""Yulia12345"")",Chrome 101.0.4951.54,,,2022-05-10 18:33:05,2022-05-10 18:33:05,0.696s,PASSED
+"setText(findTestObject(""2. Register/Field_ConfirmPwd""), ""Yulia12345"")",Chrome 101.0.4951.54,,,2022-05-10 18:33:05,2022-05-10 18:33:06,0.661s,PASSED
+"click(findTestObject(""2. Register/Button_RegisterMidtrans""))",Chrome 101.0.4951.54,,,2022-05-10 18:33:06,2022-05-10 18:33:06,0.381s,PASSED
+"verifyElementText(findTestObject(""2. Register/Verify_SuccessLogin""), ""Log In"")",Chrome 101.0.4951.54,,,2022-05-10 18:33:06,2022-05-10 18:33:09,2.701s,PASSED
+"verifyElementVisible(findTestObject(""2. Register/Desc_Login""))",Chrome 101.0.4951.54,,,2022-05-10 18:33:09,2022-05-10 18:33:10,0.360s,PASSED
+closeBrowser(),Chrome 101.0.4951.54,,,2022-05-10 18:33:10,2022-05-10 18:33:10,0.797s,PASSED
+,,,,,,,
+Test Cases/SmallProject1_Version2/TS02_TC40_UserDontInputDataToAllFields_SIGNUP,Chrome 101.0.4951.54,,,2022-05-10 18:33:10,2022-05-10 18:33:32,21.193s,PASSED
+"callTestCase(findTestCase(""SmallProject1_Version2/TS01_TC04_CheckButtonFunction_SignUp""), [:], STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 18:33:11,2022-05-10 18:33:20,8.864s,PASSED
+"verifyElementVisible(findTestObject(""2. Register/Logo_Header""))",Chrome 101.0.4951.54,,,2022-05-10 18:33:20,2022-05-10 18:33:20,0.709s,PASSED
+"verifyElementText(findTestObject(""2. Register/Title_Registration""), ""Registration"")",Chrome 101.0.4951.54,,,2022-05-10 18:33:20,2022-05-10 18:33:21,0.580s,PASSED
+"verifyElementVisible(findTestObject(""2. Register/Desc_Registration""))",Chrome 101.0.4951.54,,,2022-05-10 18:33:21,2022-05-10 18:33:21,0.322s,PASSED
+"setText(findTestObject(""2. Register/Field_BusinessName""), """")",Chrome 101.0.4951.54,,,2022-05-10 18:33:21,2022-05-10 18:33:22,1.193s,PASSED
+"setText(findTestObject(""2. Register/Field_FullName""), """")",Chrome 101.0.4951.54,,,2022-05-10 18:33:22,2022-05-10 18:33:23,0.644s,PASSED
+"setText(findTestObject(""2. Register/Field_BusinessEmail""), """")",Chrome 101.0.4951.54,,,2022-05-10 18:33:23,2022-05-10 18:33:24,0.639s,PASSED
+"setText(findTestObject(""2. Register/Field_PhoneNum""), """")",Chrome 101.0.4951.54,,,2022-05-10 18:33:24,2022-05-10 18:33:24,0.640s,PASSED
+"setText(findTestObject(""2. Register/Field_Password""), """")",Chrome 101.0.4951.54,,,2022-05-10 18:33:24,2022-05-10 18:33:25,0.641s,PASSED
+"setText(findTestObject(""2. Register/Field_ConfirmPwd""), """")",Chrome 101.0.4951.54,,,2022-05-10 18:33:25,2022-05-10 18:33:26,0.645s,PASSED
+"click(findTestObject(""2. Register/Button_RegisterMidtrans""))",Chrome 101.0.4951.54,,,2022-05-10 18:33:26,2022-05-10 18:33:26,0.363s,PASSED
+delay(3),Chrome 101.0.4951.54,,,2022-05-10 18:33:26,2022-05-10 18:33:29,3.007s,PASSED
+"verifyElementText(findTestObject(""2. Register/Failed_BusinessName""), ""Merchant name can't be blank"")",Chrome 101.0.4951.54,,,2022-05-10 18:33:29,2022-05-10 18:33:29,0.348s,PASSED
+"verifyElementText(findTestObject(""2. Register/Failed_FullName""), ""Full name can't be blank"")",Chrome 101.0.4951.54,,,2022-05-10 18:33:29,2022-05-10 18:33:30,0.326s,PASSED
+"verifyElementText(findTestObject(""2. Register/Failed_Email""), ""Email can't be blank"")",Chrome 101.0.4951.54,,,2022-05-10 18:33:30,2022-05-10 18:33:30,0.311s,PASSED
+"verifyElementText(findTestObject(""2. Register/Failed_Phone""), ""Phone can't be blank"")",Chrome 101.0.4951.54,,,2022-05-10 18:33:30,2022-05-10 18:33:30,0.322s,PASSED
+"verifyElementText(findTestObject(""2. Register/Failed_Password""), ""Password can't be blank"")",Chrome 101.0.4951.54,,,2022-05-10 18:33:30,2022-05-10 18:33:31,0.329s,PASSED
+"verifyElementText(findTestObject(""2. Register/Failed_PasswordConfirm""), ""Password confirmation can't be blank"")",Chrome 101.0.4951.54,,,2022-05-10 18:33:31,2022-05-10 18:33:31,0.330s,PASSED
+closeBrowser(),Chrome 101.0.4951.54,,,2022-05-10 18:33:31,2022-05-10 18:33:32,0.652s,PASSED

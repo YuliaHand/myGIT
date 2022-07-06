@@ -1,0 +1,66 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS03 - Payment Method - eWallet,Chrome 101.0.4951.54,,,2022-05-10 19:13:42,2022-05-10 19:14:35,52.357s,PASSED
+,,,,,,,
+Test Cases/SmallProject1_Version2/TC66_UserSelectMethod_GOPAY,Chrome 101.0.4951.54,,,2022-05-10 19:13:42,2022-05-10 19:14:10,27.295s,PASSED
+"callTestCase(findTestCase(""SmallProject1_Version2/TC32_UserSuccessCheckout""), [:], STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 19:13:43,2022-05-10 19:13:56,13.361s,PASSED
+"verifyElementVisible(findTestObject(""4. Payment/Payment_eWallet/Title_Gopay""))",Chrome 101.0.4951.54,,,2022-05-10 19:13:56,2022-05-10 19:13:57,0.490s,PASSED
+"verifyElementVisible(findTestObject(""4. Payment/Payment_eWallet/Logo_Gopay""))",Chrome 101.0.4951.54,,,2022-05-10 19:13:57,2022-05-10 19:13:57,0.457s,PASSED
+"click(findTestObject(""4. Payment/Payment_eWallet/Button_GOPAY""))",Chrome 101.0.4951.54,,,2022-05-10 19:13:57,2022-05-10 19:13:58,0.523s,PASSED
+delay(1),Chrome 101.0.4951.54,,,2022-05-10 19:13:58,2022-05-10 19:13:59,1.015s,PASSED
+takeFullPageScreenshot(),Chrome 101.0.4951.54,,,2022-05-10 19:13:59,2022-05-10 19:13:59,0.558s,PASSED
+"verifyElementText(findTestObject(""4. Payment/a_Header_Details""), ""GoPay"")",Chrome 101.0.4951.54,,,2022-05-10 19:13:59,2022-05-10 19:14:00,0.418s,PASSED
+"verifyElementVisible(findTestObject(""4. Payment/Payment_eWallet/a_IMG_QR_eWallet""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 19:14:00,2022-05-10 19:14:00,0.427s,PASSED
+"click(findTestObject(""5. PopUp Detail/Button_Float_Down""))",Chrome 101.0.4951.54,,,2022-05-10 19:14:00,2022-05-10 19:14:01,0.494s,PASSED
+"verifyElementText(findTestObject(""5. PopUp Detail/Verify_AmountMidtransPillow""), ""Rp20.000"")",Chrome 101.0.4951.54,,,2022-05-10 19:14:01,2022-05-10 19:14:01,0.428s,PASSED
+"total1 = verifyElementText(findTestObject(""5. PopUp Detail/Verify_TotalAmount_PopUp""), ""Rp20.000"")",Chrome 101.0.4951.54,,,2022-05-10 19:14:01,2022-05-10 19:14:01,0.431s,PASSED
+"total2 = verifyElementText(findTestObject(""5. PopUp Detail/Verify_TotalAmount_Summary""), ""Rp20.000"")",Chrome 101.0.4951.54,,,2022-05-10 19:14:01,2022-05-10 19:14:02,0.437s,PASSED
+"verifyEqual(total1, total2, STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 19:14:02,2022-05-10 19:14:02,0.009s,PASSED
+"verifyElementText(findTestObject(""5. PopUp Detail/Verify_Name_Summary""), Name)",Chrome 101.0.4951.54,,,2022-05-10 19:14:02,2022-05-10 19:14:02,0.419s,PASSED
+"verifyElementText(findTestObject(""5. PopUp Detail/Verify_Addess_Summary""), Address_2)",Chrome 101.0.4951.54,,,2022-05-10 19:14:02,2022-05-10 19:14:03,0.415s,PASSED
+"verifyElementText(findTestObject(""5. PopUp Detail/Verify_Phone_Summary""), Phone_2)",Chrome 101.0.4951.54,,,2022-05-10 19:14:03,2022-05-10 19:14:03,0.430s,PASSED
+"click(findTestObject(""5. PopUp Detail/Button_Float_Up""))",Chrome 101.0.4951.54,,,2022-05-10 19:14:03,2022-05-10 19:14:04,0.460s,PASSED
+"click(findTestObject(""4. Payment/a_Button_HowToPay""))",Chrome 101.0.4951.54,,,2022-05-10 19:14:04,2022-05-10 19:14:04,0.461s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_eWallet/Verify_Step1_eWallet""), ""Open your Gojek or other e-wallet apps."")",Chrome 101.0.4951.54,,,2022-05-10 19:14:04,2022-05-10 19:14:04,0.429s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_eWallet/Verify_Step2_eWallet""), ""Scan the QR code on your monitor."")",Chrome 101.0.4951.54,,,2022-05-10 19:14:04,2022-05-10 19:14:05,0.430s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_eWallet/Verify_Step3_eWallet""), ""Confirm payment in the app."")",Chrome 101.0.4951.54,,,2022-05-10 19:14:05,2022-05-10 19:14:05,0.430s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_eWallet/Verify_Step4_eWallet""), ""Payment complete."")",Chrome 101.0.4951.54,,,2022-05-10 19:14:05,2022-05-10 19:14:06,0.478s,PASSED
+"click(findTestObject(""4. Payment/Payment_ATMBankTransfer/Button_IHavePaid""))",Chrome 101.0.4951.54,,,2022-05-10 19:14:06,2022-05-10 19:14:06,0.462s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_ATMBankTransfer/Verify_YourTrxBeingProcess""), ""Your transaction is being processed"")",Chrome 101.0.4951.54,,,2022-05-10 19:14:06,2022-05-10 19:14:07,0.428s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_ATMBankTransfer/Verify_Success_TotalAmount""), ""Rp20.000"")",Chrome 101.0.4951.54,,,2022-05-10 19:14:07,2022-05-10 19:14:07,0.474s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_ATMBankTransfer/Verify_Success_TextInfo1""), ""If you make a payment using an e-wallet or a credit/debit card, you have completed your payment."")",Chrome 101.0.4951.54,,,2022-05-10 19:14:07,2022-05-10 19:14:08,0.428s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_ATMBankTransfer/Verify_Success_TextInfo2""), ""If you made a payment via bank transfer, please continue the payment process."")",Chrome 101.0.4951.54,,,2022-05-10 19:14:08,2022-05-10 19:14:08,0.413s,PASSED
+"click(findTestObject(""4. Payment/Payment_CC/Button_BackToMerchantsWeb""))",Chrome 101.0.4951.54,,,2022-05-10 19:14:08,2022-05-10 19:14:09,0.495s,PASSED
+"verifyElementVisible(findTestObject(""4. Payment/Payment_ATMBankTransfer/Verify_BookedPayment""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 19:14:09,2022-05-10 19:14:09,0.479s,PASSED
+closeBrowser(),Chrome 101.0.4951.54,,,2022-05-10 19:14:09,2022-05-10 19:14:10,0.737s,PASSED
+,,,,,,,
+Test Cases/SmallProject1_Version2/TC68_UserSelectMethod_ShopeePay,Chrome 101.0.4951.54,,,2022-05-10 19:14:10,2022-05-10 19:14:35,24.780s,PASSED
+"callTestCase(findTestCase(""SmallProject1_Version2/TC32_UserSuccessCheckout""), [:], STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 19:14:10,2022-05-10 19:14:21,11.298s,PASSED
+"verifyElementVisible(findTestObject(""4. Payment/Payment_eWallet/Title_ShopeePay""))",Chrome 101.0.4951.54,,,2022-05-10 19:14:21,2022-05-10 19:14:22,0.460s,PASSED
+"verifyElementVisible(findTestObject(""4. Payment/Payment_eWallet/Logo_ShopeePay""))",Chrome 101.0.4951.54,,,2022-05-10 19:14:22,2022-05-10 19:14:22,0.457s,PASSED
+"click(findTestObject(""4. Payment/Payment_eWallet/Button_ShopeePay""))",Chrome 101.0.4951.54,,,2022-05-10 19:14:22,2022-05-10 19:14:23,0.509s,PASSED
+delay(1),Chrome 101.0.4951.54,,,2022-05-10 19:14:23,2022-05-10 19:14:24,1.014s,PASSED
+takeFullPageScreenshot(),Chrome 101.0.4951.54,,,2022-05-10 19:14:24,2022-05-10 19:14:24,0.544s,PASSED
+"verifyElementText(findTestObject(""4. Payment/a_Header_Details""), ""ShopeePay"")",Chrome 101.0.4951.54,,,2022-05-10 19:14:24,2022-05-10 19:14:25,0.415s,PASSED
+"verifyElementVisible(findTestObject(""4. Payment/Payment_eWallet/a_IMG_QR_eWallet""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 19:14:25,2022-05-10 19:14:25,0.408s,PASSED
+"click(findTestObject(""5. PopUp Detail/Button_Float_Down""))",Chrome 101.0.4951.54,,,2022-05-10 19:14:25,2022-05-10 19:14:26,0.476s,PASSED
+"verifyElementText(findTestObject(""5. PopUp Detail/Verify_AmountMidtransPillow""), ""Rp20.000"")",Chrome 101.0.4951.54,,,2022-05-10 19:14:26,2022-05-10 19:14:26,0.429s,PASSED
+"total1 = verifyElementText(findTestObject(""5. PopUp Detail/Verify_TotalAmount_PopUp""), ""Rp20.000"")",Chrome 101.0.4951.54,,,2022-05-10 19:14:26,2022-05-10 19:14:26,0.412s,PASSED
+"total2 = verifyElementText(findTestObject(""5. PopUp Detail/Verify_TotalAmount_Summary""), ""Rp20.000"")",Chrome 101.0.4951.54,,,2022-05-10 19:14:26,2022-05-10 19:14:27,0.412s,PASSED
+"verifyEqual(total1, total2, STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 19:14:27,2022-05-10 19:14:27,0.002s,PASSED
+"verifyElementText(findTestObject(""5. PopUp Detail/Verify_Name_Summary""), Name)",Chrome 101.0.4951.54,,,2022-05-10 19:14:27,2022-05-10 19:14:27,0.424s,PASSED
+"verifyElementText(findTestObject(""5. PopUp Detail/Verify_Addess_Summary""), Address_2)",Chrome 101.0.4951.54,,,2022-05-10 19:14:27,2022-05-10 19:14:28,0.412s,PASSED
+"verifyElementText(findTestObject(""5. PopUp Detail/Verify_Phone_Summary""), Phone_2)",Chrome 101.0.4951.54,,,2022-05-10 19:14:28,2022-05-10 19:14:28,0.411s,PASSED
+"click(findTestObject(""5. PopUp Detail/Button_Float_Up""))",Chrome 101.0.4951.54,,,2022-05-10 19:14:28,2022-05-10 19:14:29,0.479s,PASSED
+"click(findTestObject(""4. Payment/a_Button_HowToPay""))",Chrome 101.0.4951.54,,,2022-05-10 19:14:29,2022-05-10 19:14:29,0.462s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_eWallet/Verify_Step1_eWallet""), ""Open your Shopee or other e-wallet app."")",Chrome 101.0.4951.54,,,2022-05-10 19:14:29,2022-05-10 19:14:29,0.416s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_eWallet/Verify_Step2_eWallet""), ""Scan the QR code on your monitor."")",Chrome 101.0.4951.54,,,2022-05-10 19:14:29,2022-05-10 19:14:30,0.414s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_eWallet/Verify_Step3_eWallet""), ""Confirm payment in the app."")",Chrome 101.0.4951.54,,,2022-05-10 19:14:30,2022-05-10 19:14:30,0.414s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_eWallet/Verify_Step4_eWallet""), ""Payment complete."")",Chrome 101.0.4951.54,,,2022-05-10 19:14:30,2022-05-10 19:14:31,0.412s,PASSED
+"click(findTestObject(""4. Payment/Payment_ATMBankTransfer/Button_IHavePaid""))",Chrome 101.0.4951.54,,,2022-05-10 19:14:31,2022-05-10 19:14:31,0.460s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_ATMBankTransfer/Verify_YourTrxBeingProcess""), ""Your transaction is being processed"")",Chrome 101.0.4951.54,,,2022-05-10 19:14:31,2022-05-10 19:14:32,0.409s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_ATMBankTransfer/Verify_Success_TotalAmount""), ""Rp20.000"")",Chrome 101.0.4951.54,,,2022-05-10 19:14:32,2022-05-10 19:14:32,0.412s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_ATMBankTransfer/Verify_Success_TextInfo1""), ""If you make a payment using an e-wallet or a credit/debit card, you have completed your payment."")",Chrome 101.0.4951.54,,,2022-05-10 19:14:32,2022-05-10 19:14:32,0.427s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_ATMBankTransfer/Verify_Success_TextInfo2""), ""If you made a payment via bank transfer, please continue the payment process."")",Chrome 101.0.4951.54,,,2022-05-10 19:14:32,2022-05-10 19:14:33,0.462s,PASSED
+"click(findTestObject(""4. Payment/Payment_CC/Button_BackToMerchantsWeb""))",Chrome 101.0.4951.54,,,2022-05-10 19:14:33,2022-05-10 19:14:33,0.490s,PASSED
+"verifyElementVisible(findTestObject(""4. Payment/Payment_ATMBankTransfer/Verify_BookedPayment""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 19:14:33,2022-05-10 19:14:34,0.452s,PASSED
+closeBrowser(),Chrome 101.0.4951.54,,,2022-05-10 19:14:34,2022-05-10 19:14:35,0.719s,PASSED

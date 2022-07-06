@@ -1,0 +1,99 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS03 - Checkout,Chrome 101.0.4951.54,,,2022-05-10 18:34:00,2022-05-10 18:35:26,1m - 26.765s,FAILED
+,,,,,,,
+Test Cases/SmallProject1_Version2/TC11_UserCheckout_WithInvalidEmailFormat,Chrome 101.0.4951.54,,,2022-05-10 18:34:00,2022-05-10 18:34:10,10.004s,PASSED
+"openBrowser("""")",Chrome 101.0.4951.54,,,2022-05-10 18:34:00,2022-05-10 18:34:02,2.242s,PASSED
+maximizeWindow(),Chrome 101.0.4951.54,,,2022-05-10 18:34:02,2022-05-10 18:34:03,0.153s,PASSED
+"navigateToUrl(""https://demo.midtrans.com/"")",Chrome 101.0.4951.54,,,2022-05-10 18:34:03,2022-05-10 18:34:03,0.474s,PASSED
+"click(findTestObject(""3. Checkout/a_BUY NOW""))",Chrome 101.0.4951.54,,,2022-05-10 18:34:03,2022-05-10 18:34:04,0.577s,PASSED
+"setText(findTestObject(""3. Checkout/Field_Name""), Name)",Chrome 101.0.4951.54,,,2022-05-10 18:34:04,2022-05-10 18:34:05,0.925s,PASSED
+"setText(findTestObject(""3. Checkout/Field_Email""), ""yuliasaja"")",Chrome 101.0.4951.54,,,2022-05-10 18:34:05,2022-05-10 18:34:05,0.667s,PASSED
+"setText(findTestObject(""3. Checkout/Field_Phone""), Phone)",Chrome 101.0.4951.54,,,2022-05-10 18:34:05,2022-05-10 18:34:06,0.681s,PASSED
+"setText(findTestObject(""3. Checkout/Field_City""), City)",Chrome 101.0.4951.54,,,2022-05-10 18:34:06,2022-05-10 18:34:07,0.671s,PASSED
+"setText(findTestObject(""3. Checkout/Field_Address""), Address)",Chrome 101.0.4951.54,,,2022-05-10 18:34:07,2022-05-10 18:34:07,0.736s,PASSED
+"setText(findTestObject(""3. Checkout/Field_PostalCode""), PostalCode)",Chrome 101.0.4951.54,,,2022-05-10 18:34:07,2022-05-10 18:34:08,0.688s,PASSED
+"click(findTestObject(""3. Checkout/Button_Checkout""))",Chrome 101.0.4951.54,,,2022-05-10 18:34:08,2022-05-10 18:34:08,0.363s,PASSED
+"verifyElementVisible(findTestObject(""3. Checkout/AlertMessage""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 18:34:08,2022-05-10 18:34:09,0.817s,PASSED
+closeBrowser(),Chrome 101.0.4951.54,,,2022-05-10 18:34:09,2022-05-10 18:34:10,0.665s,PASSED
+,,,,,,,
+Test Cases/SmallProject1_Version2/TC14_UserCheckout_WithInvalidPhoneNumber,Chrome 101.0.4951.54,,,2022-05-10 18:34:10,2022-05-10 18:34:49,38.745s,FAILED
+"openBrowser("""")",Chrome 101.0.4951.54,,,2022-05-10 18:34:10,2022-05-10 18:34:11,1.184s,PASSED
+maximizeWindow(),Chrome 101.0.4951.54,,,2022-05-10 18:34:11,2022-05-10 18:34:11,0.143s,PASSED
+"navigateToUrl(""https://demo.midtrans.com/"")",Chrome 101.0.4951.54,,,2022-05-10 18:34:11,2022-05-10 18:34:12,0.467s,PASSED
+"click(findTestObject(""3. Checkout/a_BUY NOW""))",Chrome 101.0.4951.54,,,2022-05-10 18:34:12,2022-05-10 18:34:12,0.537s,PASSED
+"setText(findTestObject(""3. Checkout/Field_Name""), Name)",Chrome 101.0.4951.54,,,2022-05-10 18:34:12,2022-05-10 18:34:13,0.905s,PASSED
+"setText(findTestObject(""3. Checkout/Field_Email""), Email)",Chrome 101.0.4951.54,,,2022-05-10 18:34:13,2022-05-10 18:34:14,0.699s,PASSED
+"setText(findTestObject(""3. Checkout/Field_Phone""), ""qwerty123!@#"")",Chrome 101.0.4951.54,,,2022-05-10 18:34:14,2022-05-10 18:34:15,0.678s,PASSED
+"setText(findTestObject(""3. Checkout/Field_City""), City)",Chrome 101.0.4951.54,,,2022-05-10 18:34:15,2022-05-10 18:34:15,0.688s,PASSED
+"setText(findTestObject(""3. Checkout/Field_Address""), Address)",Chrome 101.0.4951.54,,,2022-05-10 18:34:15,2022-05-10 18:34:16,0.727s,PASSED
+"setText(findTestObject(""3. Checkout/Field_PostalCode""), PostalCode)",Chrome 101.0.4951.54,,,2022-05-10 18:34:16,2022-05-10 18:34:17,0.670s,PASSED
+"click(findTestObject(""3. Checkout/Button_Checkout""))",Chrome 101.0.4951.54,,,2022-05-10 18:34:17,2022-05-10 18:34:17,0.365s,PASSED
+"verifyElementVisible(findTestObject(""3. Checkout/AlertMessage""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 18:34:17,2022-05-10 18:34:49,31.460s,FAILED
+,,,,,,,
+Test Cases/SmallProject1_Version2/TC28_UserCheckout_WithInvalidPostalCode,Chrome 101.0.4951.54,,,2022-05-10 18:34:49,2022-05-10 18:34:58,9.350s,PASSED
+"openBrowser("""")",Chrome 101.0.4951.54,,,2022-05-10 18:34:49,2022-05-10 18:34:51,1.809s,PASSED
+maximizeWindow(),Chrome 101.0.4951.54,,,2022-05-10 18:34:51,2022-05-10 18:34:51,0.129s,PASSED
+"navigateToUrl(""https://demo.midtrans.com/"")",Chrome 101.0.4951.54,,,2022-05-10 18:34:51,2022-05-10 18:34:51,0.463s,PASSED
+"click(findTestObject(""3. Checkout/a_BUY NOW""))",Chrome 101.0.4951.54,,,2022-05-10 18:34:51,2022-05-10 18:34:52,0.599s,PASSED
+"setText(findTestObject(""3. Checkout/Field_Name""), Name)",Chrome 101.0.4951.54,,,2022-05-10 18:34:52,2022-05-10 18:34:53,0.925s,PASSED
+"setText(findTestObject(""3. Checkout/Field_Email""), Email)",Chrome 101.0.4951.54,,,2022-05-10 18:34:53,2022-05-10 18:34:53,0.685s,PASSED
+"setText(findTestObject(""3. Checkout/Field_Phone""), Phone)",Chrome 101.0.4951.54,,,2022-05-10 18:34:53,2022-05-10 18:34:54,0.679s,PASSED
+"setText(findTestObject(""3. Checkout/Field_City""), City)",Chrome 101.0.4951.54,,,2022-05-10 18:34:54,2022-05-10 18:34:55,0.672s,PASSED
+"setText(findTestObject(""3. Checkout/Field_Address""), Address)",Chrome 101.0.4951.54,,,2022-05-10 18:34:55,2022-05-10 18:34:56,0.713s,PASSED
+"setText(findTestObject(""3. Checkout/Field_PostalCode""), ""12345qwe#!"")",Chrome 101.0.4951.54,,,2022-05-10 18:34:56,2022-05-10 18:34:56,0.685s,PASSED
+"click(findTestObject(""3. Checkout/Button_Checkout""))",Chrome 101.0.4951.54,,,2022-05-10 18:34:56,2022-05-10 18:34:57,0.365s,PASSED
+"verifyElementVisible(findTestObject(""3. Checkout/AlertMessage""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 18:34:57,2022-05-10 18:34:57,0.681s,PASSED
+closeBrowser(),Chrome 101.0.4951.54,,,2022-05-10 18:34:57,2022-05-10 18:34:58,0.695s,PASSED
+,,,,,,,
+Test Cases/SmallProject1_Version2/TC31_UserCheckout_WithoutInputData,Chrome 101.0.4951.54,,,2022-05-10 18:34:58,2022-05-10 18:35:06,7.581s,PASSED
+"openBrowser("""")",Chrome 101.0.4951.54,,,2022-05-10 18:34:58,2022-05-10 18:34:59,1.149s,PASSED
+"navigateToUrl(""https://demo.midtrans.com/"")",Chrome 101.0.4951.54,,,2022-05-10 18:34:59,2022-05-10 18:35:00,0.463s,PASSED
+maximizeWindow(),Chrome 101.0.4951.54,,,2022-05-10 18:35:00,2022-05-10 18:35:00,0.146s,PASSED
+"click(findTestObject(""3. Checkout/a_BUY NOW""))",Chrome 101.0.4951.54,,,2022-05-10 18:35:00,2022-05-10 18:35:00,0.465s,PASSED
+"setText(findTestObject(""3. Checkout/Field_Name""), "" "")",Chrome 101.0.4951.54,,,2022-05-10 18:35:00,2022-05-10 18:35:01,0.796s,PASSED
+"setText(findTestObject(""3. Checkout/Field_Email""), "" "")",Chrome 101.0.4951.54,,,2022-05-10 18:35:01,2022-05-10 18:35:02,0.651s,PASSED
+"setText(findTestObject(""3. Checkout/Field_Phone""), "" "")",Chrome 101.0.4951.54,,,2022-05-10 18:35:02,2022-05-10 18:35:02,0.646s,PASSED
+"setText(findTestObject(""3. Checkout/Field_City""), "" "")",Chrome 101.0.4951.54,,,2022-05-10 18:35:02,2022-05-10 18:35:03,0.661s,PASSED
+"setText(findTestObject(""3. Checkout/Field_Address""), "" "")",Chrome 101.0.4951.54,,,2022-05-10 18:35:03,2022-05-10 18:35:04,0.652s,PASSED
+"click(findTestObject(""3. Checkout/Button_Checkout""))",Chrome 101.0.4951.54,,,2022-05-10 18:35:04,2022-05-10 18:35:04,0.366s,PASSED
+"verifyElementVisible(findTestObject(""3. Checkout/AlertMessage""))",Chrome 101.0.4951.54,,,2022-05-10 18:35:04,2022-05-10 18:35:05,0.699s,PASSED
+closeBrowser(),Chrome 101.0.4951.54,,,2022-05-10 18:35:05,2022-05-10 18:35:06,0.685s,PASSED
+,,,,,,,
+Test Cases/SmallProject1_Version2/TC33_UserCancelCheckout,Chrome 101.0.4951.54,,,2022-05-10 18:35:06,2022-05-10 18:35:15,9.447s,PASSED
+"openBrowser("""")",Chrome 101.0.4951.54,,,2022-05-10 18:35:06,2022-05-10 18:35:07,1.158s,PASSED
+maximizeWindow(),Chrome 101.0.4951.54,,,2022-05-10 18:35:07,2022-05-10 18:35:07,0.141s,PASSED
+"navigateToUrl(""https://demo.midtrans.com/"")",Chrome 101.0.4951.54,,,2022-05-10 18:35:07,2022-05-10 18:35:08,0.541s,PASSED
+"click(findTestObject(""3. Checkout/a_BUY NOW""))",Chrome 101.0.4951.54,,,2022-05-10 18:35:08,2022-05-10 18:35:08,0.491s,PASSED
+"verifyElementText(findTestObject(""3. Checkout/Verify_ShoppingCart""), ""Shopping Cart  "")",Chrome 101.0.4951.54,,,2022-05-10 18:35:08,2022-05-10 18:35:09,0.555s,PASSED
+"verifyElementText(findTestObject(""3. Checkout/Verify_TotalAmount""), ""20,000"")",Chrome 101.0.4951.54,,,2022-05-10 18:35:09,2022-05-10 18:35:09,0.310s,PASSED
+"verifyElementText(findTestObject(""3. Checkout/Verify_CustomerDetail""), ""Customer Details"")",Chrome 101.0.4951.54,,,2022-05-10 18:35:09,2022-05-10 18:35:09,0.311s,PASSED
+"setText(findTestObject(""3. Checkout/Field_Name""), Name)",Chrome 101.0.4951.54,,,2022-05-10 18:35:09,2022-05-10 18:35:10,0.683s,PASSED
+"setText(findTestObject(""3. Checkout/Field_Email""), Email)",Chrome 101.0.4951.54,,,2022-05-10 18:35:10,2022-05-10 18:35:11,0.728s,PASSED
+"setText(findTestObject(""3. Checkout/Field_Phone""), Phone)",Chrome 101.0.4951.54,,,2022-05-10 18:35:11,2022-05-10 18:35:11,0.699s,PASSED
+"setText(findTestObject(""3. Checkout/Field_City""), City)",Chrome 101.0.4951.54,,,2022-05-10 18:35:11,2022-05-10 18:35:12,0.672s,PASSED
+"setText(findTestObject(""3. Checkout/Field_Address""), Address)",Chrome 101.0.4951.54,,,2022-05-10 18:35:12,2022-05-10 18:35:13,0.708s,PASSED
+"setText(findTestObject(""3. Checkout/Field_PostalCode""), PostalCode)",Chrome 101.0.4951.54,,,2022-05-10 18:35:13,2022-05-10 18:35:13,0.656s,PASSED
+"click(findTestObject(""3. Checkout/Button_Cancel""))",Chrome 101.0.4951.54,,,2022-05-10 18:35:13,2022-05-10 18:35:14,0.343s,PASSED
+"verifyElementVisible(findTestObject(""1. Homepage/Header_MidtransPillow_Homepage""))",Chrome 101.0.4951.54,,,2022-05-10 18:35:14,2022-05-10 18:35:14,0.548s,PASSED
+closeBrowser(),Chrome 101.0.4951.54,,,2022-05-10 18:35:14,2022-05-10 18:35:15,0.691s,PASSED
+,,,,,,,
+Test Cases/SmallProject1_Version2/TC32_UserSuccessCheckout,Chrome 101.0.4951.54,,,2022-05-10 18:35:15,2022-05-10 18:35:26,11.331s,PASSED
+"openBrowser("""")",Chrome 101.0.4951.54,,,2022-05-10 18:35:15,2022-05-10 18:35:16,1.177s,PASSED
+maximizeWindow(),Chrome 101.0.4951.54,,,2022-05-10 18:35:16,2022-05-10 18:35:17,0.141s,PASSED
+"navigateToUrl(""https://demo.midtrans.com/"")",Chrome 101.0.4951.54,,,2022-05-10 18:35:17,2022-05-10 18:35:17,0.444s,PASSED
+"click(findTestObject(""3. Checkout/a_BUY NOW""))",Chrome 101.0.4951.54,,,2022-05-10 18:35:17,2022-05-10 18:35:18,0.555s,PASSED
+"verifyElementVisibleInViewport(findTestObject(""3. Checkout/Verify_ShoppingCart""), 0)",Chrome 101.0.4951.54,,,2022-05-10 18:35:18,2022-05-10 18:35:18,0.629s,PASSED
+"verifyElementText(findTestObject(""3. Checkout/Verify_TotalAmount""), ""20,000"")",Chrome 101.0.4951.54,,,2022-05-10 18:35:18,2022-05-10 18:35:19,0.314s,PASSED
+"verifyElementText(findTestObject(""3. Checkout/Verify_CustomerDetail""), ""Customer Details"")",Chrome 101.0.4951.54,,,2022-05-10 18:35:19,2022-05-10 18:35:19,0.313s,PASSED
+"setText(findTestObject(""3. Checkout/Field_Name""), Name)",Chrome 101.0.4951.54,,,2022-05-10 18:35:19,2022-05-10 18:35:19,0.684s,PASSED
+"setText(findTestObject(""3. Checkout/Field_Email""), Email)",Chrome 101.0.4951.54,,,2022-05-10 18:35:19,2022-05-10 18:35:20,0.708s,PASSED
+"setText(findTestObject(""3. Checkout/Field_Phone""), Phone)",Chrome 101.0.4951.54,,,2022-05-10 18:35:20,2022-05-10 18:35:21,0.696s,PASSED
+"setText(findTestObject(""3. Checkout/Field_City""), City)",Chrome 101.0.4951.54,,,2022-05-10 18:35:21,2022-05-10 18:35:22,0.685s,PASSED
+"setText(findTestObject(""3. Checkout/Field_Address""), Address)",Chrome 101.0.4951.54,,,2022-05-10 18:35:22,2022-05-10 18:35:22,0.697s,PASSED
+"setText(findTestObject(""3. Checkout/Field_PostalCode""), PostalCode)",Chrome 101.0.4951.54,,,2022-05-10 18:35:22,2022-05-10 18:35:23,0.652s,PASSED
+"click(findTestObject(""3. Checkout/Button_Checkout""))",Chrome 101.0.4951.54,,,2022-05-10 18:35:23,2022-05-10 18:35:23,0.352s,PASSED
+delay(1),Chrome 101.0.4951.54,,,2022-05-10 18:35:23,2022-05-10 18:35:24,1.024s,PASSED
+takeFullPageScreenshot(),Chrome 101.0.4951.54,,,2022-05-10 18:35:24,2022-05-10 18:35:25,0.747s,PASSED
+"verifyElementVisible(findTestObject(""5. PopUp Detail/Time_PayWithin""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 18:35:25,2022-05-10 18:35:26,0.453s,PASSED
+"verifyElementVisible(findTestObject(""5. PopUp Detail/Verify_OrderID_PopUp""))",Chrome 101.0.4951.54,,,2022-05-10 18:35:26,2022-05-10 18:35:26,0.426s,PASSED
+"verifyElementVisible(findTestObject(""3. Checkout/Verify_MethodList""))",Chrome 101.0.4951.54,,,2022-05-10 18:35:26,2022-05-10 18:35:26,0.408s,PASSED

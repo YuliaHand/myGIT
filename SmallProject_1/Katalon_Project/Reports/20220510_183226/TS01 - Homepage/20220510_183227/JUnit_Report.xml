@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS01 - Homepage" time="32.848" tests="4" failures="0" errors="0">
+   <testsuite name="TS01 - Homepage" tests="4" failures="0" errors="0" time="32.848" skipped="0" timestamp="2022-05-10 18:32:37" hostname="220005 - LAP-IT-ROBI.mshome.net" id="Test Suites/TS01 - Homepage">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\220005\\Katalon Studio\\SmallProject1_Yulia\\Reports\\20220510_183226\\TS01 - Homepage\\20220510_183227"/>
+         <property name="logFiles" value="C:\\Users\\220005\\Katalon Studio\\SmallProject1_Yulia\\Reports\\20220510_183226\\TS01 - Homepage\\20220510_183227\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\220005\\Katalon Studio\\SmallProject1_Yulia\\Reports\\20220510_183226\\TS01 - Homepage\\20220510_183227\\1652182376235.png, C:\\Users\\220005\\Katalon Studio\\SmallProject1_Yulia\\Reports\\20220510_183226\\TS01 - Homepage\\20220510_183227\\1652182380351.png"/>
+         <property name="hostName" value="220005 - LAP-IT-ROBI.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 101.0.4951.54"/>
+         <property name="hostAddress" value="172.22.208.1"/>
+         <property name="sessionId" value="5f54a4ae730374863aad38319968fc62"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/SmallProject1_Version2/TS01_TC01_UserAccessPage" time="7.466" classname="Test Cases/SmallProject1_Version2/TS01_TC01_UserAccessPage" status="PASSED">
+         <system-out><![CDATA[2022-05-10 18:32:38 - [TEST_CASE][PASSED] - Test Cases/SmallProject1_Version2/TS01_TC01_UserAccessPage: Test Cases/SmallProject1_Version2/TS01_TC01_UserAccessPage
+
+2022-05-10 18:32:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-05-10 18:32:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-10 18:32:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-10 18:32:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-05-10 18:32:40 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-05-10 18:32:40 - [MESSAGE][PASSED] - Current window maximized
+
+2022-05-10 18:32:40 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.midtrans.com/"): Navigate to 'https://demo.midtrans.com/' successfully
+
+2022-05-10 18:32:41 - [MESSAGE][PASSED] - Navigate to 'https://demo.midtrans.com/' successfully
+
+2022-05-10 18:32:41 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("1. Homepage/Header_MidtransPillow_Homepage")): Object 'Object Repository/1. Homepage/Header_MidtransPillow_Homepage' is visible
+
+2022-05-10 18:32:42 - [MESSAGE][PASSED] - Object 'Object Repository/1. Homepage/Header_MidtransPillow_Homepage' is visible
+
+2022-05-10 18:32:42 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("1. Homepage/Title_Homepage"), "Midtrans Pillow"): Actual text and expected text of test object 'Object Repository/1. Homepage/Title_Homepage' are matched.
+
+2022-05-10 18:32:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/1. Homepage/Title_Homepage' are matched.
+
+2022-05-10 18:32:42 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("1. Homepage/Desc_Price_Homepage"), "Rp 20,000"): Actual text and expected text of test object 'Object Repository/1. Homepage/Desc_Price_Homepage' are matched.
+
+2022-05-10 18:32:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/1. Homepage/Desc_Price_Homepage' are matched.
+
+2022-05-10 18:32:42 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("1. Homepage/Desc_Title_Homepage"), "Get cozy with our new pillow!"): Actual text and expected text of test object 'Object Repository/1. Homepage/Desc_Title_Homepage' are matched.
+
+2022-05-10 18:32:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/1. Homepage/Desc_Title_Homepage' are matched.
+
+2022-05-10 18:32:43 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("1. Homepage/Desc_Homepage"), "Disclaimer: This is not a real transaction.No funds will be transfered out of your account. You should sleep with a proper pillow to refrain yourself from injury."): Actual text and expected text of test object 'Object Repository/1. Homepage/Desc_Homepage' are matched.
+
+2022-05-10 18:32:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/1. Homepage/Desc_Homepage' are matched.
+
+2022-05-10 18:32:43 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("2. Register/Button_Register")): Object 'Object Repository/2. Register/Button_Register' is clickable
+
+2022-05-10 18:32:43 - [MESSAGE][PASSED] - Object 'Object Repository/2. Register/Button_Register' is clickable
+
+2022-05-10 18:32:43 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("3. Checkout/a_BUY NOW")): Object 'Object Repository/3. Checkout/a_BUY NOW' is clickable
+
+2022-05-10 18:32:44 - [MESSAGE][PASSED] - Object 'Object Repository/3. Checkout/a_BUY NOW' is clickable
+
+2022-05-10 18:32:44 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("1. Homepage/Button_Slide_Left")): Object 'Object Repository/1. Homepage/Button_Slide_Left' is clickable
+
+2022-05-10 18:32:44 - [MESSAGE][PASSED] - Object 'Object Repository/1. Homepage/Button_Slide_Left' is clickable
+
+2022-05-10 18:32:44 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("1. Homepage/Button_Slide_Right")): Object 'Object Repository/1. Homepage/Button_Slide_Right' is clickable
+
+2022-05-10 18:32:44 - [MESSAGE][PASSED] - Object 'Object Repository/1. Homepage/Button_Slide_Right' is clickable
+
+2022-05-10 18:32:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-05-10 18:32:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SmallProject1_Version2/TS01_TC02_CheckButtonFunction_BuyNow" time="4.748" classname="Test Cases/SmallProject1_Version2/TS01_TC02_CheckButtonFunction_BuyNow" status="PASSED">
+         <system-out><![CDATA[2022-05-10 18:32:45 - [TEST_CASE][PASSED] - Test Cases/SmallProject1_Version2/TS01_TC02_CheckButtonFunction_BuyNow: Test Cases/SmallProject1_Version2/TS01_TC02_CheckButtonFunction_BuyNow
+
+2022-05-10 18:32:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-05-10 18:32:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-10 18:32:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-10 18:32:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-05-10 18:32:47 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-05-10 18:32:47 - [MESSAGE][PASSED] - Current window maximized
+
+2022-05-10 18:32:47 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.midtrans.com/"): Navigate to 'https://demo.midtrans.com/' successfully
+
+2022-05-10 18:32:47 - [MESSAGE][PASSED] - Navigate to 'https://demo.midtrans.com/' successfully
+
+2022-05-10 18:32:47 - [TEST_STEP][PASSED] - click(findTestObject("3. Checkout/a_BUY NOW")): Object: 'Object Repository/3. Checkout/a_BUY NOW' is clicked on
+
+2022-05-10 18:32:48 - [MESSAGE][PASSED] - Object: 'Object Repository/3. Checkout/a_BUY NOW' is clicked on
+
+2022-05-10 18:32:48 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("3. Checkout/Verify_ShoppingCart"), 0): Object 'Object Repository/3. Checkout/Verify_ShoppingCart' is present and visible in viewport
+
+2022-05-10 18:32:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-10 18:32:49 - [MESSAGE][PASSED] - Object 'Object Repository/3. Checkout/Verify_ShoppingCart' is present and visible in viewport
+
+2022-05-10 18:32:49 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("3. Checkout/Verify_CustomerDetail"), "Customer Details"): Actual text and expected text of test object 'Object Repository/3. Checkout/Verify_CustomerDetail' are matched.
+
+2022-05-10 18:32:49 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/3. Checkout/Verify_CustomerDetail' are matched.
+
+2022-05-10 18:32:49 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-05-10 18:32:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SmallProject1_Version2/TS01_TC03_CheckButtonFunction_SlideShow" time="11.412" classname="Test Cases/SmallProject1_Version2/TS01_TC03_CheckButtonFunction_SlideShow" status="PASSED">
+         <system-out><![CDATA[2022-05-10 18:32:50 - [TEST_CASE][PASSED] - Test Cases/SmallProject1_Version2/TS01_TC03_CheckButtonFunction_SlideShow: Test Cases/SmallProject1_Version2/TS01_TC03_CheckButtonFunction_SlideShow
+
+2022-05-10 18:32:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-05-10 18:32:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-10 18:32:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-10 18:32:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-05-10 18:32:51 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-05-10 18:32:52 - [MESSAGE][PASSED] - Current window maximized
+
+2022-05-10 18:32:52 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.midtrans.com/"): Navigate to 'https://demo.midtrans.com/' successfully
+
+2022-05-10 18:32:52 - [MESSAGE][PASSED] - Navigate to 'https://demo.midtrans.com/' successfully
+
+2022-05-10 18:32:52 - [TEST_STEP][PASSED] - click(findTestObject("1. Homepage/Button_Slide_Left")): Object: 'Object Repository/1. Homepage/Button_Slide_Left' is clicked on
+
+2022-05-10 18:32:53 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Homepage/Button_Slide_Left' is clicked on
+
+2022-05-10 18:32:53 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-05-10 18:32:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-05-10 18:32:56 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-05-10 18:32:56 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-05-10 18:32:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\220005\\Katalon Studio\\SmallProject1_Yulia\\Reports\\20220510_183226\\TS01 - Homepage\\20220510_183227\\1652182376235.png]]
+
+2022-05-10 18:32:56 - [TEST_STEP][PASSED] - click(findTestObject("1. Homepage/Button_Slide_Right")): Object: 'Object Repository/1. Homepage/Button_Slide_Right' is clicked on
+
+2022-05-10 18:32:57 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Homepage/Button_Slide_Right' is clicked on
+
+2022-05-10 18:32:57 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-05-10 18:33:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-05-10 18:33:00 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-05-10 18:33:00 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-05-10 18:33:01 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\220005\\Katalon Studio\\SmallProject1_Yulia\\Reports\\20220510_183226\\TS01 - Homepage\\20220510_183227\\1652182380351.png]]
+
+2022-05-10 18:33:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-05-10 18:33:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SmallProject1_Version2/TS01_TC04_CheckButtonFunction_SignUp" time="8.882" classname="Test Cases/SmallProject1_Version2/TS01_TC04_CheckButtonFunction_SignUp" status="PASSED">
+         <system-out><![CDATA[2022-05-10 18:33:01 - [TEST_CASE][PASSED] - Test Cases/SmallProject1_Version2/TS01_TC04_CheckButtonFunction_SignUp: Test Cases/SmallProject1_Version2/TS01_TC04_CheckButtonFunction_SignUp
+
+2022-05-10 18:33:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-05-10 18:33:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-10 18:33:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-10 18:33:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-05-10 18:33:03 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-05-10 18:33:03 - [MESSAGE][PASSED] - Current window maximized
+
+2022-05-10 18:33:03 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.midtrans.com/"): Navigate to 'https://demo.midtrans.com/' successfully
+
+2022-05-10 18:33:03 - [MESSAGE][PASSED] - Navigate to 'https://demo.midtrans.com/' successfully
+
+2022-05-10 18:33:03 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-05-10 18:33:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-05-10 18:33:06 - [TEST_STEP][PASSED] - click(findTestObject("2. Register/Button_Register")): Object: 'Object Repository/2. Register/Button_Register' is clicked on
+
+2022-05-10 18:33:09 - [MESSAGE][PASSED] - Object: 'Object Repository/2. Register/Button_Register' is clicked on
+
+2022-05-10 18:33:09 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2022-05-10 18:33:09 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2022-05-10 18:33:09 - [TEST_STEP][PASSED] - url = getUrl(): Current window's url is: 'https://dashboard.midtrans.com/register'
+
+2022-05-10 18:33:10 - [MESSAGE][PASSED] - Current window's url is: 'https://dashboard.midtrans.com/register'
+
+2022-05-10 18:33:10 - [TEST_STEP][PASSED] - verifyEqual(url, "https://dashboard.midtrans.com/register"): Actual object 'https://dashboard.midtrans.com/register' and expected object 'https://dashboard.midtrans.com/register' are equal
+
+2022-05-10 18:33:10 - [MESSAGE][PASSED] - Actual object 'https://dashboard.midtrans.com/register' and expected object 'https://dashboard.midtrans.com/register' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-05-10 18:32:37 - [TEST_SUITE][PASSED] - TS01 - Homepage: Test Cases/SmallProject1_Version2/TS01_TC04_CheckButtonFunction_SignUp]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

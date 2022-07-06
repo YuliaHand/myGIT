@@ -1,0 +1,1238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS03 - Payment Method - Akulaku" time="128.307" tests="5" failures="1" errors="0">
+   <testsuite name="TS03 - Payment Method - Akulaku" tests="5" failures="1" errors="0" time="128.307" skipped="0" timestamp="2022-05-10 19:49:15" hostname="220005 - LAP-IT-ROBI.mshome.net" id="Test Suites/TS03 - Payment Method - Akulaku">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\220005\\Katalon Studio\\SmallProject1_Yulia\\Reports\\20220510_194905\\TS03 - Payment Method - Akulaku\\20220510_194906"/>
+         <property name="logFiles" value="C:\\Users\\220005\\Katalon Studio\\SmallProject1_Yulia\\Reports\\20220510_194905\\TS03 - Payment Method - Akulaku\\20220510_194906\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\220005\\Katalon Studio\\SmallProject1_Yulia\\Reports\\20220510_194905\\TS03 - Payment Method - Akulaku\\20220510_194906\\1652186967398.png, C:\\Users\\220005\\Katalon Studio\\SmallProject1_Yulia\\Reports\\20220510_194905\\TS03 - Payment Method - Akulaku\\20220510_194906\\1652186971825.png, C:\\Users\\220005\\Katalon Studio\\SmallProject1_Yulia\\Reports\\20220510_194905\\TS03 - Payment Method - Akulaku\\20220510_194906\\1652186992583.png, C:\\Users\\220005\\Katalon Studio\\SmallProject1_Yulia\\Reports\\20220510_194905\\TS03 - Payment Method - Akulaku\\20220510_194906\\1652186996900.png, C:\\Users\\220005\\Katalon Studio\\SmallProject1_Yulia\\Reports\\20220510_194905\\TS03 - Payment Method - Akulaku\\20220510_194906\\1652187019125.png, C:\\Users\\220005\\Katalon Studio\\SmallProject1_Yulia\\Reports\\20220510_194905\\TS03 - Payment Method - Akulaku\\20220510_194906\\1652187044161.png, C:\\Users\\220005\\Katalon Studio\\SmallProject1_Yulia\\Reports\\20220510_194905\\TS03 - Payment Method - Akulaku\\20220510_194906\\1652187066403.png"/>
+         <property name="hostName" value="220005 - LAP-IT-ROBI.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 101.0.4951.54"/>
+         <property name="hostAddress" value="172.22.208.1"/>
+         <property name="sessionId" value="74984099f04446618acf2ae7ad2a6f83"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/SmallProject1_Version2/TC80_UserSelectMethod_Akulaku_WithoutDP" time="26.822" classname="Test Cases/SmallProject1_Version2/TC80_UserSelectMethod_Akulaku_WithoutDP" status="PASSED">
+         <system-out><![CDATA[2022-05-10 19:49:16 - [TEST_CASE][PASSED] - Test Cases/SmallProject1_Version2/TC80_UserSelectMethod_Akulaku_WithoutDP: Test Cases/SmallProject1_Version2/TC80_UserSelectMethod_Akulaku_WithoutDP
+
+2022-05-10 19:49:16 - [TEST_STEP][PASSED] - callTestCase(findTestCase("SmallProject1_Version2/TC32_UserSuccessCheckout"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/SmallProject1_Version2/TC32_UserSuccessCheckout' successfully
+
+2022-05-10 19:49:16 - [TEST_CASE][PASSED] - Test Cases/SmallProject1_Version2/TC32_UserSuccessCheckout: Test Cases/SmallProject1_Version2/TC32_UserSuccessCheckout
+
+2022-05-10 19:49:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-05-10 19:49:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-10 19:49:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-10 19:49:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-05-10 19:49:19 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-05-10 19:49:19 - [MESSAGE][PASSED] - Current window maximized
+
+2022-05-10 19:49:19 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.midtrans.com/"): Navigate to 'https://demo.midtrans.com/' successfully
+
+2022-05-10 19:49:19 - [MESSAGE][PASSED] - Navigate to 'https://demo.midtrans.com/' successfully
+
+2022-05-10 19:49:19 - [TEST_STEP][PASSED] - click(findTestObject("3. Checkout/a_BUY NOW")): Object: 'Object Repository/3. Checkout/a_BUY NOW' is clicked on
+
+2022-05-10 19:49:20 - [MESSAGE][PASSED] - Object: 'Object Repository/3. Checkout/a_BUY NOW' is clicked on
+
+2022-05-10 19:49:20 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("3. Checkout/Verify_ShoppingCart"), 0): Object 'Object Repository/3. Checkout/Verify_ShoppingCart' is present and visible in viewport
+
+2022-05-10 19:49:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-10 19:49:20 - [MESSAGE][PASSED] - Object 'Object Repository/3. Checkout/Verify_ShoppingCart' is present and visible in viewport
+
+2022-05-10 19:49:20 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("3. Checkout/Verify_TotalAmount"), "20,000"): Actual text and expected text of test object 'Object Repository/3. Checkout/Verify_TotalAmount' are matched.
+
+2022-05-10 19:49:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/3. Checkout/Verify_TotalAmount' are matched.
+
+2022-05-10 19:49:21 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("3. Checkout/Verify_CustomerDetail"), "Customer Details"): Actual text and expected text of test object 'Object Repository/3. Checkout/Verify_CustomerDetail' are matched.
+
+2022-05-10 19:49:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/3. Checkout/Verify_CustomerDetail' are matched.
+
+2022-05-10 19:49:21 - [TEST_STEP][PASSED] - setText(findTestObject("3. Checkout/Field_Name"), Name): Text 'Yulia' is set on object 'Object Repository/3. Checkout/Field_Name'
+
+2022-05-10 19:49:22 - [MESSAGE][PASSED] - Text 'Yulia' is set on object 'Object Repository/3. Checkout/Field_Name'
+
+2022-05-10 19:49:22 - [TEST_STEP][PASSED] - setText(findTestObject("3. Checkout/Field_Email"), Email): Text 'yulia@email.com' is set on object 'Object Repository/3. Checkout/Field_Email'
+
+2022-05-10 19:49:23 - [MESSAGE][PASSED] - Text 'yulia@email.com' is set on object 'Object Repository/3. Checkout/Field_Email'
+
+2022-05-10 19:49:23 - [TEST_STEP][PASSED] - setText(findTestObject("3. Checkout/Field_Phone"), Phone): Text '081234567890' is set on object 'Object Repository/3. Checkout/Field_Phone'
+
+2022-05-10 19:49:23 - [MESSAGE][PASSED] - Text '081234567890' is set on object 'Object Repository/3. Checkout/Field_Phone'
+
+2022-05-10 19:49:23 - [TEST_STEP][PASSED] - setText(findTestObject("3. Checkout/Field_City"), City): Text 'Jakarta' is set on object 'Object Repository/3. Checkout/Field_City'
+
+2022-05-10 19:49:24 - [MESSAGE][PASSED] - Text 'Jakarta' is set on object 'Object Repository/3. Checkout/Field_City'
+
+2022-05-10 19:49:24 - [TEST_STEP][PASSED] - setText(findTestObject("3. Checkout/Field_Address"), Address): Text 'Jalan Jend. Sudirman Kav 10' is set on object 'Object Repository/3. Checkout/Field_Address'
+
+2022-05-10 19:49:25 - [MESSAGE][PASSED] - Text 'Jalan Jend. Sudirman Kav 10' is set on object 'Object Repository/3. Checkout/Field_Address'
+
+2022-05-10 19:49:25 - [TEST_STEP][PASSED] - setText(findTestObject("3. Checkout/Field_PostalCode"), PostalCode): Text '12345' is set on object 'Object Repository/3. Checkout/Field_PostalCode'
+
+2022-05-10 19:49:26 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/3. Checkout/Field_PostalCode'
+
+2022-05-10 19:49:26 - [TEST_STEP][PASSED] - click(findTestObject("3. Checkout/Button_Checkout")): Object: 'Object Repository/3. Checkout/Button_Checkout' is clicked on
+
+2022-05-10 19:49:26 - [MESSAGE][PASSED] - Object: 'Object Repository/3. Checkout/Button_Checkout' is clicked on
+
+2022-05-10 19:49:26 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-05-10 19:49:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-05-10 19:49:27 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-05-10 19:49:27 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-05-10 19:49:28 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\220005\\Katalon Studio\\SmallProject1_Yulia\\Reports\\20220510_194905\\TS03 - Payment Method - Akulaku\\20220510_194906\\1652186967398.png]]
+
+2022-05-10 19:49:28 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("5. PopUp Detail/Time_PayWithin"), STOP_ON_FAILURE): Object 'Object Repository/5. PopUp Detail/Time_PayWithin' is visible
+
+2022-05-10 19:49:28 - [MESSAGE][PASSED] - Object 'Object Repository/5. PopUp Detail/Time_PayWithin' is visible
+
+2022-05-10 19:49:28 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("5. PopUp Detail/Verify_OrderID_PopUp")): Object 'Object Repository/5. PopUp Detail/Verify_OrderID_PopUp' is visible
+
+2022-05-10 19:49:28 - [MESSAGE][PASSED] - Object 'Object Repository/5. PopUp Detail/Verify_OrderID_PopUp' is visible
+
+2022-05-10 19:49:28 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("3. Checkout/Verify_MethodList")): Object 'Object Repository/3. Checkout/Verify_MethodList' is visible
+
+2022-05-10 19:49:29 - [MESSAGE][PASSED] - Object 'Object Repository/3. Checkout/Verify_MethodList' is visible
+
+2022-05-10 19:49:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/SmallProject1_Version2/TC32_UserSuccessCheckout' successfully
+
+2022-05-10 19:49:29 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("4. Payment/Payment_Akulaku/Title_Akulaku")): Object 'Object Repository/4. Payment/Payment_Akulaku/Title_Akulaku' is visible
+
+2022-05-10 19:49:29 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_Akulaku/Title_Akulaku' is visible
+
+2022-05-10 19:49:29 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("4. Payment/Payment_Akulaku/Logo_Akulaku")): Object 'Object Repository/4. Payment/Payment_Akulaku/Logo_Akulaku' is visible
+
+2022-05-10 19:49:30 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_Akulaku/Logo_Akulaku' is visible
+
+2022-05-10 19:49:30 - [TEST_STEP][PASSED] - click(findTestObject("4. Payment/Payment_Akulaku/Button_Akulaku")): Object: 'Object Repository/4. Payment/Payment_Akulaku/Button_Akulaku' is clicked on
+
+2022-05-10 19:49:30 - [MESSAGE][PASSED] - Object: 'Object Repository/4. Payment/Payment_Akulaku/Button_Akulaku' is clicked on
+
+2022-05-10 19:49:30 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-05-10 19:49:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-05-10 19:49:31 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-05-10 19:49:32 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-05-10 19:49:32 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\220005\\Katalon Studio\\SmallProject1_Yulia\\Reports\\20220510_194905\\TS03 - Payment Method - Akulaku\\20220510_194906\\1652186971825.png]]
+
+2022-05-10 19:49:32 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/a_Header_Details"), "Akulaku"): Actual text and expected text of test object 'Object Repository/4. Payment/a_Header_Details' are matched.
+
+2022-05-10 19:49:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/a_Header_Details' are matched.
+
+2022-05-10 19:49:32 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("4. Payment/Payment_ATMBankTransfer/Desc_AllBank"), STOP_ON_FAILURE): Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Desc_AllBank' is visible
+
+2022-05-10 19:49:33 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Desc_AllBank' is visible
+
+2022-05-10 19:49:33 - [TEST_STEP][PASSED] - click(findTestObject("5. PopUp Detail/Button_Float_Down")): Object: 'Object Repository/5. PopUp Detail/Button_Float_Down' is clicked on
+
+2022-05-10 19:49:33 - [MESSAGE][PASSED] - Object: 'Object Repository/5. PopUp Detail/Button_Float_Down' is clicked on
+
+2022-05-10 19:49:33 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("5. PopUp Detail/Verify_AmountMidtransPillow"), "Rp20.000"): Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_AmountMidtransPillow' are matched.
+
+2022-05-10 19:49:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_AmountMidtransPillow' are matched.
+
+2022-05-10 19:49:34 - [TEST_STEP][PASSED] - total1 = verifyElementText(findTestObject("5. PopUp Detail/Verify_TotalAmount_PopUp"), "Rp20.000"): Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_TotalAmount_PopUp' are matched.
+
+2022-05-10 19:49:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_TotalAmount_PopUp' are matched.
+
+2022-05-10 19:49:34 - [TEST_STEP][PASSED] - total2 = verifyElementText(findTestObject("5. PopUp Detail/Verify_TotalAmount_Summary"), "Rp20.000"): Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_TotalAmount_Summary' are matched.
+
+2022-05-10 19:49:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_TotalAmount_Summary' are matched.
+
+2022-05-10 19:49:34 - [TEST_STEP][PASSED] - verifyEqual(total1, total2, STOP_ON_FAILURE): Actual object 'true' and expected object 'true' are equal
+
+2022-05-10 19:49:34 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2022-05-10 19:49:34 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("5. PopUp Detail/Verify_Name_Summary"), Name): Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_Name_Summary' are matched.
+
+2022-05-10 19:49:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_Name_Summary' are matched.
+
+2022-05-10 19:49:35 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("5. PopUp Detail/Verify_Addess_Summary"), Address_2): Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_Addess_Summary' are matched.
+
+2022-05-10 19:49:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_Addess_Summary' are matched.
+
+2022-05-10 19:49:35 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("5. PopUp Detail/Verify_Phone_Summary"), Phone_2): Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_Phone_Summary' are matched.
+
+2022-05-10 19:49:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_Phone_Summary' are matched.
+
+2022-05-10 19:49:36 - [TEST_STEP][PASSED] - click(findTestObject("5. PopUp Detail/Button_Float_Up")): Object: 'Object Repository/5. PopUp Detail/Button_Float_Up' is clicked on
+
+2022-05-10 19:49:36 - [MESSAGE][PASSED] - Object: 'Object Repository/5. PopUp Detail/Button_Float_Up' is clicked on
+
+2022-05-10 19:49:36 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_Akulaku/Verify_Step1_Akulaku"), "Click Pay Now, then you will be directed to the Akulaku Payment Center page."): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_Akulaku/Verify_Step1_Akulaku' are matched.
+
+2022-05-10 19:49:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_Akulaku/Verify_Step1_Akulaku' are matched.
+
+2022-05-10 19:49:37 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_Akulaku/Verify_Step2_Akulaku"), "Select the desired installment tenor."): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_Akulaku/Verify_Step2_Akulaku' are matched.
+
+2022-05-10 19:49:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_Akulaku/Verify_Step2_Akulaku' are matched.
+
+2022-05-10 19:49:37 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_Akulaku/Verify_Step3_Akulaku"), "Login to your Akulaku account."): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_Akulaku/Verify_Step3_Akulaku' are matched.
+
+2022-05-10 19:49:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_Akulaku/Verify_Step3_Akulaku' are matched.
+
+2022-05-10 19:49:37 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_Akulaku/Verify_Step4_Akulaku"), "Enter the verification code (OTP) that has been sent to your mobile number, then click Next."): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_Akulaku/Verify_Step4_Akulaku' are matched.
+
+2022-05-10 19:49:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_Akulaku/Verify_Step4_Akulaku' are matched.
+
+2022-05-10 19:49:38 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_Akulaku/Verify_Step5_Akulaku"), "Confirm and finish your payment."): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_Akulaku/Verify_Step5_Akulaku' are matched.
+
+2022-05-10 19:49:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_Akulaku/Verify_Step5_Akulaku' are matched.
+
+2022-05-10 19:49:38 - [TEST_STEP][PASSED] - click(findTestObject("4. Payment/Payment_eWallet/Button_PayNow")): Object: 'Object Repository/4. Payment/Payment_eWallet/Button_PayNow' is clicked on
+
+2022-05-10 19:49:39 - [MESSAGE][PASSED] - Object: 'Object Repository/4. Payment/Payment_eWallet/Button_PayNow' is clicked on
+
+2022-05-10 19:49:39 - [TEST_STEP][PASSED] - setText(findTestObject("4. Payment/Payment_Akulaku/Field_Phone_Akulaku"), findTestData("Akulaku_PhoneNumber").getValue(1, 1)): Text '08122222222' is set on object 'Object Repository/4. Payment/Payment_Akulaku/Field_Phone_Akulaku'
+
+2022-05-10 19:49:40 - [MESSAGE][PASSED] - Text '08122222222' is set on object 'Object Repository/4. Payment/Payment_Akulaku/Field_Phone_Akulaku'
+
+2022-05-10 19:49:40 - [TEST_STEP][PASSED] - click(findTestObject("4. Payment/Payment_Akulaku/Button_Next")): Object: 'Object Repository/4. Payment/Payment_Akulaku/Button_Next' is clicked on
+
+2022-05-10 19:49:41 - [MESSAGE][PASSED] - Object: 'Object Repository/4. Payment/Payment_Akulaku/Button_Next' is clicked on
+
+2022-05-10 19:49:41 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("4. Payment/Payment_Akulaku/Verify_RefNo")): Object 'Object Repository/4. Payment/Payment_Akulaku/Verify_RefNo' is visible
+
+2022-05-10 19:49:41 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_Akulaku/Verify_RefNo' is visible
+
+2022-05-10 19:49:41 - [TEST_STEP][PASSED] - click(findTestObject("4. Payment/Payment_Akulaku/Button_Pay")): Object: 'Object Repository/4. Payment/Payment_Akulaku/Button_Pay' is clicked on
+
+2022-05-10 19:49:42 - [MESSAGE][PASSED] - Object: 'Object Repository/4. Payment/Payment_Akulaku/Button_Pay' is clicked on
+
+2022-05-10 19:49:42 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_Akulaku/Verify_Trx_Success"), "Transaction is Successful"): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_Akulaku/Verify_Trx_Success' are matched.
+
+2022-05-10 19:49:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_Akulaku/Verify_Trx_Success' are matched.
+
+2022-05-10 19:49:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-05-10 19:49:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SmallProject1_Version2/TC81_UserSelectMethod_Akulaku_WithDP" time="26.542" classname="Test Cases/SmallProject1_Version2/TC81_UserSelectMethod_Akulaku_WithDP" status="PASSED">
+         <system-out><![CDATA[2022-05-10 19:49:43 - [TEST_CASE][PASSED] - Test Cases/SmallProject1_Version2/TC81_UserSelectMethod_Akulaku_WithDP: Test Cases/SmallProject1_Version2/TC81_UserSelectMethod_Akulaku_WithDP
+
+2022-05-10 19:49:43 - [TEST_STEP][PASSED] - callTestCase(findTestCase("SmallProject1_Version2/TC32_UserSuccessCheckout"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/SmallProject1_Version2/TC32_UserSuccessCheckout' successfully
+
+2022-05-10 19:49:43 - [TEST_CASE][PASSED] - Test Cases/SmallProject1_Version2/TC32_UserSuccessCheckout: Test Cases/SmallProject1_Version2/TC32_UserSuccessCheckout
+
+2022-05-10 19:49:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-05-10 19:49:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-10 19:49:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-10 19:49:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-05-10 19:49:44 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-05-10 19:49:44 - [MESSAGE][PASSED] - Current window maximized
+
+2022-05-10 19:49:44 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.midtrans.com/"): Navigate to 'https://demo.midtrans.com/' successfully
+
+2022-05-10 19:49:45 - [MESSAGE][PASSED] - Navigate to 'https://demo.midtrans.com/' successfully
+
+2022-05-10 19:49:45 - [TEST_STEP][PASSED] - click(findTestObject("3. Checkout/a_BUY NOW")): Object: 'Object Repository/3. Checkout/a_BUY NOW' is clicked on
+
+2022-05-10 19:49:45 - [MESSAGE][PASSED] - Object: 'Object Repository/3. Checkout/a_BUY NOW' is clicked on
+
+2022-05-10 19:49:45 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("3. Checkout/Verify_ShoppingCart"), 0): Object 'Object Repository/3. Checkout/Verify_ShoppingCart' is present and visible in viewport
+
+2022-05-10 19:49:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-10 19:49:46 - [MESSAGE][PASSED] - Object 'Object Repository/3. Checkout/Verify_ShoppingCart' is present and visible in viewport
+
+2022-05-10 19:49:46 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("3. Checkout/Verify_TotalAmount"), "20,000"): Actual text and expected text of test object 'Object Repository/3. Checkout/Verify_TotalAmount' are matched.
+
+2022-05-10 19:49:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/3. Checkout/Verify_TotalAmount' are matched.
+
+2022-05-10 19:49:46 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("3. Checkout/Verify_CustomerDetail"), "Customer Details"): Actual text and expected text of test object 'Object Repository/3. Checkout/Verify_CustomerDetail' are matched.
+
+2022-05-10 19:49:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/3. Checkout/Verify_CustomerDetail' are matched.
+
+2022-05-10 19:49:47 - [TEST_STEP][PASSED] - setText(findTestObject("3. Checkout/Field_Name"), Name): Text 'Yulia' is set on object 'Object Repository/3. Checkout/Field_Name'
+
+2022-05-10 19:49:47 - [MESSAGE][PASSED] - Text 'Yulia' is set on object 'Object Repository/3. Checkout/Field_Name'
+
+2022-05-10 19:49:47 - [TEST_STEP][PASSED] - setText(findTestObject("3. Checkout/Field_Email"), Email): Text 'yulia@email.com' is set on object 'Object Repository/3. Checkout/Field_Email'
+
+2022-05-10 19:49:48 - [MESSAGE][PASSED] - Text 'yulia@email.com' is set on object 'Object Repository/3. Checkout/Field_Email'
+
+2022-05-10 19:49:48 - [TEST_STEP][PASSED] - setText(findTestObject("3. Checkout/Field_Phone"), Phone): Text '081234567890' is set on object 'Object Repository/3. Checkout/Field_Phone'
+
+2022-05-10 19:49:49 - [MESSAGE][PASSED] - Text '081234567890' is set on object 'Object Repository/3. Checkout/Field_Phone'
+
+2022-05-10 19:49:49 - [TEST_STEP][PASSED] - setText(findTestObject("3. Checkout/Field_City"), City): Text 'Jakarta' is set on object 'Object Repository/3. Checkout/Field_City'
+
+2022-05-10 19:49:49 - [MESSAGE][PASSED] - Text 'Jakarta' is set on object 'Object Repository/3. Checkout/Field_City'
+
+2022-05-10 19:49:49 - [TEST_STEP][PASSED] - setText(findTestObject("3. Checkout/Field_Address"), Address): Text 'Jalan Jend. Sudirman Kav 10' is set on object 'Object Repository/3. Checkout/Field_Address'
+
+2022-05-10 19:49:50 - [MESSAGE][PASSED] - Text 'Jalan Jend. Sudirman Kav 10' is set on object 'Object Repository/3. Checkout/Field_Address'
+
+2022-05-10 19:49:50 - [TEST_STEP][PASSED] - setText(findTestObject("3. Checkout/Field_PostalCode"), PostalCode): Text '12345' is set on object 'Object Repository/3. Checkout/Field_PostalCode'
+
+2022-05-10 19:49:51 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/3. Checkout/Field_PostalCode'
+
+2022-05-10 19:49:51 - [TEST_STEP][PASSED] - click(findTestObject("3. Checkout/Button_Checkout")): Object: 'Object Repository/3. Checkout/Button_Checkout' is clicked on
+
+2022-05-10 19:49:51 - [MESSAGE][PASSED] - Object: 'Object Repository/3. Checkout/Button_Checkout' is clicked on
+
+2022-05-10 19:49:51 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-05-10 19:49:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-05-10 19:49:52 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-05-10 19:49:53 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-05-10 19:49:53 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\220005\\Katalon Studio\\SmallProject1_Yulia\\Reports\\20220510_194905\\TS03 - Payment Method - Akulaku\\20220510_194906\\1652186992583.png]]
+
+2022-05-10 19:49:53 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("5. PopUp Detail/Time_PayWithin"), STOP_ON_FAILURE): Object 'Object Repository/5. PopUp Detail/Time_PayWithin' is visible
+
+2022-05-10 19:49:53 - [MESSAGE][PASSED] - Object 'Object Repository/5. PopUp Detail/Time_PayWithin' is visible
+
+2022-05-10 19:49:53 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("5. PopUp Detail/Verify_OrderID_PopUp")): Object 'Object Repository/5. PopUp Detail/Verify_OrderID_PopUp' is visible
+
+2022-05-10 19:49:54 - [MESSAGE][PASSED] - Object 'Object Repository/5. PopUp Detail/Verify_OrderID_PopUp' is visible
+
+2022-05-10 19:49:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("3. Checkout/Verify_MethodList")): Object 'Object Repository/3. Checkout/Verify_MethodList' is visible
+
+2022-05-10 19:49:54 - [MESSAGE][PASSED] - Object 'Object Repository/3. Checkout/Verify_MethodList' is visible
+
+2022-05-10 19:49:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/SmallProject1_Version2/TC32_UserSuccessCheckout' successfully
+
+2022-05-10 19:49:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("4. Payment/Payment_Akulaku/Title_Akulaku")): Object 'Object Repository/4. Payment/Payment_Akulaku/Title_Akulaku' is visible
+
+2022-05-10 19:49:54 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_Akulaku/Title_Akulaku' is visible
+
+2022-05-10 19:49:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("4. Payment/Payment_Akulaku/Logo_Akulaku")): Object 'Object Repository/4. Payment/Payment_Akulaku/Logo_Akulaku' is visible
+
+2022-05-10 19:49:55 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_Akulaku/Logo_Akulaku' is visible
+
+2022-05-10 19:49:55 - [TEST_STEP][PASSED] - click(findTestObject("4. Payment/Payment_Akulaku/Button_Akulaku")): Object: 'Object Repository/4. Payment/Payment_Akulaku/Button_Akulaku' is clicked on
+
+2022-05-10 19:49:55 - [MESSAGE][PASSED] - Object: 'Object Repository/4. Payment/Payment_Akulaku/Button_Akulaku' is clicked on
+
+2022-05-10 19:49:55 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-05-10 19:49:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-05-10 19:49:56 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-05-10 19:49:57 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-05-10 19:49:57 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\220005\\Katalon Studio\\SmallProject1_Yulia\\Reports\\20220510_194905\\TS03 - Payment Method - Akulaku\\20220510_194906\\1652186996900.png]]
+
+2022-05-10 19:49:57 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/a_Header_Details"), "Akulaku"): Actual text and expected text of test object 'Object Repository/4. Payment/a_Header_Details' are matched.
+
+2022-05-10 19:49:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/a_Header_Details' are matched.
+
+2022-05-10 19:49:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("4. Payment/Payment_ATMBankTransfer/Desc_AllBank"), STOP_ON_FAILURE): Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Desc_AllBank' is visible
+
+2022-05-10 19:49:58 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Desc_AllBank' is visible
+
+2022-05-10 19:49:58 - [TEST_STEP][PASSED] - click(findTestObject("5. PopUp Detail/Button_Float_Down")): Object: 'Object Repository/5. PopUp Detail/Button_Float_Down' is clicked on
+
+2022-05-10 19:49:58 - [MESSAGE][PASSED] - Object: 'Object Repository/5. PopUp Detail/Button_Float_Down' is clicked on
+
+2022-05-10 19:49:58 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("5. PopUp Detail/Verify_AmountMidtransPillow"), "Rp20.000"): Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_AmountMidtransPillow' are matched.
+
+2022-05-10 19:49:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_AmountMidtransPillow' are matched.
+
+2022-05-10 19:49:59 - [TEST_STEP][PASSED] - total1 = verifyElementText(findTestObject("5. PopUp Detail/Verify_TotalAmount_PopUp"), "Rp20.000"): Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_TotalAmount_PopUp' are matched.
+
+2022-05-10 19:49:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_TotalAmount_PopUp' are matched.
+
+2022-05-10 19:49:59 - [TEST_STEP][PASSED] - total2 = verifyElementText(findTestObject("5. PopUp Detail/Verify_TotalAmount_Summary"), "Rp20.000"): Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_TotalAmount_Summary' are matched.
+
+2022-05-10 19:49:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_TotalAmount_Summary' are matched.
+
+2022-05-10 19:49:59 - [TEST_STEP][PASSED] - verifyEqual(total1, total2, STOP_ON_FAILURE): Actual object 'true' and expected object 'true' are equal
+
+2022-05-10 19:49:59 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2022-05-10 19:49:59 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("5. PopUp Detail/Verify_Name_Summary"), Name): Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_Name_Summary' are matched.
+
+2022-05-10 19:50:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_Name_Summary' are matched.
+
+2022-05-10 19:50:00 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("5. PopUp Detail/Verify_Addess_Summary"), Address_2): Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_Addess_Summary' are matched.
+
+2022-05-10 19:50:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_Addess_Summary' are matched.
+
+2022-05-10 19:50:00 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("5. PopUp Detail/Verify_Phone_Summary"), Phone_2): Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_Phone_Summary' are matched.
+
+2022-05-10 19:50:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_Phone_Summary' are matched.
+
+2022-05-10 19:50:01 - [TEST_STEP][PASSED] - click(findTestObject("5. PopUp Detail/Button_Float_Up")): Object: 'Object Repository/5. PopUp Detail/Button_Float_Up' is clicked on
+
+2022-05-10 19:50:01 - [MESSAGE][PASSED] - Object: 'Object Repository/5. PopUp Detail/Button_Float_Up' is clicked on
+
+2022-05-10 19:50:01 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_Akulaku/Verify_Step1_Akulaku"), "Click Pay Now, then you will be directed to the Akulaku Payment Center page."): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_Akulaku/Verify_Step1_Akulaku' are matched.
+
+2022-05-10 19:50:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_Akulaku/Verify_Step1_Akulaku' are matched.
+
+2022-05-10 19:50:02 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_Akulaku/Verify_Step2_Akulaku"), "Select the desired installment tenor."): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_Akulaku/Verify_Step2_Akulaku' are matched.
+
+2022-05-10 19:50:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_Akulaku/Verify_Step2_Akulaku' are matched.
+
+2022-05-10 19:50:02 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_Akulaku/Verify_Step3_Akulaku"), "Login to your Akulaku account."): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_Akulaku/Verify_Step3_Akulaku' are matched.
+
+2022-05-10 19:50:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_Akulaku/Verify_Step3_Akulaku' are matched.
+
+2022-05-10 19:50:02 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_Akulaku/Verify_Step4_Akulaku"), "Enter the verification code (OTP) that has been sent to your mobile number, then click Next."): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_Akulaku/Verify_Step4_Akulaku' are matched.
+
+2022-05-10 19:50:03 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_Akulaku/Verify_Step4_Akulaku' are matched.
+
+2022-05-10 19:50:03 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_Akulaku/Verify_Step5_Akulaku"), "Confirm and finish your payment."): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_Akulaku/Verify_Step5_Akulaku' are matched.
+
+2022-05-10 19:50:03 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_Akulaku/Verify_Step5_Akulaku' are matched.
+
+2022-05-10 19:50:03 - [TEST_STEP][PASSED] - click(findTestObject("4. Payment/Payment_eWallet/Button_PayNow")): Object: 'Object Repository/4. Payment/Payment_eWallet/Button_PayNow' is clicked on
+
+2022-05-10 19:50:04 - [MESSAGE][PASSED] - Object: 'Object Repository/4. Payment/Payment_eWallet/Button_PayNow' is clicked on
+
+2022-05-10 19:50:04 - [TEST_STEP][PASSED] - setText(findTestObject("4. Payment/Payment_Akulaku/Field_Phone_Akulaku"), findTestData("Akulaku_PhoneNumber").getValue(2, 1)): Text '08133333333' is set on object 'Object Repository/4. Payment/Payment_Akulaku/Field_Phone_Akulaku'
+
+2022-05-10 19:50:05 - [MESSAGE][PASSED] - Text '08133333333' is set on object 'Object Repository/4. Payment/Payment_Akulaku/Field_Phone_Akulaku'
+
+2022-05-10 19:50:05 - [TEST_STEP][PASSED] - click(findTestObject("4. Payment/Payment_Akulaku/Button_Next")): Object: 'Object Repository/4. Payment/Payment_Akulaku/Button_Next' is clicked on
+
+2022-05-10 19:50:06 - [MESSAGE][PASSED] - Object: 'Object Repository/4. Payment/Payment_Akulaku/Button_Next' is clicked on
+
+2022-05-10 19:50:06 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("4. Payment/Payment_Akulaku/Verify_RefNo")): Object 'Object Repository/4. Payment/Payment_Akulaku/Verify_RefNo' is visible
+
+2022-05-10 19:50:06 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_Akulaku/Verify_RefNo' is visible
+
+2022-05-10 19:50:06 - [TEST_STEP][PASSED] - click(findTestObject("4. Payment/Payment_Akulaku/Button_Pay")): Object: 'Object Repository/4. Payment/Payment_Akulaku/Button_Pay' is clicked on
+
+2022-05-10 19:50:07 - [MESSAGE][PASSED] - Object: 'Object Repository/4. Payment/Payment_Akulaku/Button_Pay' is clicked on
+
+2022-05-10 19:50:07 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_Akulaku/Verify_Trx_Pending"), "Transaction is Pending"): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_Akulaku/Verify_Trx_Pending' are matched.
+
+2022-05-10 19:50:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_Akulaku/Verify_Trx_Pending' are matched.
+
+2022-05-10 19:50:07 - [TEST_STEP][PASSED] - click(findTestObject("4. Payment/Payment_Akulaku/Button_ThisPage")): Object: 'Object Repository/4. Payment/Payment_Akulaku/Button_ThisPage' is clicked on
+
+2022-05-10 19:50:07 - [MESSAGE][PASSED] - Object: 'Object Repository/4. Payment/Payment_Akulaku/Button_ThisPage' is clicked on
+
+2022-05-10 19:50:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("4. Payment/Payment_Akulaku/Verify_PaymentCode")): Object 'Object Repository/4. Payment/Payment_Akulaku/Verify_PaymentCode' is visible
+
+2022-05-10 19:50:08 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_Akulaku/Verify_PaymentCode' is visible
+
+2022-05-10 19:50:08 - [TEST_STEP][PASSED] - click(findTestObject("4. Payment/Payment_Akulaku/Button_Submit")): Object: 'Object Repository/4. Payment/Payment_Akulaku/Button_Submit' is clicked on
+
+2022-05-10 19:50:08 - [MESSAGE][PASSED] - Object: 'Object Repository/4. Payment/Payment_Akulaku/Button_Submit' is clicked on
+
+2022-05-10 19:50:08 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_Akulaku/Verify_Trx_Success"), "Transaction is Successful"): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_Akulaku/Verify_Trx_Success' are matched.
+
+2022-05-10 19:50:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_Akulaku/Verify_Trx_Success' are matched.
+
+2022-05-10 19:50:08 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-05-10 19:50:09 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SmallProject1_Version2/TC82_UserInputInvalidCode_Akulaku_WithDP" time="24.892" classname="Test Cases/SmallProject1_Version2/TC82_UserInputInvalidCode_Akulaku_WithDP" status="PASSED">
+         <system-out><![CDATA[2022-05-10 19:50:09 - [TEST_CASE][PASSED] - Test Cases/SmallProject1_Version2/TC82_UserInputInvalidCode_Akulaku_WithDP: Test Cases/SmallProject1_Version2/TC82_UserInputInvalidCode_Akulaku_WithDP
+
+2022-05-10 19:50:09 - [TEST_STEP][PASSED] - callTestCase(findTestCase("SmallProject1_Version2/TC32_UserSuccessCheckout"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/SmallProject1_Version2/TC32_UserSuccessCheckout' successfully
+
+2022-05-10 19:50:09 - [TEST_CASE][PASSED] - Test Cases/SmallProject1_Version2/TC32_UserSuccessCheckout: Test Cases/SmallProject1_Version2/TC32_UserSuccessCheckout
+
+2022-05-10 19:50:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-05-10 19:50:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-10 19:50:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-10 19:50:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-05-10 19:50:11 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-05-10 19:50:11 - [MESSAGE][PASSED] - Current window maximized
+
+2022-05-10 19:50:11 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.midtrans.com/"): Navigate to 'https://demo.midtrans.com/' successfully
+
+2022-05-10 19:50:11 - [MESSAGE][PASSED] - Navigate to 'https://demo.midtrans.com/' successfully
+
+2022-05-10 19:50:11 - [TEST_STEP][PASSED] - click(findTestObject("3. Checkout/a_BUY NOW")): Object: 'Object Repository/3. Checkout/a_BUY NOW' is clicked on
+
+2022-05-10 19:50:12 - [MESSAGE][PASSED] - Object: 'Object Repository/3. Checkout/a_BUY NOW' is clicked on
+
+2022-05-10 19:50:12 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("3. Checkout/Verify_ShoppingCart"), 0): Object 'Object Repository/3. Checkout/Verify_ShoppingCart' is present and visible in viewport
+
+2022-05-10 19:50:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-10 19:50:13 - [MESSAGE][PASSED] - Object 'Object Repository/3. Checkout/Verify_ShoppingCart' is present and visible in viewport
+
+2022-05-10 19:50:13 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("3. Checkout/Verify_TotalAmount"), "20,000"): Actual text and expected text of test object 'Object Repository/3. Checkout/Verify_TotalAmount' are matched.
+
+2022-05-10 19:50:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/3. Checkout/Verify_TotalAmount' are matched.
+
+2022-05-10 19:50:13 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("3. Checkout/Verify_CustomerDetail"), "Customer Details"): Actual text and expected text of test object 'Object Repository/3. Checkout/Verify_CustomerDetail' are matched.
+
+2022-05-10 19:50:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/3. Checkout/Verify_CustomerDetail' are matched.
+
+2022-05-10 19:50:13 - [TEST_STEP][PASSED] - setText(findTestObject("3. Checkout/Field_Name"), Name): Text 'Yulia' is set on object 'Object Repository/3. Checkout/Field_Name'
+
+2022-05-10 19:50:14 - [MESSAGE][PASSED] - Text 'Yulia' is set on object 'Object Repository/3. Checkout/Field_Name'
+
+2022-05-10 19:50:14 - [TEST_STEP][PASSED] - setText(findTestObject("3. Checkout/Field_Email"), Email): Text 'yulia@email.com' is set on object 'Object Repository/3. Checkout/Field_Email'
+
+2022-05-10 19:50:15 - [MESSAGE][PASSED] - Text 'yulia@email.com' is set on object 'Object Repository/3. Checkout/Field_Email'
+
+2022-05-10 19:50:15 - [TEST_STEP][PASSED] - setText(findTestObject("3. Checkout/Field_Phone"), Phone): Text '081234567890' is set on object 'Object Repository/3. Checkout/Field_Phone'
+
+2022-05-10 19:50:15 - [MESSAGE][PASSED] - Text '081234567890' is set on object 'Object Repository/3. Checkout/Field_Phone'
+
+2022-05-10 19:50:15 - [TEST_STEP][PASSED] - setText(findTestObject("3. Checkout/Field_City"), City): Text 'Jakarta' is set on object 'Object Repository/3. Checkout/Field_City'
+
+2022-05-10 19:50:16 - [MESSAGE][PASSED] - Text 'Jakarta' is set on object 'Object Repository/3. Checkout/Field_City'
+
+2022-05-10 19:50:16 - [TEST_STEP][PASSED] - setText(findTestObject("3. Checkout/Field_Address"), Address): Text 'Jalan Jend. Sudirman Kav 10' is set on object 'Object Repository/3. Checkout/Field_Address'
+
+2022-05-10 19:50:17 - [MESSAGE][PASSED] - Text 'Jalan Jend. Sudirman Kav 10' is set on object 'Object Repository/3. Checkout/Field_Address'
+
+2022-05-10 19:50:17 - [TEST_STEP][PASSED] - setText(findTestObject("3. Checkout/Field_PostalCode"), PostalCode): Text '12345' is set on object 'Object Repository/3. Checkout/Field_PostalCode'
+
+2022-05-10 19:50:17 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/3. Checkout/Field_PostalCode'
+
+2022-05-10 19:50:17 - [TEST_STEP][PASSED] - click(findTestObject("3. Checkout/Button_Checkout")): Object: 'Object Repository/3. Checkout/Button_Checkout' is clicked on
+
+2022-05-10 19:50:18 - [MESSAGE][PASSED] - Object: 'Object Repository/3. Checkout/Button_Checkout' is clicked on
+
+2022-05-10 19:50:18 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-05-10 19:50:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-05-10 19:50:19 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-05-10 19:50:19 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-05-10 19:50:19 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\220005\\Katalon Studio\\SmallProject1_Yulia\\Reports\\20220510_194905\\TS03 - Payment Method - Akulaku\\20220510_194906\\1652187019125.png]]
+
+2022-05-10 19:50:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("5. PopUp Detail/Time_PayWithin"), STOP_ON_FAILURE): Object 'Object Repository/5. PopUp Detail/Time_PayWithin' is visible
+
+2022-05-10 19:50:20 - [MESSAGE][PASSED] - Object 'Object Repository/5. PopUp Detail/Time_PayWithin' is visible
+
+2022-05-10 19:50:20 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("5. PopUp Detail/Verify_OrderID_PopUp")): Object 'Object Repository/5. PopUp Detail/Verify_OrderID_PopUp' is visible
+
+2022-05-10 19:50:20 - [MESSAGE][PASSED] - Object 'Object Repository/5. PopUp Detail/Verify_OrderID_PopUp' is visible
+
+2022-05-10 19:50:20 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("3. Checkout/Verify_MethodList")): Object 'Object Repository/3. Checkout/Verify_MethodList' is visible
+
+2022-05-10 19:50:21 - [MESSAGE][PASSED] - Object 'Object Repository/3. Checkout/Verify_MethodList' is visible
+
+2022-05-10 19:50:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/SmallProject1_Version2/TC32_UserSuccessCheckout' successfully
+
+2022-05-10 19:50:21 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("4. Payment/Payment_Akulaku/Title_Akulaku")): Object 'Object Repository/4. Payment/Payment_Akulaku/Title_Akulaku' is visible
+
+2022-05-10 19:50:21 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_Akulaku/Title_Akulaku' is visible
+
+2022-05-10 19:50:21 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("4. Payment/Payment_Akulaku/Logo_Akulaku")): Object 'Object Repository/4. Payment/Payment_Akulaku/Logo_Akulaku' is visible
+
+2022-05-10 19:50:21 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_Akulaku/Logo_Akulaku' is visible
+
+2022-05-10 19:50:21 - [TEST_STEP][PASSED] - click(findTestObject("4. Payment/Payment_Akulaku/Button_Akulaku")): Object: 'Object Repository/4. Payment/Payment_Akulaku/Button_Akulaku' is clicked on
+
+2022-05-10 19:50:22 - [MESSAGE][PASSED] - Object: 'Object Repository/4. Payment/Payment_Akulaku/Button_Akulaku' is clicked on
+
+2022-05-10 19:50:22 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/a_Header_Details"), "Akulaku"): Actual text and expected text of test object 'Object Repository/4. Payment/a_Header_Details' are matched.
+
+2022-05-10 19:50:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/a_Header_Details' are matched.
+
+2022-05-10 19:50:22 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("4. Payment/Payment_ATMBankTransfer/Desc_AllBank"), STOP_ON_FAILURE): Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Desc_AllBank' is visible
+
+2022-05-10 19:50:23 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Desc_AllBank' is visible
+
+2022-05-10 19:50:23 - [TEST_STEP][PASSED] - click(findTestObject("5. PopUp Detail/Button_Float_Down")): Object: 'Object Repository/5. PopUp Detail/Button_Float_Down' is clicked on
+
+2022-05-10 19:50:23 - [MESSAGE][PASSED] - Object: 'Object Repository/5. PopUp Detail/Button_Float_Down' is clicked on
+
+2022-05-10 19:50:23 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("5. PopUp Detail/Verify_AmountMidtransPillow"), "Rp20.000"): Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_AmountMidtransPillow' are matched.
+
+2022-05-10 19:50:24 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_AmountMidtransPillow' are matched.
+
+2022-05-10 19:50:24 - [TEST_STEP][PASSED] - total1 = verifyElementText(findTestObject("5. PopUp Detail/Verify_TotalAmount_PopUp"), "Rp20.000"): Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_TotalAmount_PopUp' are matched.
+
+2022-05-10 19:50:24 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_TotalAmount_PopUp' are matched.
+
+2022-05-10 19:50:24 - [TEST_STEP][PASSED] - total2 = verifyElementText(findTestObject("5. PopUp Detail/Verify_TotalAmount_Summary"), "Rp20.000"): Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_TotalAmount_Summary' are matched.
+
+2022-05-10 19:50:24 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_TotalAmount_Summary' are matched.
+
+2022-05-10 19:50:24 - [TEST_STEP][PASSED] - verifyEqual(total1, total2, STOP_ON_FAILURE): Actual object 'true' and expected object 'true' are equal
+
+2022-05-10 19:50:24 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2022-05-10 19:50:24 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("5. PopUp Detail/Verify_Name_Summary"), Name): Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_Name_Summary' are matched.
+
+2022-05-10 19:50:25 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_Name_Summary' are matched.
+
+2022-05-10 19:50:25 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("5. PopUp Detail/Verify_Addess_Summary"), Address_2): Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_Addess_Summary' are matched.
+
+2022-05-10 19:50:25 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_Addess_Summary' are matched.
+
+2022-05-10 19:50:25 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("5. PopUp Detail/Verify_Phone_Summary"), Phone_2): Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_Phone_Summary' are matched.
+
+2022-05-10 19:50:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_Phone_Summary' are matched.
+
+2022-05-10 19:50:26 - [TEST_STEP][PASSED] - click(findTestObject("5. PopUp Detail/Button_Float_Up")): Object: 'Object Repository/5. PopUp Detail/Button_Float_Up' is clicked on
+
+2022-05-10 19:50:26 - [MESSAGE][PASSED] - Object: 'Object Repository/5. PopUp Detail/Button_Float_Up' is clicked on
+
+2022-05-10 19:50:26 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_Akulaku/Verify_Step1_Akulaku"), "Click Pay Now, then you will be directed to the Akulaku Payment Center page."): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_Akulaku/Verify_Step1_Akulaku' are matched.
+
+2022-05-10 19:50:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_Akulaku/Verify_Step1_Akulaku' are matched.
+
+2022-05-10 19:50:27 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_Akulaku/Verify_Step2_Akulaku"), "Select the desired installment tenor."): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_Akulaku/Verify_Step2_Akulaku' are matched.
+
+2022-05-10 19:50:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_Akulaku/Verify_Step2_Akulaku' are matched.
+
+2022-05-10 19:50:27 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_Akulaku/Verify_Step3_Akulaku"), "Login to your Akulaku account."): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_Akulaku/Verify_Step3_Akulaku' are matched.
+
+2022-05-10 19:50:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_Akulaku/Verify_Step3_Akulaku' are matched.
+
+2022-05-10 19:50:27 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_Akulaku/Verify_Step4_Akulaku"), "Enter the verification code (OTP) that has been sent to your mobile number, then click Next."): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_Akulaku/Verify_Step4_Akulaku' are matched.
+
+2022-05-10 19:50:28 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_Akulaku/Verify_Step4_Akulaku' are matched.
+
+2022-05-10 19:50:28 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_Akulaku/Verify_Step5_Akulaku"), "Confirm and finish your payment."): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_Akulaku/Verify_Step5_Akulaku' are matched.
+
+2022-05-10 19:50:28 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_Akulaku/Verify_Step5_Akulaku' are matched.
+
+2022-05-10 19:50:28 - [TEST_STEP][PASSED] - click(findTestObject("4. Payment/Payment_eWallet/Button_PayNow")): Object: 'Object Repository/4. Payment/Payment_eWallet/Button_PayNow' is clicked on
+
+2022-05-10 19:50:29 - [MESSAGE][PASSED] - Object: 'Object Repository/4. Payment/Payment_eWallet/Button_PayNow' is clicked on
+
+2022-05-10 19:50:29 - [TEST_STEP][PASSED] - setText(findTestObject("4. Payment/Payment_Akulaku/Field_Phone_Akulaku"), findTestData("Akulaku_PhoneNumber").getValue(2, 1)): Text '08133333333' is set on object 'Object Repository/4. Payment/Payment_Akulaku/Field_Phone_Akulaku'
+
+2022-05-10 19:50:30 - [MESSAGE][PASSED] - Text '08133333333' is set on object 'Object Repository/4. Payment/Payment_Akulaku/Field_Phone_Akulaku'
+
+2022-05-10 19:50:30 - [TEST_STEP][PASSED] - click(findTestObject("4. Payment/Payment_Akulaku/Button_Next")): Object: 'Object Repository/4. Payment/Payment_Akulaku/Button_Next' is clicked on
+
+2022-05-10 19:50:30 - [MESSAGE][PASSED] - Object: 'Object Repository/4. Payment/Payment_Akulaku/Button_Next' is clicked on
+
+2022-05-10 19:50:30 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("4. Payment/Payment_Akulaku/Verify_RefNo")): Object 'Object Repository/4. Payment/Payment_Akulaku/Verify_RefNo' is visible
+
+2022-05-10 19:50:31 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_Akulaku/Verify_RefNo' is visible
+
+2022-05-10 19:50:31 - [TEST_STEP][PASSED] - click(findTestObject("4. Payment/Payment_Akulaku/Button_Pay")): Object: 'Object Repository/4. Payment/Payment_Akulaku/Button_Pay' is clicked on
+
+2022-05-10 19:50:31 - [MESSAGE][PASSED] - Object: 'Object Repository/4. Payment/Payment_Akulaku/Button_Pay' is clicked on
+
+2022-05-10 19:50:31 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_Akulaku/Verify_Trx_Pending"), "Transaction is Pending"): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_Akulaku/Verify_Trx_Pending' are matched.
+
+2022-05-10 19:50:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_Akulaku/Verify_Trx_Pending' are matched.
+
+2022-05-10 19:50:31 - [TEST_STEP][PASSED] - click(findTestObject("4. Payment/Payment_Akulaku/Button_ThisPage")): Object: 'Object Repository/4. Payment/Payment_Akulaku/Button_ThisPage' is clicked on
+
+2022-05-10 19:50:32 - [MESSAGE][PASSED] - Object: 'Object Repository/4. Payment/Payment_Akulaku/Button_ThisPage' is clicked on
+
+2022-05-10 19:50:32 - [TEST_STEP][PASSED] - setText(findTestObject("4. Payment/Payment_Akulaku/Verify_PaymentCode"), "12ab"): Text '12ab' is set on object 'Object Repository/4. Payment/Payment_Akulaku/Verify_PaymentCode'
+
+2022-05-10 19:50:32 - [MESSAGE][PASSED] - Text '12ab' is set on object 'Object Repository/4. Payment/Payment_Akulaku/Verify_PaymentCode'
+
+2022-05-10 19:50:32 - [TEST_STEP][PASSED] - click(findTestObject("4. Payment/Payment_Akulaku/Button_Submit")): Object: 'Object Repository/4. Payment/Payment_Akulaku/Button_Submit' is clicked on
+
+2022-05-10 19:50:33 - [MESSAGE][PASSED] - Object: 'Object Repository/4. Payment/Payment_Akulaku/Button_Submit' is clicked on
+
+2022-05-10 19:50:33 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_Akulaku/Verify_Trx_Failed"), "Transaction Not Found"): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_Akulaku/Verify_Trx_Failed' are matched.
+
+2022-05-10 19:50:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_Akulaku/Verify_Trx_Failed' are matched.
+
+2022-05-10 19:50:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-05-10 19:50:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SmallProject1_Version2/TC84_UserInputInvalidPhone_Akulaku_WithDP" time="22.621" classname="Test Cases/SmallProject1_Version2/TC84_UserInputInvalidPhone_Akulaku_WithDP" status="PASSED">
+         <system-out><![CDATA[2022-05-10 19:50:34 - [TEST_CASE][PASSED] - Test Cases/SmallProject1_Version2/TC84_UserInputInvalidPhone_Akulaku_WithDP: Test Cases/SmallProject1_Version2/TC84_UserInputInvalidPhone_Akulaku_WithDP
+
+2022-05-10 19:50:34 - [TEST_STEP][PASSED] - callTestCase(findTestCase("SmallProject1_Version2/TC32_UserSuccessCheckout"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/SmallProject1_Version2/TC32_UserSuccessCheckout' successfully
+
+2022-05-10 19:50:34 - [TEST_CASE][PASSED] - Test Cases/SmallProject1_Version2/TC32_UserSuccessCheckout: Test Cases/SmallProject1_Version2/TC32_UserSuccessCheckout
+
+2022-05-10 19:50:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-05-10 19:50:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-10 19:50:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-10 19:50:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-05-10 19:50:35 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-05-10 19:50:36 - [MESSAGE][PASSED] - Current window maximized
+
+2022-05-10 19:50:36 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.midtrans.com/"): Navigate to 'https://demo.midtrans.com/' successfully
+
+2022-05-10 19:50:36 - [MESSAGE][PASSED] - Navigate to 'https://demo.midtrans.com/' successfully
+
+2022-05-10 19:50:36 - [TEST_STEP][PASSED] - click(findTestObject("3. Checkout/a_BUY NOW")): Object: 'Object Repository/3. Checkout/a_BUY NOW' is clicked on
+
+2022-05-10 19:50:37 - [MESSAGE][PASSED] - Object: 'Object Repository/3. Checkout/a_BUY NOW' is clicked on
+
+2022-05-10 19:50:37 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("3. Checkout/Verify_ShoppingCart"), 0): Object 'Object Repository/3. Checkout/Verify_ShoppingCart' is present and visible in viewport
+
+2022-05-10 19:50:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-10 19:50:38 - [MESSAGE][PASSED] - Object 'Object Repository/3. Checkout/Verify_ShoppingCart' is present and visible in viewport
+
+2022-05-10 19:50:38 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("3. Checkout/Verify_TotalAmount"), "20,000"): Actual text and expected text of test object 'Object Repository/3. Checkout/Verify_TotalAmount' are matched.
+
+2022-05-10 19:50:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/3. Checkout/Verify_TotalAmount' are matched.
+
+2022-05-10 19:50:38 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("3. Checkout/Verify_CustomerDetail"), "Customer Details"): Actual text and expected text of test object 'Object Repository/3. Checkout/Verify_CustomerDetail' are matched.
+
+2022-05-10 19:50:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/3. Checkout/Verify_CustomerDetail' are matched.
+
+2022-05-10 19:50:38 - [TEST_STEP][PASSED] - setText(findTestObject("3. Checkout/Field_Name"), Name): Text 'Yulia' is set on object 'Object Repository/3. Checkout/Field_Name'
+
+2022-05-10 19:50:39 - [MESSAGE][PASSED] - Text 'Yulia' is set on object 'Object Repository/3. Checkout/Field_Name'
+
+2022-05-10 19:50:39 - [TEST_STEP][PASSED] - setText(findTestObject("3. Checkout/Field_Email"), Email): Text 'yulia@email.com' is set on object 'Object Repository/3. Checkout/Field_Email'
+
+2022-05-10 19:50:40 - [MESSAGE][PASSED] - Text 'yulia@email.com' is set on object 'Object Repository/3. Checkout/Field_Email'
+
+2022-05-10 19:50:40 - [TEST_STEP][PASSED] - setText(findTestObject("3. Checkout/Field_Phone"), Phone): Text '081234567890' is set on object 'Object Repository/3. Checkout/Field_Phone'
+
+2022-05-10 19:50:40 - [MESSAGE][PASSED] - Text '081234567890' is set on object 'Object Repository/3. Checkout/Field_Phone'
+
+2022-05-10 19:50:40 - [TEST_STEP][PASSED] - setText(findTestObject("3. Checkout/Field_City"), City): Text 'Jakarta' is set on object 'Object Repository/3. Checkout/Field_City'
+
+2022-05-10 19:50:41 - [MESSAGE][PASSED] - Text 'Jakarta' is set on object 'Object Repository/3. Checkout/Field_City'
+
+2022-05-10 19:50:41 - [TEST_STEP][PASSED] - setText(findTestObject("3. Checkout/Field_Address"), Address): Text 'Jalan Jend. Sudirman Kav 10' is set on object 'Object Repository/3. Checkout/Field_Address'
+
+2022-05-10 19:50:42 - [MESSAGE][PASSED] - Text 'Jalan Jend. Sudirman Kav 10' is set on object 'Object Repository/3. Checkout/Field_Address'
+
+2022-05-10 19:50:42 - [TEST_STEP][PASSED] - setText(findTestObject("3. Checkout/Field_PostalCode"), PostalCode): Text '12345' is set on object 'Object Repository/3. Checkout/Field_PostalCode'
+
+2022-05-10 19:50:42 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/3. Checkout/Field_PostalCode'
+
+2022-05-10 19:50:42 - [TEST_STEP][PASSED] - click(findTestObject("3. Checkout/Button_Checkout")): Object: 'Object Repository/3. Checkout/Button_Checkout' is clicked on
+
+2022-05-10 19:50:43 - [MESSAGE][PASSED] - Object: 'Object Repository/3. Checkout/Button_Checkout' is clicked on
+
+2022-05-10 19:50:43 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-05-10 19:50:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-05-10 19:50:44 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-05-10 19:50:44 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-05-10 19:50:44 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\220005\\Katalon Studio\\SmallProject1_Yulia\\Reports\\20220510_194905\\TS03 - Payment Method - Akulaku\\20220510_194906\\1652187044161.png]]
+
+2022-05-10 19:50:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("5. PopUp Detail/Time_PayWithin"), STOP_ON_FAILURE): Object 'Object Repository/5. PopUp Detail/Time_PayWithin' is visible
+
+2022-05-10 19:50:45 - [MESSAGE][PASSED] - Object 'Object Repository/5. PopUp Detail/Time_PayWithin' is visible
+
+2022-05-10 19:50:45 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("5. PopUp Detail/Verify_OrderID_PopUp")): Object 'Object Repository/5. PopUp Detail/Verify_OrderID_PopUp' is visible
+
+2022-05-10 19:50:45 - [MESSAGE][PASSED] - Object 'Object Repository/5. PopUp Detail/Verify_OrderID_PopUp' is visible
+
+2022-05-10 19:50:45 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("3. Checkout/Verify_MethodList")): Object 'Object Repository/3. Checkout/Verify_MethodList' is visible
+
+2022-05-10 19:50:46 - [MESSAGE][PASSED] - Object 'Object Repository/3. Checkout/Verify_MethodList' is visible
+
+2022-05-10 19:50:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/SmallProject1_Version2/TC32_UserSuccessCheckout' successfully
+
+2022-05-10 19:50:46 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("4. Payment/Payment_Akulaku/Title_Akulaku")): Object 'Object Repository/4. Payment/Payment_Akulaku/Title_Akulaku' is visible
+
+2022-05-10 19:50:46 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_Akulaku/Title_Akulaku' is visible
+
+2022-05-10 19:50:46 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("4. Payment/Payment_Akulaku/Logo_Akulaku")): Object 'Object Repository/4. Payment/Payment_Akulaku/Logo_Akulaku' is visible
+
+2022-05-10 19:50:46 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_Akulaku/Logo_Akulaku' is visible
+
+2022-05-10 19:50:46 - [TEST_STEP][PASSED] - click(findTestObject("4. Payment/Payment_Akulaku/Button_Akulaku")): Object: 'Object Repository/4. Payment/Payment_Akulaku/Button_Akulaku' is clicked on
+
+2022-05-10 19:50:47 - [MESSAGE][PASSED] - Object: 'Object Repository/4. Payment/Payment_Akulaku/Button_Akulaku' is clicked on
+
+2022-05-10 19:50:47 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/a_Header_Details"), "Akulaku"): Actual text and expected text of test object 'Object Repository/4. Payment/a_Header_Details' are matched.
+
+2022-05-10 19:50:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/a_Header_Details' are matched.
+
+2022-05-10 19:50:47 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("4. Payment/Payment_ATMBankTransfer/Desc_AllBank"), STOP_ON_FAILURE): Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Desc_AllBank' is visible
+
+2022-05-10 19:50:48 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Desc_AllBank' is visible
+
+2022-05-10 19:50:48 - [TEST_STEP][PASSED] - click(findTestObject("5. PopUp Detail/Button_Float_Down")): Object: 'Object Repository/5. PopUp Detail/Button_Float_Down' is clicked on
+
+2022-05-10 19:50:48 - [MESSAGE][PASSED] - Object: 'Object Repository/5. PopUp Detail/Button_Float_Down' is clicked on
+
+2022-05-10 19:50:48 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("5. PopUp Detail/Verify_AmountMidtransPillow"), "Rp20.000"): Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_AmountMidtransPillow' are matched.
+
+2022-05-10 19:50:49 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_AmountMidtransPillow' are matched.
+
+2022-05-10 19:50:49 - [TEST_STEP][PASSED] - total1 = verifyElementText(findTestObject("5. PopUp Detail/Verify_TotalAmount_PopUp"), "Rp20.000"): Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_TotalAmount_PopUp' are matched.
+
+2022-05-10 19:50:49 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_TotalAmount_PopUp' are matched.
+
+2022-05-10 19:50:49 - [TEST_STEP][PASSED] - total2 = verifyElementText(findTestObject("5. PopUp Detail/Verify_TotalAmount_Summary"), "Rp20.000"): Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_TotalAmount_Summary' are matched.
+
+2022-05-10 19:50:49 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_TotalAmount_Summary' are matched.
+
+2022-05-10 19:50:49 - [TEST_STEP][PASSED] - verifyEqual(total1, total2, STOP_ON_FAILURE): Actual object 'true' and expected object 'true' are equal
+
+2022-05-10 19:50:49 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2022-05-10 19:50:49 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("5. PopUp Detail/Verify_Name_Summary"), Name): Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_Name_Summary' are matched.
+
+2022-05-10 19:50:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_Name_Summary' are matched.
+
+2022-05-10 19:50:50 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("5. PopUp Detail/Verify_Addess_Summary"), Address_2): Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_Addess_Summary' are matched.
+
+2022-05-10 19:50:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_Addess_Summary' are matched.
+
+2022-05-10 19:50:50 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("5. PopUp Detail/Verify_Phone_Summary"), Phone_2): Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_Phone_Summary' are matched.
+
+2022-05-10 19:50:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_Phone_Summary' are matched.
+
+2022-05-10 19:50:51 - [TEST_STEP][PASSED] - click(findTestObject("5. PopUp Detail/Button_Float_Up")): Object: 'Object Repository/5. PopUp Detail/Button_Float_Up' is clicked on
+
+2022-05-10 19:50:51 - [MESSAGE][PASSED] - Object: 'Object Repository/5. PopUp Detail/Button_Float_Up' is clicked on
+
+2022-05-10 19:50:51 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_Akulaku/Verify_Step1_Akulaku"), "Click Pay Now, then you will be directed to the Akulaku Payment Center page."): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_Akulaku/Verify_Step1_Akulaku' are matched.
+
+2022-05-10 19:50:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_Akulaku/Verify_Step1_Akulaku' are matched.
+
+2022-05-10 19:50:52 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_Akulaku/Verify_Step2_Akulaku"), "Select the desired installment tenor."): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_Akulaku/Verify_Step2_Akulaku' are matched.
+
+2022-05-10 19:50:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_Akulaku/Verify_Step2_Akulaku' are matched.
+
+2022-05-10 19:50:52 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_Akulaku/Verify_Step3_Akulaku"), "Login to your Akulaku account."): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_Akulaku/Verify_Step3_Akulaku' are matched.
+
+2022-05-10 19:50:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_Akulaku/Verify_Step3_Akulaku' are matched.
+
+2022-05-10 19:50:52 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_Akulaku/Verify_Step4_Akulaku"), "Enter the verification code (OTP) that has been sent to your mobile number, then click Next."): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_Akulaku/Verify_Step4_Akulaku' are matched.
+
+2022-05-10 19:50:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_Akulaku/Verify_Step4_Akulaku' are matched.
+
+2022-05-10 19:50:53 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_Akulaku/Verify_Step5_Akulaku"), "Confirm and finish your payment."): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_Akulaku/Verify_Step5_Akulaku' are matched.
+
+2022-05-10 19:50:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_Akulaku/Verify_Step5_Akulaku' are matched.
+
+2022-05-10 19:50:53 - [TEST_STEP][PASSED] - click(findTestObject("4. Payment/Payment_eWallet/Button_PayNow")): Object: 'Object Repository/4. Payment/Payment_eWallet/Button_PayNow' is clicked on
+
+2022-05-10 19:50:54 - [MESSAGE][PASSED] - Object: 'Object Repository/4. Payment/Payment_eWallet/Button_PayNow' is clicked on
+
+2022-05-10 19:50:54 - [TEST_STEP][PASSED] - setText(findTestObject("4. Payment/Payment_Akulaku/Field_Phone_Akulaku"), "081555555555"): Text '081555555555' is set on object 'Object Repository/4. Payment/Payment_Akulaku/Field_Phone_Akulaku'
+
+2022-05-10 19:50:55 - [MESSAGE][PASSED] - Text '081555555555' is set on object 'Object Repository/4. Payment/Payment_Akulaku/Field_Phone_Akulaku'
+
+2022-05-10 19:50:55 - [TEST_STEP][PASSED] - click(findTestObject("4. Payment/Payment_Akulaku/Button_Next")): Object: 'Object Repository/4. Payment/Payment_Akulaku/Button_Next' is clicked on
+
+2022-05-10 19:50:56 - [MESSAGE][PASSED] - Object: 'Object Repository/4. Payment/Payment_Akulaku/Button_Next' is clicked on
+
+2022-05-10 19:50:56 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_Akulaku/Verify_Trx_Failed"), "Phone Number Invalid, please use 08122222222 or 08133333333"): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_Akulaku/Verify_Trx_Failed' are matched.
+
+2022-05-10 19:50:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_Akulaku/Verify_Trx_Failed' are matched.
+
+2022-05-10 19:50:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-05-10 19:50:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SmallProject1_Version2/TC88_VerifyButton_BackToMerchantWeb_Akulaku" time="27.139" classname="Test Cases/SmallProject1_Version2/TC88_VerifyButton_BackToMerchantWeb_Akulaku" status="FAILED">
+         <failure type="FAILED" message="Test Cases/SmallProject1_Version2/TC88_VerifyButton_BackToMerchantWeb_Akulaku FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual object 'https://requestbin.fullcontact.com/xw5bglxw?inspect' and expected object 'https://demo.midtrans.com/' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at TC88_VerifyButton_BackToMerchantWeb_Akulaku.run(TC88_VerifyButton_BackToMerchantWeb_Akulaku:78)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652186946902.run(TempTestSuite1652186946902.groovy:36)
+"/>
+         <system-out><![CDATA[2022-05-10 19:50:57 - [TEST_CASE][FAILED] - Test Cases/SmallProject1_Version2/TC88_VerifyButton_BackToMerchantWeb_Akulaku: Test Cases/SmallProject1_Version2/TC88_VerifyButton_BackToMerchantWeb_Akulaku FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual object 'https://requestbin.fullcontact.com/xw5bglxw?inspect' and expected object 'https://demo.midtrans.com/' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at TC88_VerifyButton_BackToMerchantWeb_Akulaku.run(TC88_VerifyButton_BackToMerchantWeb_Akulaku:78)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652186946902.run(TempTestSuite1652186946902.groovy:36)
+
+
+2022-05-10 19:50:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("SmallProject1_Version2/TC32_UserSuccessCheckout"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/SmallProject1_Version2/TC32_UserSuccessCheckout' successfully
+
+2022-05-10 19:50:57 - [TEST_CASE][PASSED] - Test Cases/SmallProject1_Version2/TC32_UserSuccessCheckout: Test Cases/SmallProject1_Version2/TC32_UserSuccessCheckout
+
+2022-05-10 19:50:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-05-10 19:50:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-10 19:50:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-10 19:50:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-05-10 19:50:58 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-05-10 19:50:58 - [MESSAGE][PASSED] - Current window maximized
+
+2022-05-10 19:50:58 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.midtrans.com/"): Navigate to 'https://demo.midtrans.com/' successfully
+
+2022-05-10 19:50:59 - [MESSAGE][PASSED] - Navigate to 'https://demo.midtrans.com/' successfully
+
+2022-05-10 19:50:59 - [TEST_STEP][PASSED] - click(findTestObject("3. Checkout/a_BUY NOW")): Object: 'Object Repository/3. Checkout/a_BUY NOW' is clicked on
+
+2022-05-10 19:50:59 - [MESSAGE][PASSED] - Object: 'Object Repository/3. Checkout/a_BUY NOW' is clicked on
+
+2022-05-10 19:50:59 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("3. Checkout/Verify_ShoppingCart"), 0): Object 'Object Repository/3. Checkout/Verify_ShoppingCart' is present and visible in viewport
+
+2022-05-10 19:50:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-10 19:51:00 - [MESSAGE][PASSED] - Object 'Object Repository/3. Checkout/Verify_ShoppingCart' is present and visible in viewport
+
+2022-05-10 19:51:00 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("3. Checkout/Verify_TotalAmount"), "20,000"): Actual text and expected text of test object 'Object Repository/3. Checkout/Verify_TotalAmount' are matched.
+
+2022-05-10 19:51:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/3. Checkout/Verify_TotalAmount' are matched.
+
+2022-05-10 19:51:00 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("3. Checkout/Verify_CustomerDetail"), "Customer Details"): Actual text and expected text of test object 'Object Repository/3. Checkout/Verify_CustomerDetail' are matched.
+
+2022-05-10 19:51:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/3. Checkout/Verify_CustomerDetail' are matched.
+
+2022-05-10 19:51:00 - [TEST_STEP][PASSED] - setText(findTestObject("3. Checkout/Field_Name"), Name): Text 'Yulia' is set on object 'Object Repository/3. Checkout/Field_Name'
+
+2022-05-10 19:51:01 - [MESSAGE][PASSED] - Text 'Yulia' is set on object 'Object Repository/3. Checkout/Field_Name'
+
+2022-05-10 19:51:01 - [TEST_STEP][PASSED] - setText(findTestObject("3. Checkout/Field_Email"), Email): Text 'yulia@email.com' is set on object 'Object Repository/3. Checkout/Field_Email'
+
+2022-05-10 19:51:02 - [MESSAGE][PASSED] - Text 'yulia@email.com' is set on object 'Object Repository/3. Checkout/Field_Email'
+
+2022-05-10 19:51:02 - [TEST_STEP][PASSED] - setText(findTestObject("3. Checkout/Field_Phone"), Phone): Text '081234567890' is set on object 'Object Repository/3. Checkout/Field_Phone'
+
+2022-05-10 19:51:02 - [MESSAGE][PASSED] - Text '081234567890' is set on object 'Object Repository/3. Checkout/Field_Phone'
+
+2022-05-10 19:51:02 - [TEST_STEP][PASSED] - setText(findTestObject("3. Checkout/Field_City"), City): Text 'Jakarta' is set on object 'Object Repository/3. Checkout/Field_City'
+
+2022-05-10 19:51:03 - [MESSAGE][PASSED] - Text 'Jakarta' is set on object 'Object Repository/3. Checkout/Field_City'
+
+2022-05-10 19:51:03 - [TEST_STEP][PASSED] - setText(findTestObject("3. Checkout/Field_Address"), Address): Text 'Jalan Jend. Sudirman Kav 10' is set on object 'Object Repository/3. Checkout/Field_Address'
+
+2022-05-10 19:51:04 - [MESSAGE][PASSED] - Text 'Jalan Jend. Sudirman Kav 10' is set on object 'Object Repository/3. Checkout/Field_Address'
+
+2022-05-10 19:51:04 - [TEST_STEP][PASSED] - setText(findTestObject("3. Checkout/Field_PostalCode"), PostalCode): Text '12345' is set on object 'Object Repository/3. Checkout/Field_PostalCode'
+
+2022-05-10 19:51:05 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/3. Checkout/Field_PostalCode'
+
+2022-05-10 19:51:05 - [TEST_STEP][PASSED] - click(findTestObject("3. Checkout/Button_Checkout")): Object: 'Object Repository/3. Checkout/Button_Checkout' is clicked on
+
+2022-05-10 19:51:05 - [MESSAGE][PASSED] - Object: 'Object Repository/3. Checkout/Button_Checkout' is clicked on
+
+2022-05-10 19:51:05 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-05-10 19:51:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-05-10 19:51:06 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-05-10 19:51:06 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-05-10 19:51:06 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\220005\\Katalon Studio\\SmallProject1_Yulia\\Reports\\20220510_194905\\TS03 - Payment Method - Akulaku\\20220510_194906\\1652187066403.png]]
+
+2022-05-10 19:51:06 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("5. PopUp Detail/Time_PayWithin"), STOP_ON_FAILURE): Object 'Object Repository/5. PopUp Detail/Time_PayWithin' is visible
+
+2022-05-10 19:51:07 - [MESSAGE][PASSED] - Object 'Object Repository/5. PopUp Detail/Time_PayWithin' is visible
+
+2022-05-10 19:51:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("5. PopUp Detail/Verify_OrderID_PopUp")): Object 'Object Repository/5. PopUp Detail/Verify_OrderID_PopUp' is visible
+
+2022-05-10 19:51:07 - [MESSAGE][PASSED] - Object 'Object Repository/5. PopUp Detail/Verify_OrderID_PopUp' is visible
+
+2022-05-10 19:51:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("3. Checkout/Verify_MethodList")): Object 'Object Repository/3. Checkout/Verify_MethodList' is visible
+
+2022-05-10 19:51:08 - [MESSAGE][PASSED] - Object 'Object Repository/3. Checkout/Verify_MethodList' is visible
+
+2022-05-10 19:51:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/SmallProject1_Version2/TC32_UserSuccessCheckout' successfully
+
+2022-05-10 19:51:08 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("4. Payment/Payment_Akulaku/Title_Akulaku")): Object 'Object Repository/4. Payment/Payment_Akulaku/Title_Akulaku' is visible
+
+2022-05-10 19:51:08 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_Akulaku/Title_Akulaku' is visible
+
+2022-05-10 19:51:08 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("4. Payment/Payment_Akulaku/Logo_Akulaku")): Object 'Object Repository/4. Payment/Payment_Akulaku/Logo_Akulaku' is visible
+
+2022-05-10 19:51:09 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_Akulaku/Logo_Akulaku' is visible
+
+2022-05-10 19:51:09 - [TEST_STEP][PASSED] - click(findTestObject("4. Payment/Payment_Akulaku/Button_Akulaku")): Object: 'Object Repository/4. Payment/Payment_Akulaku/Button_Akulaku' is clicked on
+
+2022-05-10 19:51:09 - [MESSAGE][PASSED] - Object: 'Object Repository/4. Payment/Payment_Akulaku/Button_Akulaku' is clicked on
+
+2022-05-10 19:51:09 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/a_Header_Details"), "Akulaku"): Actual text and expected text of test object 'Object Repository/4. Payment/a_Header_Details' are matched.
+
+2022-05-10 19:51:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/a_Header_Details' are matched.
+
+2022-05-10 19:51:10 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("4. Payment/Payment_ATMBankTransfer/Desc_AllBank"), STOP_ON_FAILURE): Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Desc_AllBank' is visible
+
+2022-05-10 19:51:10 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_ATMBankTransfer/Desc_AllBank' is visible
+
+2022-05-10 19:51:10 - [TEST_STEP][PASSED] - click(findTestObject("5. PopUp Detail/Button_Float_Down")): Object: 'Object Repository/5. PopUp Detail/Button_Float_Down' is clicked on
+
+2022-05-10 19:51:10 - [MESSAGE][PASSED] - Object: 'Object Repository/5. PopUp Detail/Button_Float_Down' is clicked on
+
+2022-05-10 19:51:10 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("5. PopUp Detail/Verify_AmountMidtransPillow"), "Rp20.000"): Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_AmountMidtransPillow' are matched.
+
+2022-05-10 19:51:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_AmountMidtransPillow' are matched.
+
+2022-05-10 19:51:11 - [TEST_STEP][PASSED] - total1 = verifyElementText(findTestObject("5. PopUp Detail/Verify_TotalAmount_PopUp"), "Rp20.000"): Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_TotalAmount_PopUp' are matched.
+
+2022-05-10 19:51:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_TotalAmount_PopUp' are matched.
+
+2022-05-10 19:51:11 - [TEST_STEP][PASSED] - total2 = verifyElementText(findTestObject("5. PopUp Detail/Verify_TotalAmount_Summary"), "Rp20.000"): Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_TotalAmount_Summary' are matched.
+
+2022-05-10 19:51:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_TotalAmount_Summary' are matched.
+
+2022-05-10 19:51:12 - [TEST_STEP][PASSED] - verifyEqual(total1, total2, STOP_ON_FAILURE): Actual object 'true' and expected object 'true' are equal
+
+2022-05-10 19:51:12 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2022-05-10 19:51:12 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("5. PopUp Detail/Verify_Name_Summary"), Name): Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_Name_Summary' are matched.
+
+2022-05-10 19:51:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_Name_Summary' are matched.
+
+2022-05-10 19:51:12 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("5. PopUp Detail/Verify_Addess_Summary"), Address_2): Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_Addess_Summary' are matched.
+
+2022-05-10 19:51:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_Addess_Summary' are matched.
+
+2022-05-10 19:51:13 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("5. PopUp Detail/Verify_Phone_Summary"), Phone_2): Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_Phone_Summary' are matched.
+
+2022-05-10 19:51:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/5. PopUp Detail/Verify_Phone_Summary' are matched.
+
+2022-05-10 19:51:13 - [TEST_STEP][PASSED] - click(findTestObject("5. PopUp Detail/Button_Float_Up")): Object: 'Object Repository/5. PopUp Detail/Button_Float_Up' is clicked on
+
+2022-05-10 19:51:13 - [MESSAGE][PASSED] - Object: 'Object Repository/5. PopUp Detail/Button_Float_Up' is clicked on
+
+2022-05-10 19:51:13 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_Akulaku/Verify_Step1_Akulaku"), "Click Pay Now, then you will be directed to the Akulaku Payment Center page."): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_Akulaku/Verify_Step1_Akulaku' are matched.
+
+2022-05-10 19:51:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_Akulaku/Verify_Step1_Akulaku' are matched.
+
+2022-05-10 19:51:14 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_Akulaku/Verify_Step2_Akulaku"), "Select the desired installment tenor."): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_Akulaku/Verify_Step2_Akulaku' are matched.
+
+2022-05-10 19:51:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_Akulaku/Verify_Step2_Akulaku' are matched.
+
+2022-05-10 19:51:14 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_Akulaku/Verify_Step3_Akulaku"), "Login to your Akulaku account."): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_Akulaku/Verify_Step3_Akulaku' are matched.
+
+2022-05-10 19:51:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_Akulaku/Verify_Step3_Akulaku' are matched.
+
+2022-05-10 19:51:15 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_Akulaku/Verify_Step4_Akulaku"), "Enter the verification code (OTP) that has been sent to your mobile number, then click Next."): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_Akulaku/Verify_Step4_Akulaku' are matched.
+
+2022-05-10 19:51:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_Akulaku/Verify_Step4_Akulaku' are matched.
+
+2022-05-10 19:51:15 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_Akulaku/Verify_Step5_Akulaku"), "Confirm and finish your payment."): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_Akulaku/Verify_Step5_Akulaku' are matched.
+
+2022-05-10 19:51:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_Akulaku/Verify_Step5_Akulaku' are matched.
+
+2022-05-10 19:51:15 - [TEST_STEP][PASSED] - click(findTestObject("4. Payment/Payment_eWallet/Button_PayNow")): Object: 'Object Repository/4. Payment/Payment_eWallet/Button_PayNow' is clicked on
+
+2022-05-10 19:51:16 - [MESSAGE][PASSED] - Object: 'Object Repository/4. Payment/Payment_eWallet/Button_PayNow' is clicked on
+
+2022-05-10 19:51:16 - [TEST_STEP][PASSED] - setText(findTestObject("4. Payment/Payment_Akulaku/Field_Phone_Akulaku"), findTestData("Akulaku_PhoneNumber").getValue(1, 1)): Text '08122222222' is set on object 'Object Repository/4. Payment/Payment_Akulaku/Field_Phone_Akulaku'
+
+2022-05-10 19:51:18 - [MESSAGE][PASSED] - Text '08122222222' is set on object 'Object Repository/4. Payment/Payment_Akulaku/Field_Phone_Akulaku'
+
+2022-05-10 19:51:18 - [TEST_STEP][PASSED] - click(findTestObject("4. Payment/Payment_Akulaku/Button_Next")): Object: 'Object Repository/4. Payment/Payment_Akulaku/Button_Next' is clicked on
+
+2022-05-10 19:51:18 - [MESSAGE][PASSED] - Object: 'Object Repository/4. Payment/Payment_Akulaku/Button_Next' is clicked on
+
+2022-05-10 19:51:18 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("4. Payment/Payment_Akulaku/Verify_RefNo")): Object 'Object Repository/4. Payment/Payment_Akulaku/Verify_RefNo' is visible
+
+2022-05-10 19:51:19 - [MESSAGE][PASSED] - Object 'Object Repository/4. Payment/Payment_Akulaku/Verify_RefNo' is visible
+
+2022-05-10 19:51:19 - [TEST_STEP][PASSED] - click(findTestObject("4. Payment/Payment_Akulaku/Button_Pay")): Object: 'Object Repository/4. Payment/Payment_Akulaku/Button_Pay' is clicked on
+
+2022-05-10 19:51:19 - [MESSAGE][PASSED] - Object: 'Object Repository/4. Payment/Payment_Akulaku/Button_Pay' is clicked on
+
+2022-05-10 19:51:19 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("4. Payment/Payment_Akulaku/Verify_Trx_Success"), "Transaction is Successful"): Actual text and expected text of test object 'Object Repository/4. Payment/Payment_Akulaku/Verify_Trx_Success' are matched.
+
+2022-05-10 19:51:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/4. Payment/Payment_Akulaku/Verify_Trx_Success' are matched.
+
+2022-05-10 19:51:20 - [TEST_STEP][PASSED] - click(findTestObject("4. Payment/Payment_Akulaku/Button_BackToMerchant")): Object: 'Object Repository/4. Payment/Payment_Akulaku/Button_BackToMerchant' is clicked on
+
+2022-05-10 19:51:21 - [MESSAGE][PASSED] - Object: 'Object Repository/4. Payment/Payment_Akulaku/Button_BackToMerchant' is clicked on
+
+2022-05-10 19:51:21 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-05-10 19:51:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-05-10 19:51:24 - [TEST_STEP][PASSED] - url = getUrl(): Current window's url is: 'https://requestbin.fullcontact.com/xw5bglxw?inspect'
+
+2022-05-10 19:51:24 - [MESSAGE][PASSED] - Current window's url is: 'https://requestbin.fullcontact.com/xw5bglxw?inspect'
+
+2022-05-10 19:51:24 - [TEST_STEP][FAILED] - verifyEqual(url, "https://demo.midtrans.com/"): Unable to verify equal between actual object 'https://requestbin.fullcontact.com/xw5bglxw?inspect' and expected object 'https://demo.midtrans.com/' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'https://requestbin.fullcontact.com/xw5bglxw?inspect' and expected object 'https://demo.midtrans.com/' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at TC88_VerifyButton_BackToMerchantWeb_Akulaku.run(TC88_VerifyButton_BackToMerchantWeb_Akulaku:78)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652186946902.run(TempTestSuite1652186946902.groovy:36)
+)
+
+2022-05-10 19:51:24 - [MESSAGE][FAILED] - Unable to verify equal between actual object 'https://requestbin.fullcontact.com/xw5bglxw?inspect' and expected object 'https://demo.midtrans.com/' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'https://requestbin.fullcontact.com/xw5bglxw?inspect' and expected object 'https://demo.midtrans.com/' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at TC88_VerifyButton_BackToMerchantWeb_Akulaku.run(TC88_VerifyButton_BackToMerchantWeb_Akulaku:78)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652186946902.run(TempTestSuite1652186946902.groovy:36)
+)]]></system-out>
+         <system-err><![CDATA[2022-05-10 19:50:57 - [TEST_CASE][FAILED] - Test Cases/SmallProject1_Version2/TC88_VerifyButton_BackToMerchantWeb_Akulaku: Test Cases/SmallProject1_Version2/TC88_VerifyButton_BackToMerchantWeb_Akulaku FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual object 'https://requestbin.fullcontact.com/xw5bglxw?inspect' and expected object 'https://demo.midtrans.com/' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at TC88_VerifyButton_BackToMerchantWeb_Akulaku.run(TC88_VerifyButton_BackToMerchantWeb_Akulaku:78)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652186946902.run(TempTestSuite1652186946902.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-05-10 19:49:15 - [TEST_SUITE][FAILED] - TS03 - Payment Method - Akulaku: Test Cases/SmallProject1_Version2/TC88_VerifyButton_BackToMerchantWeb_Akulaku FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual object 'https://requestbin.fullcontact.com/xw5bglxw?inspect' and expected object 'https://demo.midtrans.com/' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at TC88_VerifyButton_BackToMerchantWeb_Akulaku.run(TC88_VerifyButton_BackToMerchantWeb_Akulaku:78)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652186946902.run(TempTestSuite1652186946902.groovy:36)]]></system-out>
+      <system-err><![CDATA[2022-05-10 19:49:15 - [TEST_SUITE][FAILED] - TS03 - Payment Method - Akulaku: Test Cases/SmallProject1_Version2/TC88_VerifyButton_BackToMerchantWeb_Akulaku FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual object 'https://requestbin.fullcontact.com/xw5bglxw?inspect' and expected object 'https://demo.midtrans.com/' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at TC88_VerifyButton_BackToMerchantWeb_Akulaku.run(TC88_VerifyButton_BackToMerchantWeb_Akulaku:78)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1652186946902.run(TempTestSuite1652186946902.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

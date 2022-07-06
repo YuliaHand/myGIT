@@ -1,0 +1,396 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS03 - Payment Method - CreditDebit Card,Chrome 101.0.4951.54,,,2022-05-10 18:53:20,2022-05-10 19:02:31,9m - 11.364s,FAILED
+,,,,,,,
+Test Cases/SmallProject1_Version2/TC34_UserSuccessPaidUsingCC_WithoutPromo,Chrome 101.0.4951.54,,,2022-05-10 18:53:20,2022-05-10 18:54:25,1m - 4.404s,PASSED
+"callTestCase(findTestCase(""SmallProject1_Version2/TC32_UserSuccessCheckout""), [:], STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 18:53:21,2022-05-10 18:53:34,13.162s,PASSED
+"verifyElementVisible(findTestObject(""4. Payment/Payment_CC/Title_CC""))",Chrome 101.0.4951.54,,,2022-05-10 18:53:34,2022-05-10 18:53:34,0.417s,PASSED
+"verifyElementVisible(findTestObject(""4. Payment/Payment_CC/Logo_CC""))",Chrome 101.0.4951.54,,,2022-05-10 18:53:34,2022-05-10 18:53:35,0.425s,PASSED
+"click(findTestObject(""4. Payment/Payment_CC/a_CreditDebit CardPay with Visa, MasterCard, JCB, or Amexpromo""))",Chrome 101.0.4951.54,,,2022-05-10 18:53:35,2022-05-10 18:53:35,0.526s,PASSED
+delay(1),Chrome 101.0.4951.54,,,2022-05-10 18:53:35,2022-05-10 18:53:36,1.015s,PASSED
+takeFullPageScreenshot(),Chrome 101.0.4951.54,,,2022-05-10 18:53:36,2022-05-10 18:53:37,0.516s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_CC/Header_CreditDebitCard""), ""Credit/debit card"")",Chrome 101.0.4951.54,,,2022-05-10 18:53:37,2022-05-10 18:53:37,0.415s,PASSED
+"verifyElementNotClickable(findTestObject(""4. Payment/Payment_CC/Promo_Installment""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 18:53:37,2022-05-10 18:53:38,0.427s,PASSED
+"verifyElementNotClickable(findTestObject(""4. Payment/Payment_CC/Promo_10Persen""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 18:53:38,2022-05-10 18:53:38,0.438s,PASSED
+"verifyElementNotClickable(findTestObject(""4. Payment/Payment_CC/Promo_Midtrans""))",Chrome 101.0.4951.54,,,2022-05-10 18:53:38,2022-05-10 18:53:38,0.409s,PASSED
+"verifyElementNotClickable(findTestObject(""4. Payment/Payment_CC/Promo_MasterCard""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 18:53:38,2022-05-10 18:53:39,0.409s,PASSED
+"verifyElementNotClickable(findTestObject(""4. Payment/Payment_CC/Promo_10Rupiah""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 18:53:39,2022-05-10 18:53:39,0.410s,PASSED
+"verifyElementClickable(findTestObject(""4. Payment/Payment_CC/No_Promo""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 18:53:39,2022-05-10 18:53:40,0.408s,PASSED
+"setText(findTestObject(""4. Payment/Payment_CC/Field_CardNumber""), findTestData(""Success_CardNumber"").getValue(1, 1))",Chrome 101.0.4951.54,,,2022-05-10 18:53:40,2022-05-10 18:53:40,0.610s,PASSED
+"setText(findTestObject(""4. Payment/Payment_CC/Field_ExpireDate""), findTestData(""Success_CardNumber"").getValue(2, 1))",Chrome 101.0.4951.54,,,2022-05-10 18:53:40,2022-05-10 18:53:41,0.516s,PASSED
+"setText(findTestObject(""4. Payment/Payment_CC/Field_CVV""), findTestData(""Success_CardNumber"").getValue(3, 1))",Chrome 101.0.4951.54,,,2022-05-10 18:53:41,2022-05-10 18:53:41,0.502s,PASSED
+"verifyElementVisible(findTestObject(""4. Payment/Payment_CC/Banner_Visa_AfterInputCardNumber""))",Chrome 101.0.4951.54,,,2022-05-10 18:53:41,2022-05-10 18:53:42,0.472s,PASSED
+"verifyElementClickable(findTestObject(""4. Payment/Payment_CC/Promo_Installment""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 18:53:42,2022-05-10 18:53:42,0.406s,PASSED
+"verifyElementClickable(findTestObject(""4. Payment/Payment_CC/Promo_10Persen""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 18:53:42,2022-05-10 18:53:43,0.405s,PASSED
+"verifyElementClickable(findTestObject(""4. Payment/Payment_CC/Promo_Midtrans""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 18:53:43,2022-05-10 18:53:43,0.422s,PASSED
+"verifyElementNotClickable(findTestObject(""4. Payment/Payment_CC/Promo_MasterCard""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 18:53:43,2022-05-10 18:53:43,0.410s,PASSED
+"verifyElementClickable(findTestObject(""4. Payment/Payment_CC/Promo_10Rupiah""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 18:53:43,2022-05-10 18:53:44,0.410s,PASSED
+"enhancedClick(findTestObject(""4. Payment/Payment_CC/No_Promo""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 18:53:44,2022-05-10 18:54:15,30.965s,PASSED
+"click(findTestObject(""5. PopUp Detail/Button_Float_Down""))",Chrome 101.0.4951.54,,,2022-05-10 18:54:15,2022-05-10 18:54:15,0.489s,PASSED
+"verifyElementText(findTestObject(""5. PopUp Detail/Verify_AmountMidtransPillow""), ""Rp20.000"")",Chrome 101.0.4951.54,,,2022-05-10 18:54:15,2022-05-10 18:54:16,0.407s,PASSED
+"verifyElementText(findTestObject(""5. PopUp Detail/Verify_Name_Summary""), Name)",Chrome 101.0.4951.54,,,2022-05-10 18:54:16,2022-05-10 18:54:16,0.404s,PASSED
+"verifyElementText(findTestObject(""5. PopUp Detail/Verify_Addess_Summary""), Address_2)",Chrome 101.0.4951.54,,,2022-05-10 18:54:16,2022-05-10 18:54:17,0.411s,PASSED
+"verifyElementText(findTestObject(""5. PopUp Detail/Verify_Phone_Summary""), Phone_2)",Chrome 101.0.4951.54,,,2022-05-10 18:54:17,2022-05-10 18:54:17,0.434s,PASSED
+"total1 = verifyElementText(findTestObject(""5. PopUp Detail/Verify_TotalAmount_PopUp""), ""Rp20.000"")",Chrome 101.0.4951.54,,,2022-05-10 18:54:17,2022-05-10 18:54:17,0.452s,PASSED
+"total2 = verifyElementText(findTestObject(""5. PopUp Detail/Verify_TotalAmount_Summary""), ""Rp20.000"")",Chrome 101.0.4951.54,,,2022-05-10 18:54:17,2022-05-10 18:54:18,0.407s,PASSED
+"verifyEqual(total1, total2, STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 18:54:18,2022-05-10 18:54:18,0.008s,PASSED
+"click(findTestObject(""5. PopUp Detail/Button_Float_Up""))",Chrome 101.0.4951.54,,,2022-05-10 18:54:18,2022-05-10 18:54:18,0.460s,PASSED
+"click(findTestObject(""5. PopUp Detail/Button_PayNow""))",Chrome 101.0.4951.54,,,2022-05-10 18:54:18,2022-05-10 18:54:19,0.470s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_CC/a_IssuingBank/Verify_Amount_IssuingBank""), ""20000.00"")",Chrome 101.0.4951.54,,,2022-05-10 18:54:19,2022-05-10 18:54:20,1.114s,PASSED
+"setEncryptedText(findTestObject(""4. Payment/Payment_CC/a_IssuingBank/input_Password_PaRes""), ""4tAN/DuJV7Y="")",Chrome 101.0.4951.54,,,2022-05-10 18:54:20,2022-05-10 18:54:20,0.596s,PASSED
+"click(findTestObject(""4. Payment/Payment_CC/a_IssuingBank/Button_OK""))",Chrome 101.0.4951.54,,,2022-05-10 18:54:20,2022-05-10 18:54:21,0.990s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_CC/Verify_Success_TextPaymentSuccessful""), ""Payment successful"")",Chrome 101.0.4951.54,,,2022-05-10 18:54:21,2022-05-10 18:54:22,0.407s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_CC/Verify_Success_TotalPrice""), ""Rp20.000"")",Chrome 101.0.4951.54,,,2022-05-10 18:54:22,2022-05-10 18:54:22,0.408s,PASSED
+"verifyElementVisible(findTestObject(""4. Payment/Payment_CC/Verify_Success_OrderID""))",Chrome 101.0.4951.54,,,2022-05-10 18:54:22,2022-05-10 18:54:23,0.405s,PASSED
+"verifyElementVisible(findTestObject(""4. Payment/Payment_CC/Verify_Success_Redirectingbackautomatically_in1second""))",Chrome 101.0.4951.54,,,2022-05-10 18:54:23,2022-05-10 18:54:23,0.409s,PASSED
+"click(findTestObject(""4. Payment/Payment_CC/Button_BackToMerchantsWeb""))",Chrome 101.0.4951.54,,,2022-05-10 18:54:23,2022-05-10 18:54:24,0.472s,PASSED
+"verifyElementVisible(findTestObject(""4. Payment/Payment_CC/Verify_ThankYou""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 18:54:24,2022-05-10 18:54:24,0.459s,PASSED
+closeBrowser(),Chrome 101.0.4951.54,,,2022-05-10 18:54:24,2022-05-10 18:54:25,0.707s,PASSED
+,,,,,,,
+Test Cases/SmallProject1_Version2/TC35_UserSuccessPaidUsingCC_WithPromoInstallment,Chrome 101.0.4951.54,,,2022-05-10 18:54:25,2022-05-10 18:55:26,1m - 1.367s,PASSED
+"callTestCase(findTestCase(""SmallProject1_Version2/TC32_UserSuccessCheckout""), [:], STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 18:54:25,2022-05-10 18:54:36,11.269s,PASSED
+"verifyElementVisible(findTestObject(""4. Payment/Payment_CC/Title_CC""))",Chrome 101.0.4951.54,,,2022-05-10 18:54:36,2022-05-10 18:54:37,0.405s,PASSED
+"verifyElementVisible(findTestObject(""4. Payment/Payment_CC/Logo_CC""))",Chrome 101.0.4951.54,,,2022-05-10 18:54:37,2022-05-10 18:54:37,0.408s,PASSED
+"click(findTestObject(""4. Payment/Payment_CC/a_CreditDebit CardPay with Visa, MasterCard, JCB, or Amexpromo""))",Chrome 101.0.4951.54,,,2022-05-10 18:54:37,2022-05-10 18:54:38,0.548s,PASSED
+delay(1),Chrome 101.0.4951.54,,,2022-05-10 18:54:38,2022-05-10 18:54:39,1.016s,PASSED
+takeFullPageScreenshot(),Chrome 101.0.4951.54,,,2022-05-10 18:54:39,2022-05-10 18:54:39,0.502s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_CC/Header_CreditDebitCard""), ""Credit/debit card"")",Chrome 101.0.4951.54,,,2022-05-10 18:54:39,2022-05-10 18:54:40,0.413s,PASSED
+"verifyElementNotClickable(findTestObject(""4. Payment/Payment_CC/Promo_Installment""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 18:54:40,2022-05-10 18:54:40,0.424s,PASSED
+"verifyElementNotClickable(findTestObject(""4. Payment/Payment_CC/Promo_10Persen""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 18:54:40,2022-05-10 18:54:40,0.410s,PASSED
+"verifyElementNotClickable(findTestObject(""4. Payment/Payment_CC/Promo_Midtrans""))",Chrome 101.0.4951.54,,,2022-05-10 18:54:40,2022-05-10 18:54:41,0.424s,PASSED
+"verifyElementNotClickable(findTestObject(""4. Payment/Payment_CC/Promo_MasterCard""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 18:54:41,2022-05-10 18:54:41,0.410s,PASSED
+"verifyElementNotClickable(findTestObject(""4. Payment/Payment_CC/Promo_10Rupiah""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 18:54:41,2022-05-10 18:54:42,0.408s,PASSED
+"verifyElementClickable(findTestObject(""4. Payment/Payment_CC/No_Promo""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 18:54:42,2022-05-10 18:54:42,0.409s,PASSED
+"setText(findTestObject(""4. Payment/Payment_CC/Field_CardNumber""), findTestData(""Success_CardNumber"").getValue(1, 1))",Chrome 101.0.4951.54,,,2022-05-10 18:54:42,2022-05-10 18:54:43,0.598s,PASSED
+"setText(findTestObject(""4. Payment/Payment_CC/Field_ExpireDate""), findTestData(""Success_CardNumber"").getValue(2, 1))",Chrome 101.0.4951.54,,,2022-05-10 18:54:43,2022-05-10 18:54:43,0.514s,PASSED
+"setText(findTestObject(""4. Payment/Payment_CC/Field_CVV""), findTestData(""Success_CardNumber"").getValue(3, 1))",Chrome 101.0.4951.54,,,2022-05-10 18:54:43,2022-05-10 18:54:44,0.517s,PASSED
+"verifyElementVisible(findTestObject(""4. Payment/Payment_CC/Banner_Visa_AfterInputCardNumber""))",Chrome 101.0.4951.54,,,2022-05-10 18:54:44,2022-05-10 18:54:44,0.409s,PASSED
+"verifyElementNotClickable(findTestObject(""4. Payment/Payment_CC/Promo_MasterCard""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 18:54:44,2022-05-10 18:54:44,0.407s,PASSED
+"enhancedClick(findTestObject(""4. Payment/Payment_CC/Promo_Installment""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 18:54:44,2022-05-10 18:55:15,30.942s,PASSED
+"click(findTestObject(""5. PopUp Detail/Button_Float_Down""))",Chrome 101.0.4951.54,,,2022-05-10 18:55:15,2022-05-10 18:55:16,0.486s,PASSED
+"verifyElementText(findTestObject(""5. PopUp Detail/Verify_AmountMidtransPillow""), ""Rp20.000"")",Chrome 101.0.4951.54,,,2022-05-10 18:55:16,2022-05-10 18:55:16,0.406s,PASSED
+"verifyElementText(findTestObject(""5. PopUp Detail/Verify_TotalAmount_Summary""), ""Rp20.000"")",Chrome 101.0.4951.54,,,2022-05-10 18:55:16,2022-05-10 18:55:17,0.406s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_CC/Verify_Promo""), ""Rp5.000"")",Chrome 101.0.4951.54,,,2022-05-10 18:55:17,2022-05-10 18:55:17,0.408s,PASSED
+"total1 = verifyElementText(findTestObject(""4. Payment/Payment_CC/Verify_Total_AfterPromo""), ""Rp15.000"")",Chrome 101.0.4951.54,,,2022-05-10 18:55:17,2022-05-10 18:55:17,0.408s,PASSED
+"total2 = verifyElementText(findTestObject(""5. PopUp Detail/Verify_TotalAmount_PopUp""), ""Rp15.000"")",Chrome 101.0.4951.54,,,2022-05-10 18:55:17,2022-05-10 18:55:18,0.410s,PASSED
+"verifyEqual(total1, total2, STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 18:55:18,2022-05-10 18:55:18,0.002s,PASSED
+"verifyElementText(findTestObject(""5. PopUp Detail/Verify_Name_Summary""), Name)",Chrome 101.0.4951.54,,,2022-05-10 18:55:18,2022-05-10 18:55:18,0.419s,PASSED
+"verifyElementText(findTestObject(""5. PopUp Detail/Verify_Addess_Summary""), Address_2)",Chrome 101.0.4951.54,,,2022-05-10 18:55:18,2022-05-10 18:55:19,0.408s,PASSED
+"verifyElementText(findTestObject(""5. PopUp Detail/Verify_Phone_Summary""), Phone_2)",Chrome 101.0.4951.54,,,2022-05-10 18:55:19,2022-05-10 18:55:19,0.421s,PASSED
+"click(findTestObject(""5. PopUp Detail/Button_Float_Up""))",Chrome 101.0.4951.54,,,2022-05-10 18:55:19,2022-05-10 18:55:20,0.452s,PASSED
+"click(findTestObject(""5. PopUp Detail/Button_PayNow""))",Chrome 101.0.4951.54,,,2022-05-10 18:55:20,2022-05-10 18:55:20,0.454s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_CC/a_IssuingBank/Verify_Amount_IssuingBank""), ""15000.00"")",Chrome 101.0.4951.54,,,2022-05-10 18:55:20,2022-05-10 18:55:21,1.212s,PASSED
+"setEncryptedText(findTestObject(""4. Payment/Payment_CC/a_IssuingBank/input_Password_PaRes""), ""4tAN/DuJV7Y="")",Chrome 101.0.4951.54,,,2022-05-10 18:55:21,2022-05-10 18:55:22,0.550s,PASSED
+"click(findTestObject(""4. Payment/Payment_CC/a_IssuingBank/Button_OK""))",Chrome 101.0.4951.54,,,2022-05-10 18:55:22,2022-05-10 18:55:23,1.004s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_CC/Verify_Success_TextPaymentSuccessful""), ""Payment successful"")",Chrome 101.0.4951.54,,,2022-05-10 18:55:23,2022-05-10 18:55:23,0.409s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_CC/Verify_Success_TotalPrice""), ""Rp15.000"")",Chrome 101.0.4951.54,,,2022-05-10 18:55:23,2022-05-10 18:55:24,0.425s,PASSED
+"verifyElementVisible(findTestObject(""4. Payment/Payment_CC/Verify_Success_OrderID""))",Chrome 101.0.4951.54,,,2022-05-10 18:55:24,2022-05-10 18:55:24,0.411s,PASSED
+"verifyElementVisible(findTestObject(""4. Payment/Payment_CC/Verify_Success_Redirectingbackautomatically_in1second""))",Chrome 101.0.4951.54,,,2022-05-10 18:55:24,2022-05-10 18:55:24,0.410s,PASSED
+"click(findTestObject(""4. Payment/Payment_CC/Button_BackToMerchantsWeb""))",Chrome 101.0.4951.54,,,2022-05-10 18:55:24,2022-05-10 18:55:25,0.474s,PASSED
+"verifyElementVisible(findTestObject(""4. Payment/Payment_CC/Verify_ThankYou""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 18:55:25,2022-05-10 18:55:25,0.446s,PASSED
+closeBrowser(),Chrome 101.0.4951.54,,,2022-05-10 18:55:25,2022-05-10 18:55:26,0.680s,PASSED
+,,,,,,,
+Test Cases/SmallProject1_Version2/TC36_UserSuccessPaidUsingCC_WithPromo10Percent,Chrome 101.0.4951.54,,,2022-05-10 18:55:26,2022-05-10 18:56:27,1m - 1.070s,PASSED
+"callTestCase(findTestCase(""SmallProject1_Version2/TC32_UserSuccessCheckout""), [:], STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 18:55:26,2022-05-10 18:55:38,11.218s,PASSED
+"verifyElementVisible(findTestObject(""4. Payment/Payment_CC/Title_CC""))",Chrome 101.0.4951.54,,,2022-05-10 18:55:38,2022-05-10 18:55:38,0.406s,PASSED
+"verifyElementVisible(findTestObject(""4. Payment/Payment_CC/Logo_CC""))",Chrome 101.0.4951.54,,,2022-05-10 18:55:38,2022-05-10 18:55:38,0.411s,PASSED
+"click(findTestObject(""4. Payment/Payment_CC/a_CreditDebit CardPay with Visa, MasterCard, JCB, or Amexpromo""))",Chrome 101.0.4951.54,,,2022-05-10 18:55:38,2022-05-10 18:55:39,0.538s,PASSED
+delay(1),Chrome 101.0.4951.54,,,2022-05-10 18:55:39,2022-05-10 18:55:40,1.014s,PASSED
+takeFullPageScreenshot(),Chrome 101.0.4951.54,,,2022-05-10 18:55:40,2022-05-10 18:55:40,0.519s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_CC/Header_CreditDebitCard""), ""Credit/debit card"")",Chrome 101.0.4951.54,,,2022-05-10 18:55:40,2022-05-10 18:55:41,0.411s,PASSED
+"verifyElementNotClickable(findTestObject(""4. Payment/Payment_CC/Promo_Installment""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 18:55:41,2022-05-10 18:55:41,0.414s,PASSED
+"verifyElementNotClickable(findTestObject(""4. Payment/Payment_CC/Promo_10Persen""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 18:55:41,2022-05-10 18:55:42,0.407s,PASSED
+"verifyElementNotClickable(findTestObject(""4. Payment/Payment_CC/Promo_Midtrans""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 18:55:42,2022-05-10 18:55:42,0.411s,PASSED
+"verifyElementNotClickable(findTestObject(""4. Payment/Payment_CC/Promo_MasterCard""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 18:55:42,2022-05-10 18:55:42,0.408s,PASSED
+"verifyElementNotClickable(findTestObject(""4. Payment/Payment_CC/Promo_10Rupiah""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 18:55:42,2022-05-10 18:55:43,0.408s,PASSED
+"verifyElementClickable(findTestObject(""4. Payment/Payment_CC/No_Promo""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 18:55:43,2022-05-10 18:55:43,0.410s,PASSED
+"setText(findTestObject(""4. Payment/Payment_CC/Field_CardNumber""), findTestData(""Success_CardNumber"").getValue(1, 1))",Chrome 101.0.4951.54,,,2022-05-10 18:55:43,2022-05-10 18:55:44,0.596s,PASSED
+"setText(findTestObject(""4. Payment/Payment_CC/Field_ExpireDate""), findTestData(""Success_CardNumber"").getValue(2, 1))",Chrome 101.0.4951.54,,,2022-05-10 18:55:44,2022-05-10 18:55:44,0.520s,PASSED
+"setText(findTestObject(""4. Payment/Payment_CC/Field_CVV""), findTestData(""Success_CardNumber"").getValue(3, 1))",Chrome 101.0.4951.54,,,2022-05-10 18:55:44,2022-05-10 18:55:45,0.505s,PASSED
+"verifyElementVisible(findTestObject(""4. Payment/Payment_CC/Banner_Visa_AfterInputCardNumber""))",Chrome 101.0.4951.54,,,2022-05-10 18:55:45,2022-05-10 18:55:45,0.404s,PASSED
+"verifyElementNotClickable(findTestObject(""4. Payment/Payment_CC/Promo_MasterCard""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 18:55:45,2022-05-10 18:55:46,0.389s,PASSED
+"enhancedClick(findTestObject(""4. Payment/Payment_CC/Promo_10Persen""))",Chrome 101.0.4951.54,,,2022-05-10 18:55:46,2022-05-10 18:56:17,30.908s,PASSED
+"click(findTestObject(""5. PopUp Detail/Button_Float_Down""))",Chrome 101.0.4951.54,,,2022-05-10 18:56:17,2022-05-10 18:56:17,0.469s,PASSED
+"verifyElementText(findTestObject(""5. PopUp Detail/Verify_AmountMidtransPillow""), ""Rp20.000"")",Chrome 101.0.4951.54,,,2022-05-10 18:56:17,2022-05-10 18:56:18,0.423s,PASSED
+"verifyElementText(findTestObject(""5. PopUp Detail/Verify_TotalAmount_Summary""), ""Rp20.000"")",Chrome 101.0.4951.54,,,2022-05-10 18:56:18,2022-05-10 18:56:18,0.409s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_CC/Verify_Promo""), ""Rp2.000"")",Chrome 101.0.4951.54,,,2022-05-10 18:56:18,2022-05-10 18:56:18,0.407s,PASSED
+"total1 = verifyElementText(findTestObject(""4. Payment/Payment_CC/Verify_Total_AfterPromo""), ""Rp18.000"")",Chrome 101.0.4951.54,,,2022-05-10 18:56:18,2022-05-10 18:56:19,0.408s,PASSED
+"total2 = verifyElementText(findTestObject(""5. PopUp Detail/Verify_TotalAmount_PopUp""), ""Rp18.000"")",Chrome 101.0.4951.54,,,2022-05-10 18:56:19,2022-05-10 18:56:19,0.409s,PASSED
+"verifyEqual(total1, total2, STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 18:56:19,2022-05-10 18:56:19,0.001s,PASSED
+"verifyElementText(findTestObject(""5. PopUp Detail/Verify_Name_Summary""), Name)",Chrome 101.0.4951.54,,,2022-05-10 18:56:19,2022-05-10 18:56:20,0.407s,PASSED
+"verifyElementText(findTestObject(""5. PopUp Detail/Verify_Addess_Summary""), Address_2)",Chrome 101.0.4951.54,,,2022-05-10 18:56:20,2022-05-10 18:56:20,0.409s,PASSED
+"verifyElementText(findTestObject(""5. PopUp Detail/Verify_Phone_Summary""), Phone_2)",Chrome 101.0.4951.54,,,2022-05-10 18:56:20,2022-05-10 18:56:20,0.405s,PASSED
+"click(findTestObject(""5. PopUp Detail/Button_Float_Up""))",Chrome 101.0.4951.54,,,2022-05-10 18:56:20,2022-05-10 18:56:21,0.455s,PASSED
+"click(findTestObject(""5. PopUp Detail/Button_PayNow""))",Chrome 101.0.4951.54,,,2022-05-10 18:56:21,2022-05-10 18:56:21,0.458s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_CC/a_IssuingBank/Verify_Amount_IssuingBank""), ""18000.00"")",Chrome 101.0.4951.54,,,2022-05-10 18:56:21,2022-05-10 18:56:22,1.022s,PASSED
+"setEncryptedText(findTestObject(""4. Payment/Payment_CC/a_IssuingBank/input_Password_PaRes""), ""4tAN/DuJV7Y="")",Chrome 101.0.4951.54,,,2022-05-10 18:56:22,2022-05-10 18:56:23,0.550s,PASSED
+"click(findTestObject(""4. Payment/Payment_CC/a_IssuingBank/Button_OK""))",Chrome 101.0.4951.54,,,2022-05-10 18:56:23,2022-05-10 18:56:24,0.976s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_CC/Verify_Success_TextPaymentSuccessful""), ""Payment successful"")",Chrome 101.0.4951.54,,,2022-05-10 18:56:24,2022-05-10 18:56:24,0.406s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_CC/Verify_Success_TotalPrice""), ""Rp18.000"")",Chrome 101.0.4951.54,,,2022-05-10 18:56:24,2022-05-10 18:56:25,0.408s,PASSED
+"verifyElementVisible(findTestObject(""4. Payment/Payment_CC/Verify_Success_OrderID""))",Chrome 101.0.4951.54,,,2022-05-10 18:56:25,2022-05-10 18:56:25,0.406s,PASSED
+"verifyElementVisible(findTestObject(""4. Payment/Payment_CC/Verify_Success_Redirectingbackautomatically_in1second""))",Chrome 101.0.4951.54,,,2022-05-10 18:56:25,2022-05-10 18:56:25,0.406s,PASSED
+"click(findTestObject(""4. Payment/Payment_CC/Button_BackToMerchantsWeb""))",Chrome 101.0.4951.54,,,2022-05-10 18:56:25,2022-05-10 18:56:26,0.470s,PASSED
+"verifyElementVisible(findTestObject(""4. Payment/Payment_CC/Verify_ThankYou""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 18:56:26,2022-05-10 18:56:26,0.539s,PASSED
+closeBrowser(),Chrome 101.0.4951.54,,,2022-05-10 18:56:26,2022-05-10 18:56:27,0.694s,PASSED
+,,,,,,,
+Test Cases/SmallProject1_Version2/TC37_UserSuccessPaidUsingCC_WithPromoMidtrans,Chrome 101.0.4951.54,,,2022-05-10 18:56:27,2022-05-10 18:57:54,1m - 27.159s,FAILED
+"callTestCase(findTestCase(""SmallProject1_Version2/TC32_UserSuccessCheckout""), [:], STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 18:56:27,2022-05-10 18:56:39,11.298s,PASSED
+"verifyElementVisible(findTestObject(""4. Payment/Payment_CC/Title_CC""))",Chrome 101.0.4951.54,,,2022-05-10 18:56:39,2022-05-10 18:56:39,0.423s,PASSED
+"verifyElementVisible(findTestObject(""4. Payment/Payment_CC/Logo_CC""))",Chrome 101.0.4951.54,,,2022-05-10 18:56:39,2022-05-10 18:56:40,0.440s,PASSED
+"click(findTestObject(""4. Payment/Payment_CC/a_CreditDebit CardPay with Visa, MasterCard, JCB, or Amexpromo""))",Chrome 101.0.4951.54,,,2022-05-10 18:56:40,2022-05-10 18:56:40,0.544s,PASSED
+delay(1),Chrome 101.0.4951.54,,,2022-05-10 18:56:40,2022-05-10 18:56:41,1.004s,PASSED
+takeFullPageScreenshot(),Chrome 101.0.4951.54,,,2022-05-10 18:56:41,2022-05-10 18:56:42,0.518s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_CC/Header_CreditDebitCard""), ""Credit/debit card"")",Chrome 101.0.4951.54,,,2022-05-10 18:56:42,2022-05-10 18:56:42,0.413s,PASSED
+"verifyElementNotClickable(findTestObject(""4. Payment/Payment_CC/Promo_Installment""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 18:56:42,2022-05-10 18:56:42,0.405s,PASSED
+"verifyElementNotClickable(findTestObject(""4. Payment/Payment_CC/Promo_10Persen""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 18:56:42,2022-05-10 18:56:43,0.409s,PASSED
+"verifyElementNotClickable(findTestObject(""4. Payment/Payment_CC/Promo_Midtrans""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 18:56:43,2022-05-10 18:56:43,0.413s,PASSED
+"verifyElementNotClickable(findTestObject(""4. Payment/Payment_CC/Promo_MasterCard""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 18:56:43,2022-05-10 18:56:44,0.406s,PASSED
+"verifyElementNotClickable(findTestObject(""4. Payment/Payment_CC/Promo_10Rupiah""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 18:56:44,2022-05-10 18:56:44,0.408s,PASSED
+"verifyElementClickable(findTestObject(""4. Payment/Payment_CC/No_Promo""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 18:56:44,2022-05-10 18:56:44,0.409s,PASSED
+"setText(findTestObject(""4. Payment/Payment_CC/Field_CardNumber""), findTestData(""Success_CardNumber"").getValue(1, 1))",Chrome 101.0.4951.54,,,2022-05-10 18:56:44,2022-05-10 18:56:45,0.614s,PASSED
+"setText(findTestObject(""4. Payment/Payment_CC/Field_ExpireDate""), findTestData(""Success_CardNumber"").getValue(2, 1))",Chrome 101.0.4951.54,,,2022-05-10 18:56:45,2022-05-10 18:56:46,0.513s,PASSED
+"setText(findTestObject(""4. Payment/Payment_CC/Field_CVV""), findTestData(""Success_CardNumber"").getValue(3, 1))",Chrome 101.0.4951.54,,,2022-05-10 18:56:46,2022-05-10 18:56:46,0.516s,PASSED
+"verifyElementVisible(findTestObject(""4. Payment/Payment_CC/Banner_Visa_AfterInputCardNumber""))",Chrome 101.0.4951.54,,,2022-05-10 18:56:46,2022-05-10 18:56:47,0.409s,PASSED
+"verifyElementNotClickable(findTestObject(""4. Payment/Payment_CC/Promo_MasterCard""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 18:56:47,2022-05-10 18:56:47,0.406s,PASSED
+"enhancedClick(findTestObject(""4. Payment/Payment_CC/Promo_Midtrans""))",Chrome 101.0.4951.54,,,2022-05-10 18:56:47,2022-05-10 18:57:18,30.900s,PASSED
+"click(findTestObject(""5. PopUp Detail/Button_Float_Down""))",Chrome 101.0.4951.54,,,2022-05-10 18:57:18,2022-05-10 18:57:18,0.487s,PASSED
+"verifyElementText(findTestObject(""5. PopUp Detail/Verify_AmountMidtransPillow""), ""Rp20.000"")",Chrome 101.0.4951.54,,,2022-05-10 18:57:18,2022-05-10 18:57:19,0.422s,PASSED
+"verifyElementText(findTestObject(""5. PopUp Detail/Verify_TotalAmount_Summary""), ""Rp20.000"")",Chrome 101.0.4951.54,,,2022-05-10 18:57:19,2022-05-10 18:57:19,0.406s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_CC/Verify_Promo""), ""Rp2.000"")",Chrome 101.0.4951.54,,,2022-05-10 18:57:19,2022-05-10 18:57:20,0.411s,PASSED
+"total1 = verifyElementText(findTestObject(""4. Payment/Payment_CC/Verify_Total_AfterPromo""), ""Rp18.000"")",Chrome 101.0.4951.54,,,2022-05-10 18:57:20,2022-05-10 18:57:20,0.409s,PASSED
+"total2 = verifyElementText(findTestObject(""5. PopUp Detail/Verify_TotalAmount_PopUp""), ""Rp18.000"")",Chrome 101.0.4951.54,,,2022-05-10 18:57:20,2022-05-10 18:57:20,0.408s,PASSED
+"verifyEqual(total1, total2, STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 18:57:20,2022-05-10 18:57:20,0.001s,PASSED
+"verifyElementText(findTestObject(""5. PopUp Detail/Verify_Name_Summary""), Name)",Chrome 101.0.4951.54,,,2022-05-10 18:57:20,2022-05-10 18:57:21,0.410s,PASSED
+"verifyElementText(findTestObject(""5. PopUp Detail/Verify_Addess_Summary""), Address_2)",Chrome 101.0.4951.54,,,2022-05-10 18:57:21,2022-05-10 18:57:21,0.410s,PASSED
+"verifyElementText(findTestObject(""5. PopUp Detail/Verify_Phone_Summary""), Phone_2)",Chrome 101.0.4951.54,,,2022-05-10 18:57:21,2022-05-10 18:57:22,0.404s,PASSED
+"click(findTestObject(""5. PopUp Detail/Button_Float_Up""))",Chrome 101.0.4951.54,,,2022-05-10 18:57:22,2022-05-10 18:57:22,0.461s,PASSED
+"click(findTestObject(""5. PopUp Detail/Button_PayNow""))",Chrome 101.0.4951.54,,,2022-05-10 18:57:22,2022-05-10 18:57:23,0.458s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_CC/a_IssuingBank/Verify_Amount_IssuingBank""), ""18000.00"")",Chrome 101.0.4951.54,,,2022-05-10 18:57:23,2022-05-10 18:57:54,31.788s,FAILED
+,,,,,,,
+Test Cases/SmallProject1_Version2/TC38_UserSuccessPaidUsingCC_WithPromo10Rupiah,Chrome 101.0.4951.54,,,2022-05-10 18:57:54,2022-05-10 18:58:56,1m - 1.633s,PASSED
+"callTestCase(findTestCase(""SmallProject1_Version2/TC32_UserSuccessCheckout""), [:], STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 18:57:55,2022-05-10 18:58:06,11.773s,PASSED
+"verifyElementVisible(findTestObject(""4. Payment/Payment_CC/Title_CC""))",Chrome 101.0.4951.54,,,2022-05-10 18:58:06,2022-05-10 18:58:07,0.411s,PASSED
+"verifyElementVisible(findTestObject(""4. Payment/Payment_CC/Logo_CC""))",Chrome 101.0.4951.54,,,2022-05-10 18:58:07,2022-05-10 18:58:07,0.410s,PASSED
+"click(findTestObject(""4. Payment/Payment_CC/a_CreditDebit CardPay with Visa, MasterCard, JCB, or Amexpromo""))",Chrome 101.0.4951.54,,,2022-05-10 18:58:07,2022-05-10 18:58:08,0.539s,PASSED
+delay(1),Chrome 101.0.4951.54,,,2022-05-10 18:58:08,2022-05-10 18:58:09,1.007s,PASSED
+takeFullPageScreenshot(),Chrome 101.0.4951.54,,,2022-05-10 18:58:09,2022-05-10 18:58:09,0.513s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_CC/Header_CreditDebitCard""), ""Credit/debit card"")",Chrome 101.0.4951.54,,,2022-05-10 18:58:09,2022-05-10 18:58:10,0.401s,PASSED
+"verifyElementNotClickable(findTestObject(""4. Payment/Payment_CC/Promo_Installment""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 18:58:10,2022-05-10 18:58:10,0.409s,PASSED
+"verifyElementNotClickable(findTestObject(""4. Payment/Payment_CC/Promo_10Persen""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 18:58:10,2022-05-10 18:58:10,0.406s,PASSED
+"verifyElementNotClickable(findTestObject(""4. Payment/Payment_CC/Promo_Midtrans""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 18:58:10,2022-05-10 18:58:11,0.409s,PASSED
+"verifyElementNotClickable(findTestObject(""4. Payment/Payment_CC/Promo_MasterCard""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 18:58:11,2022-05-10 18:58:11,0.408s,PASSED
+"verifyElementNotClickable(findTestObject(""4. Payment/Payment_CC/Promo_10Rupiah""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 18:58:11,2022-05-10 18:58:12,0.407s,PASSED
+"verifyElementClickable(findTestObject(""4. Payment/Payment_CC/No_Promo""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 18:58:12,2022-05-10 18:58:12,0.410s,PASSED
+"setText(findTestObject(""4. Payment/Payment_CC/Field_CardNumber""), findTestData(""Success_CardNumber"").getValue(1, 1))",Chrome 101.0.4951.54,,,2022-05-10 18:58:12,2022-05-10 18:58:13,0.582s,PASSED
+"setText(findTestObject(""4. Payment/Payment_CC/Field_ExpireDate""), findTestData(""Success_CardNumber"").getValue(2, 1))",Chrome 101.0.4951.54,,,2022-05-10 18:58:13,2022-05-10 18:58:13,0.516s,PASSED
+"setText(findTestObject(""4. Payment/Payment_CC/Field_CVV""), findTestData(""Success_CardNumber"").getValue(3, 1))",Chrome 101.0.4951.54,,,2022-05-10 18:58:13,2022-05-10 18:58:14,0.507s,PASSED
+"verifyElementVisible(findTestObject(""4. Payment/Payment_CC/Banner_Visa_AfterInputCardNumber""))",Chrome 101.0.4951.54,,,2022-05-10 18:58:14,2022-05-10 18:58:14,0.407s,PASSED
+"verifyElementNotClickable(findTestObject(""4. Payment/Payment_CC/Promo_MasterCard""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 18:58:14,2022-05-10 18:58:14,0.392s,PASSED
+"enhancedClick(findTestObject(""4. Payment/Payment_CC/Promo_10Rupiah""))",Chrome 101.0.4951.54,,,2022-05-10 18:58:14,2022-05-10 18:58:45,30.876s,PASSED
+"click(findTestObject(""5. PopUp Detail/Button_Float_Down""))",Chrome 101.0.4951.54,,,2022-05-10 18:58:45,2022-05-10 18:58:46,0.485s,PASSED
+"verifyElementText(findTestObject(""5. PopUp Detail/Verify_AmountMidtransPillow""), ""Rp20.000"")",Chrome 101.0.4951.54,,,2022-05-10 18:58:46,2022-05-10 18:58:46,0.403s,PASSED
+"verifyElementText(findTestObject(""5. PopUp Detail/Verify_TotalAmount_Summary""), ""Rp20.000"")",Chrome 101.0.4951.54,,,2022-05-10 18:58:46,2022-05-10 18:58:47,0.410s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_CC/Verify_Promo""), ""Rp10"")",Chrome 101.0.4951.54,,,2022-05-10 18:58:47,2022-05-10 18:58:47,0.410s,PASSED
+"total1 = verifyElementText(findTestObject(""4. Payment/Payment_CC/Verify_Total_AfterPromo""), ""Rp19.990"")",Chrome 101.0.4951.54,,,2022-05-10 18:58:47,2022-05-10 18:58:47,0.408s,PASSED
+"total2 = verifyElementText(findTestObject(""5. PopUp Detail/Verify_TotalAmount_PopUp""), ""Rp19.990"")",Chrome 101.0.4951.54,,,2022-05-10 18:58:47,2022-05-10 18:58:48,0.408s,PASSED
+"verifyEqual(total1, total2, STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 18:58:48,2022-05-10 18:58:48,0.002s,PASSED
+"verifyElementText(findTestObject(""5. PopUp Detail/Verify_Name_Summary""), Name)",Chrome 101.0.4951.54,,,2022-05-10 18:58:48,2022-05-10 18:58:48,0.406s,PASSED
+"verifyElementText(findTestObject(""5. PopUp Detail/Verify_Addess_Summary""), Address_2)",Chrome 101.0.4951.54,,,2022-05-10 18:58:48,2022-05-10 18:58:49,0.410s,PASSED
+"verifyElementText(findTestObject(""5. PopUp Detail/Verify_Phone_Summary""), Phone_2)",Chrome 101.0.4951.54,,,2022-05-10 18:58:49,2022-05-10 18:58:49,0.408s,PASSED
+"click(findTestObject(""5. PopUp Detail/Button_Float_Up""))",Chrome 101.0.4951.54,,,2022-05-10 18:58:49,2022-05-10 18:58:50,0.457s,PASSED
+"click(findTestObject(""5. PopUp Detail/Button_PayNow""))",Chrome 101.0.4951.54,,,2022-05-10 18:58:50,2022-05-10 18:58:50,0.458s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_CC/a_IssuingBank/Verify_Amount_IssuingBank""), ""19990.00"")",Chrome 101.0.4951.54,,,2022-05-10 18:58:50,2022-05-10 18:58:51,1.043s,PASSED
+"setEncryptedText(findTestObject(""4. Payment/Payment_CC/a_IssuingBank/input_Password_PaRes""), ""4tAN/DuJV7Y="")",Chrome 101.0.4951.54,,,2022-05-10 18:58:51,2022-05-10 18:58:52,0.551s,PASSED
+"click(findTestObject(""4. Payment/Payment_CC/a_IssuingBank/Button_OK""))",Chrome 101.0.4951.54,,,2022-05-10 18:58:52,2022-05-10 18:58:53,1.037s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_CC/Verify_Success_TextPaymentSuccessful""), ""Payment successful"")",Chrome 101.0.4951.54,,,2022-05-10 18:58:53,2022-05-10 18:58:53,0.407s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_CC/Verify_Success_TotalPrice""), ""Rp19.990"")",Chrome 101.0.4951.54,,,2022-05-10 18:58:53,2022-05-10 18:58:53,0.406s,PASSED
+"verifyElementVisible(findTestObject(""4. Payment/Payment_CC/Verify_Success_OrderID""))",Chrome 101.0.4951.54,,,2022-05-10 18:58:53,2022-05-10 18:58:54,0.407s,PASSED
+"verifyElementVisible(findTestObject(""4. Payment/Payment_CC/Verify_Success_Redirectingbackautomatically_in1second""))",Chrome 101.0.4951.54,,,2022-05-10 18:58:54,2022-05-10 18:58:54,0.407s,PASSED
+"click(findTestObject(""4. Payment/Payment_CC/Button_BackToMerchantsWeb""))",Chrome 101.0.4951.54,,,2022-05-10 18:58:54,2022-05-10 18:58:55,0.473s,PASSED
+"verifyElementVisible(findTestObject(""4. Payment/Payment_CC/Verify_ThankYou""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 18:58:55,2022-05-10 18:58:55,0.542s,PASSED
+closeBrowser(),Chrome 101.0.4951.54,,,2022-05-10 18:58:55,2022-05-10 18:58:56,0.680s,PASSED
+,,,,,,,
+Test Cases/SmallProject1_Version2/TC40_UserProcessPromo_QuotaFullyUsed,Chrome 101.0.4951.54,,,2022-05-10 18:58:56,2022-05-10 18:59:57,1m - 0.569s,PASSED
+"callTestCase(findTestCase(""SmallProject1_Version2/TC32_UserSuccessCheckout""), [:], STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 18:58:56,2022-05-10 18:59:08,11.334s,PASSED
+"verifyElementVisible(findTestObject(""4. Payment/Payment_CC/Title_CC""))",Chrome 101.0.4951.54,,,2022-05-10 18:59:08,2022-05-10 18:59:08,0.408s,PASSED
+"verifyElementVisible(findTestObject(""4. Payment/Payment_CC/Logo_CC""))",Chrome 101.0.4951.54,,,2022-05-10 18:59:08,2022-05-10 18:59:08,0.454s,PASSED
+"click(findTestObject(""4. Payment/Payment_CC/a_CreditDebit CardPay with Visa, MasterCard, JCB, or Amexpromo""))",Chrome 101.0.4951.54,,,2022-05-10 18:59:08,2022-05-10 18:59:09,0.535s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_CC/Header_CreditDebitCard""), ""Credit/debit card"")",Chrome 101.0.4951.54,,,2022-05-10 18:59:09,2022-05-10 18:59:09,0.407s,PASSED
+"verifyElementNotClickable(findTestObject(""4. Payment/Payment_CC/Promo_Installment""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 18:59:09,2022-05-10 18:59:10,0.444s,PASSED
+"verifyElementNotClickable(findTestObject(""4. Payment/Payment_CC/Promo_10Persen""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 18:59:10,2022-05-10 18:59:10,0.409s,PASSED
+"verifyElementNotClickable(findTestObject(""4. Payment/Payment_CC/Promo_Midtrans""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 18:59:10,2022-05-10 18:59:11,0.406s,PASSED
+"verifyElementNotClickable(findTestObject(""4. Payment/Payment_CC/Promo_MasterCard""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 18:59:11,2022-05-10 18:59:11,0.411s,PASSED
+"verifyElementNotClickable(findTestObject(""4. Payment/Payment_CC/Promo_10Rupiah""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 18:59:11,2022-05-10 18:59:11,0.406s,PASSED
+"verifyElementClickable(findTestObject(""4. Payment/Payment_CC/No_Promo""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 18:59:11,2022-05-10 18:59:12,0.408s,PASSED
+"setText(findTestObject(""4. Payment/Payment_CC/Field_CardNumber""), findTestData(""Success_CardNumber"").getValue(1, 1))",Chrome 101.0.4951.54,,,2022-05-10 18:59:12,2022-05-10 18:59:12,0.595s,PASSED
+"setText(findTestObject(""4. Payment/Payment_CC/Field_ExpireDate""), findTestData(""Success_CardNumber"").getValue(2, 1))",Chrome 101.0.4951.54,,,2022-05-10 18:59:12,2022-05-10 18:59:13,0.517s,PASSED
+"setText(findTestObject(""4. Payment/Payment_CC/Field_CVV""), findTestData(""Success_CardNumber"").getValue(3, 1))",Chrome 101.0.4951.54,,,2022-05-10 18:59:13,2022-05-10 18:59:13,0.516s,PASSED
+"verifyElementVisible(findTestObject(""4. Payment/Payment_CC/Banner_Visa_AfterInputCardNumber""))",Chrome 101.0.4951.54,,,2022-05-10 18:59:13,2022-05-10 18:59:14,0.458s,PASSED
+"verifyElementNotClickable(findTestObject(""4. Payment/Payment_CC/Promo_MasterCard""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 18:59:14,2022-05-10 18:59:14,0.408s,PASSED
+"enhancedClick(findTestObject(""4. Payment/Payment_CC/Promo_Midtrans""))",Chrome 101.0.4951.54,,,2022-05-10 18:59:14,2022-05-10 18:59:45,30.887s,PASSED
+"click(findTestObject(""5. PopUp Detail/Button_Float_Down""))",Chrome 101.0.4951.54,,,2022-05-10 18:59:45,2022-05-10 18:59:46,0.492s,PASSED
+"verifyElementText(findTestObject(""5. PopUp Detail/Verify_AmountMidtransPillow""), ""Rp20.000"")",Chrome 101.0.4951.54,,,2022-05-10 18:59:46,2022-05-10 18:59:46,0.419s,PASSED
+"verifyElementText(findTestObject(""5. PopUp Detail/Verify_TotalAmount_Summary""), ""Rp20.000"")",Chrome 101.0.4951.54,,,2022-05-10 18:59:46,2022-05-10 18:59:47,0.409s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_CC/Verify_Promo""), ""Rp2.000"")",Chrome 101.0.4951.54,,,2022-05-10 18:59:47,2022-05-10 18:59:47,0.406s,PASSED
+"total1 = verifyElementText(findTestObject(""4. Payment/Payment_CC/Verify_Total_AfterPromo""), ""Rp18.000"")",Chrome 101.0.4951.54,,,2022-05-10 18:59:47,2022-05-10 18:59:47,0.408s,PASSED
+"total2 = verifyElementText(findTestObject(""5. PopUp Detail/Verify_TotalAmount_PopUp""), ""Rp18.000"")",Chrome 101.0.4951.54,,,2022-05-10 18:59:47,2022-05-10 18:59:48,0.409s,PASSED
+"verifyEqual(total1, total2, STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 18:59:48,2022-05-10 18:59:48,0.001s,PASSED
+"verifyElementText(findTestObject(""5. PopUp Detail/Verify_Name_Summary""), Name)",Chrome 101.0.4951.54,,,2022-05-10 18:59:48,2022-05-10 18:59:48,0.408s,PASSED
+"verifyElementText(findTestObject(""5. PopUp Detail/Verify_Addess_Summary""), Address_2)",Chrome 101.0.4951.54,,,2022-05-10 18:59:48,2022-05-10 18:59:49,0.409s,PASSED
+"verifyElementText(findTestObject(""5. PopUp Detail/Verify_Phone_Summary""), Phone_2)",Chrome 101.0.4951.54,,,2022-05-10 18:59:49,2022-05-10 18:59:49,0.406s,PASSED
+"click(findTestObject(""5. PopUp Detail/Button_Float_Up""))",Chrome 101.0.4951.54,,,2022-05-10 18:59:49,2022-05-10 18:59:49,0.455s,PASSED
+"click(findTestObject(""5. PopUp Detail/Button_PayNow""))",Chrome 101.0.4951.54,,,2022-05-10 18:59:49,2022-05-10 18:59:50,0.458s,PASSED
+"verifyElementVisible(findTestObject(""4. Payment/Payment_CC/Verify_Dialog_PromoQuotaFull""))",Chrome 101.0.4951.54,,,2022-05-10 18:59:50,2022-05-10 18:59:50,0.423s,PASSED
+"click(findTestObject(""4. Payment/Payment_CC/Button_Proceed_Promo""))",Chrome 101.0.4951.54,,,2022-05-10 18:59:50,2022-05-10 18:59:51,0.459s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_CC/a_IssuingBank/Verify_Amount_IssuingBank""), ""20000.00"")",Chrome 101.0.4951.54,,,2022-05-10 18:59:51,2022-05-10 18:59:52,1.019s,PASSED
+"setEncryptedText(findTestObject(""4. Payment/Payment_CC/a_IssuingBank/input_Password_PaRes""), ""4tAN/DuJV7Y="")",Chrome 101.0.4951.54,,,2022-05-10 18:59:52,2022-05-10 18:59:52,0.544s,PASSED
+"click(findTestObject(""4. Payment/Payment_CC/a_IssuingBank/Button_OK""))",Chrome 101.0.4951.54,,,2022-05-10 18:59:52,2022-05-10 18:59:53,0.890s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_CC/Verify_Success_TextPaymentSuccessful""), ""Payment successful"")",Chrome 101.0.4951.54,,,2022-05-10 18:59:53,2022-05-10 18:59:54,0.405s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_CC/Verify_Success_TotalPrice""), ""Rp20.000"")",Chrome 101.0.4951.54,,,2022-05-10 18:59:54,2022-05-10 18:59:54,0.409s,PASSED
+"verifyElementVisible(findTestObject(""4. Payment/Payment_CC/Verify_Success_OrderID""))",Chrome 101.0.4951.54,,,2022-05-10 18:59:54,2022-05-10 18:59:54,0.408s,PASSED
+"verifyElementVisible(findTestObject(""4. Payment/Payment_CC/Verify_Success_Redirectingbackautomatically_in1second""))",Chrome 101.0.4951.54,,,2022-05-10 18:59:54,2022-05-10 18:59:55,0.409s,PASSED
+"click(findTestObject(""4. Payment/Payment_CC/Button_BackToMerchantsWeb""))",Chrome 101.0.4951.54,,,2022-05-10 18:59:55,2022-05-10 18:59:55,0.472s,PASSED
+"verifyElementVisible(findTestObject(""4. Payment/Payment_CC/Verify_ThankYou""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 18:59:55,2022-05-10 18:59:56,0.539s,PASSED
+closeBrowser(),Chrome 101.0.4951.54,,,2022-05-10 18:59:56,2022-05-10 18:59:57,0.679s,PASSED
+,,,,,,,
+Test Cases/SmallProject1_Version2/TC41_UserNotProcessPromo_QuotaFullyUsed,Chrome 101.0.4951.54,,,2022-05-10 18:59:57,2022-05-10 19:00:53,56.030s,PASSED
+"callTestCase(findTestCase(""SmallProject1_Version2/TC32_UserSuccessCheckout""), [:], STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 18:59:57,2022-05-10 19:00:08,11.417s,PASSED
+"verifyElementVisible(findTestObject(""4. Payment/Payment_CC/Title_CC""))",Chrome 101.0.4951.54,,,2022-05-10 19:00:08,2022-05-10 19:00:09,0.406s,PASSED
+"verifyElementVisible(findTestObject(""4. Payment/Payment_CC/Logo_CC""))",Chrome 101.0.4951.54,,,2022-05-10 19:00:09,2022-05-10 19:00:09,0.426s,PASSED
+"click(findTestObject(""4. Payment/Payment_CC/a_CreditDebit CardPay with Visa, MasterCard, JCB, or Amexpromo""))",Chrome 101.0.4951.54,,,2022-05-10 19:00:09,2022-05-10 19:00:10,0.563s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_CC/Header_CreditDebitCard""), ""Credit/debit card"")",Chrome 101.0.4951.54,,,2022-05-10 19:00:10,2022-05-10 19:00:10,0.432s,PASSED
+"verifyElementNotClickable(findTestObject(""4. Payment/Payment_CC/Promo_Installment""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 19:00:10,2022-05-10 19:00:10,0.427s,PASSED
+"verifyElementNotClickable(findTestObject(""4. Payment/Payment_CC/Promo_10Persen""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 19:00:10,2022-05-10 19:00:11,0.411s,PASSED
+"verifyElementNotClickable(findTestObject(""4. Payment/Payment_CC/Promo_Midtrans""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 19:00:11,2022-05-10 19:00:11,0.414s,PASSED
+"verifyElementNotClickable(findTestObject(""4. Payment/Payment_CC/Promo_MasterCard""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 19:00:11,2022-05-10 19:00:12,0.414s,PASSED
+"verifyElementNotClickable(findTestObject(""4. Payment/Payment_CC/Promo_10Rupiah""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 19:00:12,2022-05-10 19:00:12,0.409s,PASSED
+"verifyElementClickable(findTestObject(""4. Payment/Payment_CC/No_Promo""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 19:00:12,2022-05-10 19:00:12,0.411s,PASSED
+"setText(findTestObject(""4. Payment/Payment_CC/Field_CardNumber""), findTestData(""Success_CardNumber"").getValue(1, 1))",Chrome 101.0.4951.54,,,2022-05-10 19:00:12,2022-05-10 19:00:13,0.605s,PASSED
+"setText(findTestObject(""4. Payment/Payment_CC/Field_ExpireDate""), findTestData(""Success_CardNumber"").getValue(2, 1))",Chrome 101.0.4951.54,,,2022-05-10 19:00:13,2022-05-10 19:00:14,0.520s,PASSED
+"setText(findTestObject(""4. Payment/Payment_CC/Field_CVV""), findTestData(""Success_CardNumber"").getValue(3, 1))",Chrome 101.0.4951.54,,,2022-05-10 19:00:14,2022-05-10 19:00:14,0.555s,PASSED
+"verifyElementVisible(findTestObject(""4. Payment/Payment_CC/Banner_Visa_AfterInputCardNumber""))",Chrome 101.0.4951.54,,,2022-05-10 19:00:14,2022-05-10 19:00:15,0.410s,PASSED
+"verifyElementNotClickable(findTestObject(""4. Payment/Payment_CC/Promo_MasterCard""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 19:00:15,2022-05-10 19:00:15,0.397s,PASSED
+"enhancedClick(findTestObject(""4. Payment/Payment_CC/Promo_Midtrans""))",Chrome 101.0.4951.54,,,2022-05-10 19:00:15,2022-05-10 19:00:46,30.738s,PASSED
+"click(findTestObject(""5. PopUp Detail/Button_Float_Down""))",Chrome 101.0.4951.54,,,2022-05-10 19:00:46,2022-05-10 19:00:46,0.510s,PASSED
+"verifyElementText(findTestObject(""5. PopUp Detail/Verify_AmountMidtransPillow""), ""Rp20.000"")",Chrome 101.0.4951.54,,,2022-05-10 19:00:46,2022-05-10 19:00:47,0.427s,PASSED
+"verifyElementText(findTestObject(""5. PopUp Detail/Verify_TotalAmount_Summary""), ""Rp20.000"")",Chrome 101.0.4951.54,,,2022-05-10 19:00:47,2022-05-10 19:00:47,0.430s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_CC/Verify_Promo""), ""Rp2.000"")",Chrome 101.0.4951.54,,,2022-05-10 19:00:47,2022-05-10 19:00:48,0.429s,PASSED
+"total1 = verifyElementText(findTestObject(""4. Payment/Payment_CC/Verify_Total_AfterPromo""), ""Rp18.000"")",Chrome 101.0.4951.54,,,2022-05-10 19:00:48,2022-05-10 19:00:48,0.427s,PASSED
+"total2 = verifyElementText(findTestObject(""5. PopUp Detail/Verify_TotalAmount_PopUp""), ""Rp18.000"")",Chrome 101.0.4951.54,,,2022-05-10 19:00:48,2022-05-10 19:00:48,0.429s,PASSED
+"verifyEqual(total1, total2, STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 19:00:48,2022-05-10 19:00:48,0.001s,PASSED
+"verifyElementText(findTestObject(""5. PopUp Detail/Verify_Name_Summary""), Name)",Chrome 101.0.4951.54,,,2022-05-10 19:00:48,2022-05-10 19:00:49,0.415s,PASSED
+"verifyElementText(findTestObject(""5. PopUp Detail/Verify_Addess_Summary""), Address_2)",Chrome 101.0.4951.54,,,2022-05-10 19:00:49,2022-05-10 19:00:49,0.415s,PASSED
+"verifyElementText(findTestObject(""5. PopUp Detail/Verify_Phone_Summary""), Phone_2)",Chrome 101.0.4951.54,,,2022-05-10 19:00:49,2022-05-10 19:00:50,0.412s,PASSED
+"click(findTestObject(""5. PopUp Detail/Button_Float_Up""))",Chrome 101.0.4951.54,,,2022-05-10 19:00:50,2022-05-10 19:00:50,0.458s,PASSED
+"click(findTestObject(""5. PopUp Detail/Button_PayNow""))",Chrome 101.0.4951.54,,,2022-05-10 19:00:50,2022-05-10 19:00:51,0.463s,PASSED
+"verifyElementVisible(findTestObject(""4. Payment/Payment_CC/Verify_Dialog_PromoQuotaFull""))",Chrome 101.0.4951.54,,,2022-05-10 19:00:51,2022-05-10 19:00:51,0.428s,PASSED
+"click(findTestObject(""4. Payment/Payment_CC/Button_Back_Promo""))",Chrome 101.0.4951.54,,,2022-05-10 19:00:51,2022-05-10 19:00:51,0.479s,PASSED
+"verifyElementVisible(findTestObject(""4. Payment/Payment_CC/Header_CreditDebitCard""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 19:00:51,2022-05-10 19:00:52,0.425s,PASSED
+closeBrowser(),Chrome 101.0.4951.54,,,2022-05-10 19:00:52,2022-05-10 19:00:53,0.698s,PASSED
+,,,,,,,
+Test Cases/SmallProject1_Version2/TC42_UserPayUsing_DeniedCreditCard,Chrome 101.0.4951.54,,,2022-05-10 19:00:53,2022-05-10 19:01:19,26.807s,PASSED
+"callTestCase(findTestCase(""SmallProject1_Version2/TC32_UserSuccessCheckout""), [:], STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 19:00:53,2022-05-10 19:01:04,11.443s,PASSED
+"verifyElementVisible(findTestObject(""4. Payment/Payment_CC/Title_CC""))",Chrome 101.0.4951.54,,,2022-05-10 19:01:04,2022-05-10 19:01:05,0.429s,PASSED
+"verifyElementVisible(findTestObject(""4. Payment/Payment_CC/Logo_CC""))",Chrome 101.0.4951.54,,,2022-05-10 19:01:05,2022-05-10 19:01:05,0.427s,PASSED
+"click(findTestObject(""4. Payment/Payment_CC/a_CreditDebit CardPay with Visa, MasterCard, JCB, or Amexpromo""))",Chrome 101.0.4951.54,,,2022-05-10 19:01:05,2022-05-10 19:01:06,0.540s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_CC/Header_CreditDebitCard""), ""Credit/debit card"")",Chrome 101.0.4951.54,,,2022-05-10 19:01:06,2022-05-10 19:01:06,0.425s,PASSED
+"verifyElementNotClickable(findTestObject(""4. Payment/Payment_CC/Promo_Installment""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 19:01:06,2022-05-10 19:01:07,0.430s,PASSED
+"verifyElementNotClickable(findTestObject(""4. Payment/Payment_CC/Promo_10Persen""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 19:01:07,2022-05-10 19:01:07,0.431s,PASSED
+"verifyElementNotClickable(findTestObject(""4. Payment/Payment_CC/Promo_Midtrans""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 19:01:07,2022-05-10 19:01:07,0.431s,PASSED
+"verifyElementNotClickable(findTestObject(""4. Payment/Payment_CC/Promo_MasterCard""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 19:01:07,2022-05-10 19:01:08,0.428s,PASSED
+"verifyElementNotClickable(findTestObject(""4. Payment/Payment_CC/Promo_10Rupiah""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 19:01:08,2022-05-10 19:01:08,0.426s,PASSED
+"verifyElementClickable(findTestObject(""4. Payment/Payment_CC/No_Promo""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 19:01:08,2022-05-10 19:01:09,0.431s,PASSED
+"setText(findTestObject(""4. Payment/Payment_CC/Field_CardNumber""), findTestData(""Denied_CardNumber"").getValue(1, 1))",Chrome 101.0.4951.54,,,2022-05-10 19:01:09,2022-05-10 19:01:09,0.618s,PASSED
+"setText(findTestObject(""4. Payment/Payment_CC/Field_ExpireDate""), findTestData(""Denied_CardNumber"").getValue(2, 1))",Chrome 101.0.4951.54,,,2022-05-10 19:01:09,2022-05-10 19:01:10,0.539s,PASSED
+"setText(findTestObject(""4. Payment/Payment_CC/Field_CVV""), findTestData(""Denied_CardNumber"").getValue(3, 1))",Chrome 101.0.4951.54,,,2022-05-10 19:01:10,2022-05-10 19:01:10,0.539s,PASSED
+"verifyElementVisible(findTestObject(""4. Payment/Payment_CC/Banner_Visa_AfterInputCardNumber""))",Chrome 101.0.4951.54,,,2022-05-10 19:01:10,2022-05-10 19:01:11,0.429s,PASSED
+"verifyElementNotClickable(findTestObject(""4. Payment/Payment_CC/Promo_MasterCard""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 19:01:11,2022-05-10 19:01:11,0.412s,PASSED
+"fieldSuccess = getAttribute(findTestObject(""Object Repository/4. Payment/Payment_CC/FieldBlack_CardNumber""), ""xpath"")",Chrome 101.0.4951.54,,,2022-05-10 19:01:11,2022-05-10 19:01:12,0.443s,PASSED
+"click(findTestObject(""5. PopUp Detail/Button_PayNow""))",Chrome 101.0.4951.54,,,2022-05-10 19:01:12,2022-05-10 19:01:12,0.475s,PASSED
+"setEncryptedText(findTestObject(""4. Payment/Payment_CC/a_IssuingBank/input_Password_PaRes""), ""4tAN/DuJV7Y="")",Chrome 101.0.4951.54,,,2022-05-10 19:01:12,2022-05-10 19:01:13,1.105s,PASSED
+"click(findTestObject(""4. Payment/Payment_CC/a_IssuingBank/Button_OK""))",Chrome 101.0.4951.54,,,2022-05-10 19:01:13,2022-05-10 19:01:14,1.162s,PASSED
+"fieldFailed = getAttribute(findTestObject(""Object Repository/4. Payment/Payment_CC/FieldRed_CardNumber""), ""xpath"")",Chrome 101.0.4951.54,,,2022-05-10 19:01:14,2022-05-10 19:01:15,0.432s,PASSED
+"verifyNotMatch(fieldSuccess, fieldFailed, false)",Chrome 101.0.4951.54,,,2022-05-10 19:01:15,2022-05-10 19:01:15,0.008s,PASSED
+"scrollToElement(findTestObject(""4. Payment/Payment_CC/FieldRed_CardNumber""), 8)",Chrome 101.0.4951.54,,,2022-05-10 19:01:15,2022-05-10 19:01:15,0.449s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_CC/DeniedCard_WarningMessage""), ""Card got declined by the bank. Try using another card/payment method."")",Chrome 101.0.4951.54,,,2022-05-10 19:01:15,2022-05-10 19:01:16,0.428s,PASSED
+delay(3),Chrome 101.0.4951.54,,,2022-05-10 19:01:16,2022-05-10 19:01:19,3.005s,PASSED
+closeBrowser(),Chrome 101.0.4951.54,,,2022-05-10 19:01:19,2022-05-10 19:01:19,0.682s,PASSED
+,,,,,,,
+Test Cases/SmallProject1_Version2/TC46_UserSelectMethod_CC_WithoutInputCredentialCCData,Chrome 101.0.4951.54,,,2022-05-10 19:01:19,2022-05-10 19:01:43,23.167s,PASSED
+"callTestCase(findTestCase(""SmallProject1_Version2/TC32_UserSuccessCheckout""), [:], STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 19:01:20,2022-05-10 19:01:31,11.224s,PASSED
+"verifyElementVisible(findTestObject(""4. Payment/Payment_CC/Title_CC""))",Chrome 101.0.4951.54,,,2022-05-10 19:01:31,2022-05-10 19:01:31,0.432s,PASSED
+"verifyElementVisible(findTestObject(""4. Payment/Payment_CC/Logo_CC""))",Chrome 101.0.4951.54,,,2022-05-10 19:01:31,2022-05-10 19:01:32,0.460s,PASSED
+"click(findTestObject(""4. Payment/Payment_CC/a_CreditDebit CardPay with Visa, MasterCard, JCB, or Amexpromo""))",Chrome 101.0.4951.54,,,2022-05-10 19:01:32,2022-05-10 19:01:32,0.562s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_CC/Header_CreditDebitCard""), ""Credit/debit card"")",Chrome 101.0.4951.54,,,2022-05-10 19:01:32,2022-05-10 19:01:33,0.420s,PASSED
+"verifyElementNotClickable(findTestObject(""4. Payment/Payment_CC/Promo_Installment""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 19:01:33,2022-05-10 19:01:33,0.427s,PASSED
+"verifyElementNotClickable(findTestObject(""4. Payment/Payment_CC/Promo_10Persen""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 19:01:33,2022-05-10 19:01:34,0.412s,PASSED
+"verifyElementNotClickable(findTestObject(""4. Payment/Payment_CC/Promo_Midtrans""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 19:01:34,2022-05-10 19:01:34,0.426s,PASSED
+"verifyElementNotClickable(findTestObject(""4. Payment/Payment_CC/Promo_MasterCard""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 19:01:34,2022-05-10 19:01:34,0.430s,PASSED
+"verifyElementNotClickable(findTestObject(""4. Payment/Payment_CC/Promo_10Rupiah""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 19:01:34,2022-05-10 19:01:35,0.428s,PASSED
+"verifyElementClickable(findTestObject(""4. Payment/Payment_CC/No_Promo""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 19:01:35,2022-05-10 19:01:35,0.426s,PASSED
+"fieldSuccess1 = getAttribute(findTestObject(""Object Repository/4. Payment/Payment_CC/FieldBlack_CardNumber""), ""xpath"")",Chrome 101.0.4951.54,,,2022-05-10 19:01:35,2022-05-10 19:01:36,0.430s,PASSED
+"fieldSuccess2 = getAttribute(findTestObject(""Object Repository/4. Payment/Payment_CC/FieldBlack_ExpirationDate""), ""xpath"")",Chrome 101.0.4951.54,,,2022-05-10 19:01:36,2022-05-10 19:01:36,0.430s,PASSED
+"fieldSuccess3 = getAttribute(findTestObject(""Object Repository/4. Payment/Payment_CC/FieldBlack_CVV""), ""xpath"")",Chrome 101.0.4951.54,,,2022-05-10 19:01:36,2022-05-10 19:01:37,0.431s,PASSED
+"setText(findTestObject(""4. Payment/Payment_CC/Field_CardNumber""), "" "")",Chrome 101.0.4951.54,,,2022-05-10 19:01:37,2022-05-10 19:01:37,0.555s,PASSED
+"setText(findTestObject(""4. Payment/Payment_CC/Field_ExpireDate""), "" "")",Chrome 101.0.4951.54,,,2022-05-10 19:01:37,2022-05-10 19:01:38,0.538s,PASSED
+"setText(findTestObject(""4. Payment/Payment_CC/Field_CVV""), "" "")",Chrome 101.0.4951.54,,,2022-05-10 19:01:38,2022-05-10 19:01:38,0.526s,PASSED
+"click(findTestObject(""4. Payment/Payment_CC/Click_Random""))",Chrome 101.0.4951.54,,,2022-05-10 19:01:38,2022-05-10 19:01:39,0.480s,PASSED
+"fieldFailed1 = getAttribute(findTestObject(""Object Repository/4. Payment/Payment_CC/FieldRed_CardNumber""), ""xpath"")",Chrome 101.0.4951.54,,,2022-05-10 19:01:39,2022-05-10 19:01:39,0.414s,PASSED
+"fieldFailed2 = getAttribute(findTestObject(""Object Repository/4. Payment/Payment_CC/FieldRed_ExpirationDate""), ""xpath"")",Chrome 101.0.4951.54,,,2022-05-10 19:01:39,2022-05-10 19:01:40,0.432s,PASSED
+"fieldFailed3 = getAttribute(findTestObject(""Object Repository/4. Payment/Payment_CC/FieldRed_CVV""), ""xpath"")",Chrome 101.0.4951.54,,,2022-05-10 19:01:40,2022-05-10 19:01:40,0.431s,PASSED
+"verifyNotMatch(fieldSuccess1, fieldFailed1, false)",Chrome 101.0.4951.54,,,2022-05-10 19:01:40,2022-05-10 19:01:40,0.002s,PASSED
+"verifyNotMatch(fieldSuccess2, fieldFailed2, false)",Chrome 101.0.4951.54,,,2022-05-10 19:01:40,2022-05-10 19:01:40,0.001s,PASSED
+"verifyNotMatch(fieldSuccess3, fieldFailed3, false)",Chrome 101.0.4951.54,,,2022-05-10 19:01:40,2022-05-10 19:01:40,0.001s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_CC/TextFailed_CardNumber""), ""Make sure your card number are correct."")",Chrome 101.0.4951.54,,,2022-05-10 19:01:40,2022-05-10 19:01:40,0.442s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_CC/TextFailed_ExpirationDate""), ""Invalid expiration detail."")",Chrome 101.0.4951.54,,,2022-05-10 19:01:40,2022-05-10 19:01:41,0.445s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_CC/TextFailed_CVV""), ""Invalid CVV."")",Chrome 101.0.4951.54,,,2022-05-10 19:01:41,2022-05-10 19:01:41,0.424s,PASSED
+"verifyElementNotVisibleInViewport(findTestObject(""5. PopUp Detail/Button_PayNow""), 0)",Chrome 101.0.4951.54,,,2022-05-10 19:01:41,2022-05-10 19:01:42,0.616s,PASSED
+closeBrowser(),Chrome 101.0.4951.54,,,2022-05-10 19:01:42,2022-05-10 19:01:43,0.667s,PASSED
+,,,,,,,
+Test Cases/SmallProject1_Version2/TC57_UserResetTransactionTime_onIssuingBank,Chrome 101.0.4951.54,,,2022-05-10 19:01:43,2022-05-10 19:02:08,25.928s,PASSED
+"callTestCase(findTestCase(""SmallProject1_Version2/TC32_UserSuccessCheckout""), [:], STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 19:01:43,2022-05-10 19:01:54,11.390s,PASSED
+"verifyElementVisible(findTestObject(""4. Payment/Payment_CC/Title_CC""))",Chrome 101.0.4951.54,,,2022-05-10 19:01:54,2022-05-10 19:01:55,0.458s,PASSED
+"verifyElementVisible(findTestObject(""4. Payment/Payment_CC/Logo_CC""))",Chrome 101.0.4951.54,,,2022-05-10 19:01:55,2022-05-10 19:01:55,0.426s,PASSED
+"click(findTestObject(""4. Payment/Payment_CC/a_CreditDebit CardPay with Visa, MasterCard, JCB, or Amexpromo""))",Chrome 101.0.4951.54,,,2022-05-10 19:01:55,2022-05-10 19:01:56,0.562s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_CC/Header_CreditDebitCard""), ""Credit/debit card"")",Chrome 101.0.4951.54,,,2022-05-10 19:01:56,2022-05-10 19:01:56,0.430s,PASSED
+"verifyElementNotClickable(findTestObject(""4. Payment/Payment_CC/Promo_Installment""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 19:01:56,2022-05-10 19:01:57,0.427s,PASSED
+"verifyElementNotClickable(findTestObject(""4. Payment/Payment_CC/Promo_10Persen""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 19:01:57,2022-05-10 19:01:57,0.446s,PASSED
+"verifyElementNotClickable(findTestObject(""4. Payment/Payment_CC/Promo_Midtrans""))",Chrome 101.0.4951.54,,,2022-05-10 19:01:57,2022-05-10 19:01:57,0.427s,PASSED
+"verifyElementNotClickable(findTestObject(""4. Payment/Payment_CC/Promo_MasterCard""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 19:01:57,2022-05-10 19:01:58,0.428s,PASSED
+"verifyElementNotClickable(findTestObject(""4. Payment/Payment_CC/Promo_10Rupiah""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 19:01:58,2022-05-10 19:01:58,0.426s,PASSED
+"verifyElementClickable(findTestObject(""4. Payment/Payment_CC/No_Promo""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 19:01:58,2022-05-10 19:01:59,0.429s,PASSED
+"setText(findTestObject(""4. Payment/Payment_CC/Field_CardNumber""), findTestData(""Success_CardNumber"").getValue(1, 1))",Chrome 101.0.4951.54,,,2022-05-10 19:01:59,2022-05-10 19:01:59,0.635s,PASSED
+"setText(findTestObject(""4. Payment/Payment_CC/Field_ExpireDate""), findTestData(""Success_CardNumber"").getValue(2, 1))",Chrome 101.0.4951.54,,,2022-05-10 19:01:59,2022-05-10 19:02:00,0.544s,PASSED
+"setText(findTestObject(""4. Payment/Payment_CC/Field_CVV""), findTestData(""Success_CardNumber"").getValue(3, 1))",Chrome 101.0.4951.54,,,2022-05-10 19:02:00,2022-05-10 19:02:00,0.541s,PASSED
+"verifyElementVisible(findTestObject(""4. Payment/Payment_CC/Banner_Visa_AfterInputCardNumber""))",Chrome 101.0.4951.54,,,2022-05-10 19:02:00,2022-05-10 19:02:01,0.447s,PASSED
+"verifyElementNotClickable(findTestObject(""4. Payment/Payment_CC/Promo_MasterCard""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 19:02:01,2022-05-10 19:02:01,0.414s,PASSED
+"click(findTestObject(""5. PopUp Detail/Button_PayNow""))",Chrome 101.0.4951.54,,,2022-05-10 19:02:01,2022-05-10 19:02:02,0.492s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_CC/a_IssuingBank/Verify_Amount_IssuingBank""), ""15000.00"")",Chrome 101.0.4951.54,,,2022-05-10 19:02:02,2022-05-10 19:02:03,1.270s,PASSED
+"setEncryptedText(findTestObject(""4. Payment/Payment_CC/a_IssuingBank/input_Password_PaRes""), ""4tAN/DuJV7Y="")",Chrome 101.0.4951.54,,,2022-05-10 19:02:03,2022-05-10 19:02:04,0.605s,PASSED
+"click(findTestObject(""4. Payment/Payment_CC/a_IssuingBank/Button_Resend""))",Chrome 101.0.4951.54,,,2022-05-10 19:02:04,2022-05-10 19:02:04,0.623s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_CC/a_IssuingBank/Verify_ResetTransactionTime""), ""04 : 59"")",Chrome 101.0.4951.54,,,2022-05-10 19:02:04,2022-05-10 19:02:05,0.523s,PASSED
+delay(3),Chrome 101.0.4951.54,,,2022-05-10 19:02:05,2022-05-10 19:02:08,3.010s,PASSED
+closeBrowser(),Chrome 101.0.4951.54,,,2022-05-10 19:02:08,2022-05-10 19:02:08,0.688s,PASSED
+,,,,,,,
+Test Cases/SmallProject1_Version2/TC58_UserCancelPayment_onIssuingBank,Chrome 101.0.4951.54,,,2022-05-10 19:02:08,2022-05-10 19:02:31,22.912s,PASSED
+"callTestCase(findTestCase(""SmallProject1_Version2/TC32_UserSuccessCheckout""), [:], STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 19:02:09,2022-05-10 19:02:20,11.323s,PASSED
+"verifyElementVisible(findTestObject(""4. Payment/Payment_CC/Title_CC""))",Chrome 101.0.4951.54,,,2022-05-10 19:02:20,2022-05-10 19:02:21,0.431s,PASSED
+"verifyElementVisible(findTestObject(""4. Payment/Payment_CC/Logo_CC""))",Chrome 101.0.4951.54,,,2022-05-10 19:02:21,2022-05-10 19:02:21,0.509s,PASSED
+"click(findTestObject(""4. Payment/Payment_CC/a_CreditDebit CardPay with Visa, MasterCard, JCB, or Amexpromo""))",Chrome 101.0.4951.54,,,2022-05-10 19:02:21,2022-05-10 19:02:22,0.578s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_CC/Header_CreditDebitCard""), ""Credit/debit card"")",Chrome 101.0.4951.54,,,2022-05-10 19:02:22,2022-05-10 19:02:22,0.438s,PASSED
+"verifyElementNotClickable(findTestObject(""4. Payment/Payment_CC/Promo_Installment""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 19:02:22,2022-05-10 19:02:22,0.428s,PASSED
+"verifyElementNotClickable(findTestObject(""4. Payment/Payment_CC/Promo_10Persen""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 19:02:22,2022-05-10 19:02:23,0.429s,PASSED
+"verifyElementNotClickable(findTestObject(""4. Payment/Payment_CC/Promo_Midtrans""))",Chrome 101.0.4951.54,,,2022-05-10 19:02:23,2022-05-10 19:02:23,0.427s,PASSED
+"verifyElementNotClickable(findTestObject(""4. Payment/Payment_CC/Promo_MasterCard""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 19:02:23,2022-05-10 19:02:24,0.430s,PASSED
+"verifyElementNotClickable(findTestObject(""4. Payment/Payment_CC/Promo_10Rupiah""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 19:02:24,2022-05-10 19:02:24,0.431s,PASSED
+"verifyElementClickable(findTestObject(""4. Payment/Payment_CC/No_Promo""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 19:02:24,2022-05-10 19:02:25,0.427s,PASSED
+"setText(findTestObject(""4. Payment/Payment_CC/Field_CardNumber""), findTestData(""Success_CardNumber"").getValue(1, 1))",Chrome 101.0.4951.54,,,2022-05-10 19:02:25,2022-05-10 19:02:25,0.636s,PASSED
+"setText(findTestObject(""4. Payment/Payment_CC/Field_ExpireDate""), findTestData(""Success_CardNumber"").getValue(2, 1))",Chrome 101.0.4951.54,,,2022-05-10 19:02:25,2022-05-10 19:02:26,0.542s,PASSED
+"setText(findTestObject(""4. Payment/Payment_CC/Field_CVV""), findTestData(""Success_CardNumber"").getValue(3, 1))",Chrome 101.0.4951.54,,,2022-05-10 19:02:26,2022-05-10 19:02:26,0.540s,PASSED
+"verifyElementVisible(findTestObject(""4. Payment/Payment_CC/Banner_Visa_AfterInputCardNumber""))",Chrome 101.0.4951.54,,,2022-05-10 19:02:26,2022-05-10 19:02:27,0.431s,PASSED
+"verifyElementNotClickable(findTestObject(""4. Payment/Payment_CC/Promo_MasterCard""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 19:02:27,2022-05-10 19:02:27,0.413s,PASSED
+"click(findTestObject(""5. PopUp Detail/Button_PayNow""))",Chrome 101.0.4951.54,,,2022-05-10 19:02:27,2022-05-10 19:02:28,0.490s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_CC/a_IssuingBank/Verify_Amount_IssuingBank""), ""15000.00"")",Chrome 101.0.4951.54,,,2022-05-10 19:02:28,2022-05-10 19:02:29,1.103s,PASSED
+"setEncryptedText(findTestObject(""4. Payment/Payment_CC/a_IssuingBank/input_Password_PaRes""), ""4tAN/DuJV7Y="")",Chrome 101.0.4951.54,,,2022-05-10 19:02:29,2022-05-10 19:02:29,0.588s,PASSED
+"click(findTestObject(""4. Payment/Payment_CC/a_IssuingBank/Button_Cancel_IssuingBank""))",Chrome 101.0.4951.54,,,2022-05-10 19:02:29,2022-05-10 19:02:30,0.951s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_CC/Header_CreditDebitCard""), ""Credit/debit card"")",Chrome 101.0.4951.54,,,2022-05-10 19:02:30,2022-05-10 19:02:31,0.409s,PASSED
+closeBrowser(),Chrome 101.0.4951.54,,,2022-05-10 19:02:31,2022-05-10 19:02:31,0.680s,PASSED

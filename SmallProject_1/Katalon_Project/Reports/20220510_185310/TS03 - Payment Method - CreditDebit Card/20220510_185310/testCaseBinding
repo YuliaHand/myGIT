@@ -1,0 +1,11 @@
+{"testCaseName":"Test Cases/SmallProject1_Version2/TC34_UserSuccessPaidUsingCC_WithoutPromo","testCaseId":"Test Cases/SmallProject1_Version2/TC34_UserSuccessPaidUsingCC_WithoutPromo"}
+{"testCaseName":"Test Cases/SmallProject1_Version2/TC35_UserSuccessPaidUsingCC_WithPromoInstallment","testCaseId":"Test Cases/SmallProject1_Version2/TC35_UserSuccessPaidUsingCC_WithPromoInstallment"}
+{"testCaseName":"Test Cases/SmallProject1_Version2/TC36_UserSuccessPaidUsingCC_WithPromo10Percent","testCaseId":"Test Cases/SmallProject1_Version2/TC36_UserSuccessPaidUsingCC_WithPromo10Percent"}
+{"testCaseName":"Test Cases/SmallProject1_Version2/TC37_UserSuccessPaidUsingCC_WithPromoMidtrans","testCaseId":"Test Cases/SmallProject1_Version2/TC37_UserSuccessPaidUsingCC_WithPromoMidtrans"}
+{"testCaseName":"Test Cases/SmallProject1_Version2/TC38_UserSuccessPaidUsingCC_WithPromo10Rupiah","testCaseId":"Test Cases/SmallProject1_Version2/TC38_UserSuccessPaidUsingCC_WithPromo10Rupiah"}
+{"testCaseName":"Test Cases/SmallProject1_Version2/TC40_UserProcessPromo_QuotaFullyUsed","testCaseId":"Test Cases/SmallProject1_Version2/TC40_UserProcessPromo_QuotaFullyUsed"}
+{"testCaseName":"Test Cases/SmallProject1_Version2/TC41_UserNotProcessPromo_QuotaFullyUsed","testCaseId":"Test Cases/SmallProject1_Version2/TC41_UserNotProcessPromo_QuotaFullyUsed"}
+{"testCaseName":"Test Cases/SmallProject1_Version2/TC42_UserPayUsing_DeniedCreditCard","testCaseId":"Test Cases/SmallProject1_Version2/TC42_UserPayUsing_DeniedCreditCard"}
+{"testCaseName":"Test Cases/SmallProject1_Version2/TC46_UserSelectMethod_CC_WithoutInputCredentialCCData","testCaseId":"Test Cases/SmallProject1_Version2/TC46_UserSelectMethod_CC_WithoutInputCredentialCCData"}
+{"testCaseName":"Test Cases/SmallProject1_Version2/TC57_UserResetTransactionTime_onIssuingBank","testCaseId":"Test Cases/SmallProject1_Version2/TC57_UserResetTransactionTime_onIssuingBank"}
+{"testCaseName":"Test Cases/SmallProject1_Version2/TC58_UserCancelPayment_onIssuingBank","testCaseId":"Test Cases/SmallProject1_Version2/TC58_UserCancelPayment_onIssuingBank"}

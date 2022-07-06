@@ -1,0 +1,104 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS03 - Payment Method - OCTO Clicks,Chrome 101.0.4951.54,,,2022-05-10 19:33:49,2022-05-10 19:35:17,1m - 27.662s,PASSED
+,,,,,,,
+Test Cases/SmallProject1_Version2/TC70_UserSelectMethod_OctoClicks,Chrome 101.0.4951.54,,,2022-05-10 19:33:49,2022-05-10 19:34:18,29.237s,PASSED
+"callTestCase(findTestCase(""SmallProject1_Version2/TC32_UserSuccessCheckout""), [:], STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 19:33:50,2022-05-10 19:34:03,13.172s,PASSED
+"verifyElementVisible(findTestObject(""4. Payment/Payment_eWallet/Title_Octo""))",Chrome 101.0.4951.54,,,2022-05-10 19:34:03,2022-05-10 19:34:03,0.479s,PASSED
+"verifyElementVisible(findTestObject(""4. Payment/Payment_eWallet/Logo_Octo""))",Chrome 101.0.4951.54,,,2022-05-10 19:34:03,2022-05-10 19:34:04,0.424s,PASSED
+"click(findTestObject(""4. Payment/Payment_eWallet/Button_Octo""))",Chrome 101.0.4951.54,,,2022-05-10 19:34:04,2022-05-10 19:34:04,0.492s,PASSED
+delay(1),Chrome 101.0.4951.54,,,2022-05-10 19:34:04,2022-05-10 19:34:05,1.012s,PASSED
+takeFullPageScreenshot(),Chrome 101.0.4951.54,,,2022-05-10 19:34:05,2022-05-10 19:34:06,0.525s,PASSED
+"verifyElementText(findTestObject(""4. Payment/a_Header_Details""), ""OCTO Clicks"")",Chrome 101.0.4951.54,,,2022-05-10 19:34:06,2022-05-10 19:34:06,0.422s,PASSED
+"verifyElementVisible(findTestObject(""4. Payment/Payment_ATMBankTransfer/Desc_AllBank""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 19:34:06,2022-05-10 19:34:06,0.406s,PASSED
+"click(findTestObject(""5. PopUp Detail/Button_Float_Down""))",Chrome 101.0.4951.54,,,2022-05-10 19:34:06,2022-05-10 19:34:07,0.490s,PASSED
+"verifyElementText(findTestObject(""5. PopUp Detail/Verify_AmountMidtransPillow""), ""Rp20.000"")",Chrome 101.0.4951.54,,,2022-05-10 19:34:07,2022-05-10 19:34:07,0.422s,PASSED
+"total1 = verifyElementText(findTestObject(""5. PopUp Detail/Verify_TotalAmount_PopUp""), ""Rp20.000"")",Chrome 101.0.4951.54,,,2022-05-10 19:34:07,2022-05-10 19:34:08,0.405s,PASSED
+"total2 = verifyElementText(findTestObject(""5. PopUp Detail/Verify_TotalAmount_Summary""), ""Rp20.000"")",Chrome 101.0.4951.54,,,2022-05-10 19:34:08,2022-05-10 19:34:08,0.412s,PASSED
+"verifyEqual(total1, total2, STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 19:34:08,2022-05-10 19:34:08,0.009s,PASSED
+"verifyElementText(findTestObject(""5. PopUp Detail/Verify_Name_Summary""), Name)",Chrome 101.0.4951.54,,,2022-05-10 19:34:08,2022-05-10 19:34:09,0.415s,PASSED
+"verifyElementText(findTestObject(""5. PopUp Detail/Verify_Addess_Summary""), Address_2)",Chrome 101.0.4951.54,,,2022-05-10 19:34:09,2022-05-10 19:34:09,0.407s,PASSED
+"verifyElementText(findTestObject(""5. PopUp Detail/Verify_Phone_Summary""), Phone_2)",Chrome 101.0.4951.54,,,2022-05-10 19:34:09,2022-05-10 19:34:09,0.410s,PASSED
+"click(findTestObject(""5. PopUp Detail/Button_Float_Up""))",Chrome 101.0.4951.54,,,2022-05-10 19:34:09,2022-05-10 19:34:10,0.456s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_eWallet/Verify_Step1_eWallet""), ""Tap Pay now and you will be redirected to OCTO Clicks page."")",Chrome 101.0.4951.54,,,2022-05-10 19:34:10,2022-05-10 19:34:10,0.409s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_eWallet/Verify_Step2_eWallet""), ""Login to your OCTO Clicks account."")",Chrome 101.0.4951.54,,,2022-05-10 19:34:10,2022-05-10 19:34:11,0.409s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_eWallet/Verify_Step3_eWallet""), ""Follow the instruction on the website and complete your payment."")",Chrome 101.0.4951.54,,,2022-05-10 19:34:11,2022-05-10 19:34:11,0.406s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_eWallet/Verify_Step4_eWallet""), ""Once confirmed, your transaction will be processed online and your CIMB account balance will be deducted automatically."")",Chrome 101.0.4951.54,,,2022-05-10 19:34:11,2022-05-10 19:34:12,0.409s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_eWallet/Verify_Step5_eWallet""), ""Transaction will be cancelled if the payment is not completed within 2 hours."")",Chrome 101.0.4951.54,,,2022-05-10 19:34:12,2022-05-10 19:34:12,0.425s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_eWallet/Verify_Step6_eWallet""), ""Please make sure that there is no pop-up blocker on your browser."")",Chrome 101.0.4951.54,,,2022-05-10 19:34:12,2022-05-10 19:34:12,0.489s,PASSED
+"click(findTestObject(""4. Payment/Payment_eWallet/Button_PayNow""))",Chrome 101.0.4951.54,,,2022-05-10 19:34:12,2022-05-10 19:34:13,0.474s,PASSED
+delay(3),Chrome 101.0.4951.54,,,2022-05-10 19:34:13,2022-05-10 19:34:16,3.010s,PASSED
+url = getUrl(),Chrome 101.0.4951.54,,,2022-05-10 19:34:16,2022-05-10 19:34:16,0.027s,PASSED
+"verifyEqual(url, ""https://simulator.sandbox.midtrans.com/cimb/clicks/index"")",Chrome 101.0.4951.54,,,2022-05-10 19:34:16,2022-05-10 19:34:16,0.002s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_eWallet/Verify_TotalTrx""), ""20000.00"")",Chrome 101.0.4951.54,,,2022-05-10 19:34:16,2022-05-10 19:34:16,0.329s,PASSED
+"setText(findTestObject(""4. Payment/Payment_eWallet/Field_AccID""), AccountID)",Chrome 101.0.4951.54,,,2022-05-10 19:34:16,2022-05-10 19:34:17,0.674s,PASSED
+"click(findTestObject(""4. Payment/Payment_eWallet/Button_Bayar""))",Chrome 101.0.4951.54,,,2022-05-10 19:34:17,2022-05-10 19:34:17,0.478s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_Akulaku/Verify_Trx_Success""), ""Transaksi Sukses"")",Chrome 101.0.4951.54,,,2022-05-10 19:34:17,2022-05-10 19:34:18,0.325s,PASSED
+closeBrowser(),Chrome 101.0.4951.54,,,2022-05-10 19:34:18,2022-05-10 19:34:18,0.667s,PASSED
+,,,,,,,
+Test Cases/SmallProject1_Version2/TC71_UserSelectMethod_OctoClicks_WithInputInvalidAccID,Chrome 101.0.4951.54,,,2022-05-10 19:34:18,2022-05-10 19:34:45,26.729s,PASSED
+"callTestCase(findTestCase(""SmallProject1_Version2/TC32_UserSuccessCheckout""), [:], STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 19:34:19,2022-05-10 19:34:30,11.082s,PASSED
+"verifyElementVisible(findTestObject(""4. Payment/Payment_eWallet/Title_Octo""))",Chrome 101.0.4951.54,,,2022-05-10 19:34:30,2022-05-10 19:34:30,0.408s,PASSED
+"verifyElementVisible(findTestObject(""4. Payment/Payment_eWallet/Logo_Octo""))",Chrome 101.0.4951.54,,,2022-05-10 19:34:30,2022-05-10 19:34:31,0.407s,PASSED
+"click(findTestObject(""4. Payment/Payment_eWallet/Button_Octo""))",Chrome 101.0.4951.54,,,2022-05-10 19:34:31,2022-05-10 19:34:31,0.485s,PASSED
+delay(1),Chrome 101.0.4951.54,,,2022-05-10 19:34:31,2022-05-10 19:34:32,1.014s,PASSED
+takeFullPageScreenshot(),Chrome 101.0.4951.54,,,2022-05-10 19:34:32,2022-05-10 19:34:33,0.557s,PASSED
+"verifyElementText(findTestObject(""4. Payment/a_Header_Details""), ""OCTO Clicks"")",Chrome 101.0.4951.54,,,2022-05-10 19:34:33,2022-05-10 19:34:33,0.420s,PASSED
+"verifyElementVisible(findTestObject(""4. Payment/Payment_ATMBankTransfer/Desc_AllBank""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 19:34:33,2022-05-10 19:34:33,0.403s,PASSED
+"click(findTestObject(""5. PopUp Detail/Button_Float_Down""))",Chrome 101.0.4951.54,,,2022-05-10 19:34:33,2022-05-10 19:34:34,0.455s,PASSED
+"verifyElementText(findTestObject(""5. PopUp Detail/Verify_AmountMidtransPillow""), ""Rp20.000"")",Chrome 101.0.4951.54,,,2022-05-10 19:34:34,2022-05-10 19:34:34,0.407s,PASSED
+"total1 = verifyElementText(findTestObject(""5. PopUp Detail/Verify_TotalAmount_PopUp""), ""Rp20.000"")",Chrome 101.0.4951.54,,,2022-05-10 19:34:34,2022-05-10 19:34:35,0.410s,PASSED
+"total2 = verifyElementText(findTestObject(""5. PopUp Detail/Verify_TotalAmount_Summary""), ""Rp20.000"")",Chrome 101.0.4951.54,,,2022-05-10 19:34:35,2022-05-10 19:34:35,0.409s,PASSED
+"verifyEqual(total1, total2, STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 19:34:35,2022-05-10 19:34:35,0.002s,PASSED
+"verifyElementText(findTestObject(""5. PopUp Detail/Verify_Name_Summary""), Name)",Chrome 101.0.4951.54,,,2022-05-10 19:34:35,2022-05-10 19:34:36,0.406s,PASSED
+"verifyElementText(findTestObject(""5. PopUp Detail/Verify_Addess_Summary""), Address_2)",Chrome 101.0.4951.54,,,2022-05-10 19:34:36,2022-05-10 19:34:36,0.406s,PASSED
+"verifyElementText(findTestObject(""5. PopUp Detail/Verify_Phone_Summary""), Phone_2)",Chrome 101.0.4951.54,,,2022-05-10 19:34:36,2022-05-10 19:34:36,0.409s,PASSED
+"click(findTestObject(""5. PopUp Detail/Button_Float_Up""))",Chrome 101.0.4951.54,,,2022-05-10 19:34:36,2022-05-10 19:34:37,0.454s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_eWallet/Verify_Step1_eWallet""), ""Tap Pay now and you will be redirected to OCTO Clicks page."")",Chrome 101.0.4951.54,,,2022-05-10 19:34:37,2022-05-10 19:34:37,0.407s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_eWallet/Verify_Step2_eWallet""), ""Login to your OCTO Clicks account."")",Chrome 101.0.4951.54,,,2022-05-10 19:34:37,2022-05-10 19:34:38,0.408s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_eWallet/Verify_Step3_eWallet""), ""Follow the instruction on the website and complete your payment."")",Chrome 101.0.4951.54,,,2022-05-10 19:34:38,2022-05-10 19:34:38,0.410s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_eWallet/Verify_Step4_eWallet""), ""Once confirmed, your transaction will be processed online and your CIMB account balance will be deducted automatically."")",Chrome 101.0.4951.54,,,2022-05-10 19:34:38,2022-05-10 19:34:38,0.407s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_eWallet/Verify_Step5_eWallet""), ""Transaction will be cancelled if the payment is not completed within 2 hours."")",Chrome 101.0.4951.54,,,2022-05-10 19:34:38,2022-05-10 19:34:39,0.409s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_eWallet/Verify_Step6_eWallet""), ""Please make sure that there is no pop-up blocker on your browser."")",Chrome 101.0.4951.54,,,2022-05-10 19:34:39,2022-05-10 19:34:39,0.409s,PASSED
+"click(findTestObject(""4. Payment/Payment_eWallet/Button_PayNow""))",Chrome 101.0.4951.54,,,2022-05-10 19:34:39,2022-05-10 19:34:40,0.455s,PASSED
+delay(3),Chrome 101.0.4951.54,,,2022-05-10 19:34:40,2022-05-10 19:34:43,3.017s,PASSED
+url = getUrl(),Chrome 101.0.4951.54,,,2022-05-10 19:34:43,2022-05-10 19:34:43,0.024s,PASSED
+"verifyEqual(url, ""https://simulator.sandbox.midtrans.com/cimb/clicks/index"")",Chrome 101.0.4951.54,,,2022-05-10 19:34:43,2022-05-10 19:34:43,0.003s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_eWallet/Verify_TotalTrx""), ""20000.00"")",Chrome 101.0.4951.54,,,2022-05-10 19:34:43,2022-05-10 19:34:43,0.329s,PASSED
+"setText(findTestObject(""4. Payment/Payment_eWallet/Field_AccID""), ""asd123!#$"")",Chrome 101.0.4951.54,,,2022-05-10 19:34:43,2022-05-10 19:34:44,0.673s,PASSED
+"click(findTestObject(""4. Payment/Payment_eWallet/Button_Bayar""))",Chrome 101.0.4951.54,,,2022-05-10 19:34:44,2022-05-10 19:34:44,0.414s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_Akulaku/Verify_Trx_Failed""), ""Transaksi Gagal"")",Chrome 101.0.4951.54,,,2022-05-10 19:34:44,2022-05-10 19:34:45,0.331s,PASSED
+closeBrowser(),Chrome 101.0.4951.54,,,2022-05-10 19:34:45,2022-05-10 19:34:45,0.664s,PASSED
+,,,,,,,
+Test Cases/SmallProject1_Version2/TC73_UserSelectMethod_OctoClicks_WithoutInputAccID,Chrome 101.0.4951.54,,,2022-05-10 19:34:45,2022-05-10 19:35:17,31.431s,PASSED
+"callTestCase(findTestCase(""SmallProject1_Version2/TC32_UserSuccessCheckout""), [:], STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 19:34:45,2022-05-10 19:35:01,15.816s,PASSED
+"verifyElementVisible(findTestObject(""4. Payment/Payment_eWallet/Title_Octo""))",Chrome 101.0.4951.54,,,2022-05-10 19:35:01,2022-05-10 19:35:02,0.414s,PASSED
+"verifyElementVisible(findTestObject(""4. Payment/Payment_eWallet/Logo_Octo""))",Chrome 101.0.4951.54,,,2022-05-10 19:35:02,2022-05-10 19:35:02,0.408s,PASSED
+"click(findTestObject(""4. Payment/Payment_eWallet/Button_Octo""))",Chrome 101.0.4951.54,,,2022-05-10 19:35:02,2022-05-10 19:35:03,0.488s,PASSED
+delay(1),Chrome 101.0.4951.54,,,2022-05-10 19:35:03,2022-05-10 19:35:04,1.013s,PASSED
+takeFullPageScreenshot(),Chrome 101.0.4951.54,,,2022-05-10 19:35:04,2022-05-10 19:35:04,0.509s,PASSED
+"verifyElementText(findTestObject(""4. Payment/a_Header_Details""), ""OCTO Clicks"")",Chrome 101.0.4951.54,,,2022-05-10 19:35:04,2022-05-10 19:35:04,0.425s,PASSED
+"verifyElementVisible(findTestObject(""4. Payment/Payment_ATMBankTransfer/Desc_AllBank""), STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 19:35:04,2022-05-10 19:35:05,0.406s,PASSED
+"click(findTestObject(""5. PopUp Detail/Button_Float_Down""))",Chrome 101.0.4951.54,,,2022-05-10 19:35:05,2022-05-10 19:35:05,0.469s,PASSED
+"verifyElementText(findTestObject(""5. PopUp Detail/Verify_AmountMidtransPillow""), ""Rp20.000"")",Chrome 101.0.4951.54,,,2022-05-10 19:35:05,2022-05-10 19:35:06,0.422s,PASSED
+"total1 = verifyElementText(findTestObject(""5. PopUp Detail/Verify_TotalAmount_PopUp""), ""Rp20.000"")",Chrome 101.0.4951.54,,,2022-05-10 19:35:06,2022-05-10 19:35:06,0.410s,PASSED
+"total2 = verifyElementText(findTestObject(""5. PopUp Detail/Verify_TotalAmount_Summary""), ""Rp20.000"")",Chrome 101.0.4951.54,,,2022-05-10 19:35:06,2022-05-10 19:35:07,0.408s,PASSED
+"verifyEqual(total1, total2, STOP_ON_FAILURE)",Chrome 101.0.4951.54,,,2022-05-10 19:35:07,2022-05-10 19:35:07,0.001s,PASSED
+"verifyElementText(findTestObject(""5. PopUp Detail/Verify_Name_Summary""), Name)",Chrome 101.0.4951.54,,,2022-05-10 19:35:07,2022-05-10 19:35:07,0.424s,PASSED
+"verifyElementText(findTestObject(""5. PopUp Detail/Verify_Addess_Summary""), Address_2)",Chrome 101.0.4951.54,,,2022-05-10 19:35:07,2022-05-10 19:35:07,0.406s,PASSED
+"verifyElementText(findTestObject(""5. PopUp Detail/Verify_Phone_Summary""), Phone_2)",Chrome 101.0.4951.54,,,2022-05-10 19:35:07,2022-05-10 19:35:08,0.411s,PASSED
+"click(findTestObject(""5. PopUp Detail/Button_Float_Up""))",Chrome 101.0.4951.54,,,2022-05-10 19:35:08,2022-05-10 19:35:08,0.458s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_eWallet/Verify_Step1_eWallet""), ""Tap Pay now and you will be redirected to OCTO Clicks page."")",Chrome 101.0.4951.54,,,2022-05-10 19:35:08,2022-05-10 19:35:09,0.407s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_eWallet/Verify_Step2_eWallet""), ""Login to your OCTO Clicks account."")",Chrome 101.0.4951.54,,,2022-05-10 19:35:09,2022-05-10 19:35:09,0.405s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_eWallet/Verify_Step3_eWallet""), ""Follow the instruction on the website and complete your payment."")",Chrome 101.0.4951.54,,,2022-05-10 19:35:09,2022-05-10 19:35:10,0.410s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_eWallet/Verify_Step4_eWallet""), ""Once confirmed, your transaction will be processed online and your CIMB account balance will be deducted automatically."")",Chrome 101.0.4951.54,,,2022-05-10 19:35:10,2022-05-10 19:35:10,0.409s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_eWallet/Verify_Step5_eWallet""), ""Transaction will be cancelled if the payment is not completed within 2 hours."")",Chrome 101.0.4951.54,,,2022-05-10 19:35:10,2022-05-10 19:35:10,0.411s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_eWallet/Verify_Step6_eWallet""), ""Please make sure that there is no pop-up blocker on your browser."")",Chrome 101.0.4951.54,,,2022-05-10 19:35:10,2022-05-10 19:35:11,0.406s,PASSED
+"click(findTestObject(""4. Payment/Payment_eWallet/Button_PayNow""))",Chrome 101.0.4951.54,,,2022-05-10 19:35:11,2022-05-10 19:35:11,0.454s,PASSED
+delay(3),Chrome 101.0.4951.54,,,2022-05-10 19:35:11,2022-05-10 19:35:14,3.010s,PASSED
+url = getUrl(),Chrome 101.0.4951.54,,,2022-05-10 19:35:14,2022-05-10 19:35:14,0.020s,PASSED
+"verifyEqual(url, ""https://simulator.sandbox.midtrans.com/cimb/clicks/index"")",Chrome 101.0.4951.54,,,2022-05-10 19:35:14,2022-05-10 19:35:14,0.002s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_eWallet/Verify_TotalTrx""), ""20000.00"")",Chrome 101.0.4951.54,,,2022-05-10 19:35:14,2022-05-10 19:35:15,0.317s,PASSED
+"setText(findTestObject(""4. Payment/Payment_eWallet/Field_AccID""), "" "")",Chrome 101.0.4951.54,,,2022-05-10 19:35:15,2022-05-10 19:35:15,0.654s,PASSED
+"click(findTestObject(""4. Payment/Payment_eWallet/Button_Bayar""))",Chrome 101.0.4951.54,,,2022-05-10 19:35:15,2022-05-10 19:35:16,0.424s,PASSED
+"verifyElementText(findTestObject(""4. Payment/Payment_Akulaku/Verify_Trx_Failed""), ""Transaksi Gagal"")",Chrome 101.0.4951.54,,,2022-05-10 19:35:16,2022-05-10 19:35:16,0.331s,PASSED
+closeBrowser(),Chrome 101.0.4951.54,,,2022-05-10 19:35:16,2022-05-10 19:35:17,0.652s,PASSED

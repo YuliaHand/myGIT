@@ -7,5 +7,7 @@ In the list:
 - Small Project 1 using tools Katalon
 - Small Project 2 using tools Intellij Idea, Selenium and 
 Cucumber Framework
+- Small Project 3 using tools Intellij Idea, Postman and 
+Karate framework
 
 Thank you.

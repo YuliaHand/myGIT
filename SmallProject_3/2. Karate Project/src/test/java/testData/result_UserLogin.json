@@ -1,0 +1,33 @@
+[
+  {
+  "login": true,
+  "user": {
+    "userName": "Admin",
+    "userRole": "Admin",
+    "status": "Enabled",
+    "employeeName": "Albedo chan",
+    "employeeId": "611"
+    }
+  },
+
+  {
+    "error": {
+      "status": "202",
+      "text": "Credentials Are Wrong Please Try Again"
+    }
+  },
+
+  {
+    "error": {
+      "status": "202",
+      "text": "username must not be empty"
+    }
+  },
+
+  {
+    "error": {
+      "status": "202",
+      "text": "password must not be empty"
+    }
+  }
+]

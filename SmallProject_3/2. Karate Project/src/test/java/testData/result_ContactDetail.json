@@ -1,0 +1,54 @@
+[
+
+  {
+    "id": "686",
+    "code": "111222005",
+    "fullName": "Mawar Melati Anggrek",
+    "addressStreet1": "Jl. Penuh Bunga 2",
+    "addressStreet2": "Jl. Harum Mewangi",
+    "city": "Jakarta",
+    "state": "Jakarta",
+    "zip": 123,
+    "county": "Indonesia",
+    "homeTelephone": 7012345,
+    "workTelephone": 7012345,
+    "mobile": "081234567890",
+    "workEmail": "mawar@times.com",
+    "otherEmail": "melati@times.com"
+  },
+
+  {
+    "id": "686",
+    "code": "111222005",
+    "fullName": "Mawar Melati Anggrek",
+    "addressStreet1": "Jl. Penuh Bunga 2",
+    "addressStreet2": "Jl. Harum Mewangi",
+    "city": "Depok",
+    "state": "Jawa Barat",
+    "zip": 12345,
+    "county": "Indonesia",
+    "homeTelephone": 7012345,
+    "workTelephone": 7012345,
+    "mobile": "081234567890",
+    "workEmail": "mawar@times.com",
+    "otherEmail": "melati@times.com"
+  },
+
+  {
+    "id": "686",
+    "code": "111222005",
+    "fullName": "Mawar Melati Anggrek",
+    "addressStreet1": "Jl. Penuh Bunga 2",
+    "addressStreet2": "Jl. Harum Mewangi",
+    "city": "Jakarta",
+    "state": "Jakarta",
+    "zip": 123,
+    "county": "Indonesia",
+    "homeTelephone": !@#$%^,
+    "workTelephone": 7012345,
+    "mobile": "081234567890",
+    "workEmail": "mawar@times.com",
+    "otherEmail": "melati@times.com"
+  }
+
+]

@@ -1,6 +1,0 @@
-{"testCaseName":"Test Cases/SmallProject1_Version2/TC11_UserCheckout_WithInvalidEmailFormat","testCaseId":"Test Cases/SmallProject1_Version2/TC11_UserCheckout_WithInvalidEmailFormat"}
-{"testCaseName":"Test Cases/SmallProject1_Version2/TC14_UserCheckout_WithInvalidPhoneNumber","testCaseId":"Test Cases/SmallProject1_Version2/TC14_UserCheckout_WithInvalidPhoneNumber"}
-{"testCaseName":"Test Cases/SmallProject1_Version2/TC28_UserCheckout_WithInvalidPostalCode","testCaseId":"Test Cases/SmallProject1_Version2/TC28_UserCheckout_WithInvalidPostalCode"}
-{"testCaseName":"Test Cases/SmallProject1_Version2/TC31_UserCheckout_WithoutInputData","testCaseId":"Test Cases/SmallProject1_Version2/TC31_UserCheckout_WithoutInputData"}
-{"testCaseName":"Test Cases/SmallProject1_Version2/TC33_UserCancelCheckout","testCaseId":"Test Cases/SmallProject1_Version2/TC33_UserCancelCheckout"}
-{"testCaseName":"Test Cases/SmallProject1_Version2/TC32_UserSuccessCheckout","testCaseId":"Test Cases/SmallProject1_Version2/TC32_UserSuccessCheckout"}

@@ -1,0 +1,41 @@
+[
+  {
+    "firstName": "Mawar",
+    "middleName": "Melati",
+    "lastName": "Anggrek",
+    "code": "111222005",
+    "employeeId": "686",
+    "fullName": "Mawar Melati Anggrek",
+    "status": "Active",
+    "dob": "2000-07-31",
+    "driversLicenseNumber": "12345",
+    "licenseExpiryDate": "2050-07-31",
+    "maritalStatus": "Married",
+    "gender": "F",
+    "otherId": "67890",
+    "nationality": null,
+    "unit": null,
+    "jobTitle": null,
+    "supervisor": null
+  },
+
+  {
+    "firstName": "Mawar",
+    "middleName": "Melati",
+    "lastName": "Anggrek",
+    "code": "111222005",
+    "employeeId": "686",
+    "fullName": "Mawar Melati Anggrek",
+    "status": null,
+    "dob": null,
+    "driversLicenseNumber": "",
+    "licenseExpiryDate": null,
+    "maritalStatus": null,
+    "gender": null,
+    "otherId": "",
+    "nationality": null,
+    "unit": null,
+    "jobTitle": null,
+    "supervisor": null
+  }
+]
